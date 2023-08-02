@@ -25,7 +25,7 @@ public class Main {
                     "Stub");
         }
         System.out.println("----------------------");
-        System.out.println("Welcome to Cloudwrap!");
+        System.out.println("Welcome to faasterBench!");
         System.out.println("----------------------");
         System.out.println("Working Directory = " + System.getProperty("user.dir"));
         //setup options
@@ -86,23 +86,5 @@ public class Main {
             System.out.println("Functions are of different types "+ cloudFunction1.substring(cloudFunction1.indexOf(".")) + " and "+ cloudFunction2.substring(cloudFunction2.indexOf(".")) + ", aborting Cloudwrap.");
             exit(1);
         }
-        /*
-        //ask for deployment type
-        boolean deployLoop = true;
-        while(deployLoop) {
-            System.out.println("Do you want to deploy the wrapper AND both functions instead of just deploying the wrapper? (y/n)");
-            //TODO
-            String deploy = scanTool.nextLine();
-            if(deploy.equals("y) || cloud.equals("n")){
-                deployLoop = false;
-            }
-        }
-
-        */
-        //pass to shell script for tf deployment
-        System.out.println("Stub -> Passing variables to Terraform deployment script");
-        //needs to take variables as input, i.e cloud platform, single deploy, potentially config?
-        String[] cmdExec = { "bash", "-c", "~/terraform/deploy.sh" };
-        Process p = Runtime.getRuntime().exec(cmdExec);
     }
 }

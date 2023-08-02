@@ -24,10 +24,10 @@ public class Wrapper {
                 //File output = new File("output/index.js");
                 //File input1 = new File("templates/package.json");
                 //File output1 = new File("output/package.json");
-                File input = new File("wrapper/templates/template.js");
-                File output = new File("wrapper/output/index.js");
-                File input1 = new File("wrapper/templates/package.json");
-                File output1 = new File("wrapper/output/package.json");
+                File input = new File("templates/template.js");
+                File output = new File("output/index.js");
+                File input1 = new File("templates/package.json");
+                File output1 = new File("output/package.json");
                 try {
                     FileUtils.forceDelete(output);
                 }catch(FileNotFoundException e){
@@ -62,7 +62,7 @@ public class Wrapper {
     public boolean addFunction(String cloudFunction, String templateFunction, String lang) throws IOException {
         switch(lang){
             case "js":
-                File file = new File("wrapper/output/index.js");
+                File file = new File("output/index.js");
                 BufferedWriter writer = new BufferedWriter(new FileWriter(file, true));
                 writer.append("\r\nfunction "+templateFunction+"() {");
                 BufferedReader reader = new BufferedReader(new FileReader(cloudFunction));
