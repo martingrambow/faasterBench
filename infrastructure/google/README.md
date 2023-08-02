@@ -1,2 +1,0 @@
-# GCP Deployment
-## Getting Started

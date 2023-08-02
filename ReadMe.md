@@ -31,8 +31,15 @@ Follow the next steps to (re-) run faasterBench experiments:
 2. faasterBench also requires some managaing instance to orchestrate the benchmark run (Benchmark Manager). This can either be your local computer or a cloud instance. Setup the manager:
 	1. Install the following dependencies:
 		```
-		sudo apt-get install git -y
-		sudo apt-get install maven -y
+		sudo apt-get update
+		sudo apt-get install -y gnupg
+		sudo apt-get install -y software-properties-common
+		sudo apt-get install -y git
+		sudo apt-get install -y maven
+		wget -O- https://apt.releases.hashicorp.com/gpg | gpg --dearmor | sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg
+		echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+		sudo apt update
+		sudo apt-get install -y terraform
 		```
 	3. (Opt.) **Copy provider keys**: For experiments using Google Cloud, Check that the Google key (.json file) is available on the manager instance.
 	4. Adjust .bashrc and **set environment variables** (check cloud regions)
@@ -54,27 +61,63 @@ Follow the next steps to (re-) run faasterBench experiments:
 		```
 	5. **Restart terminal** to export the environment variables 
 
-
-## Run
-
-1. **Clone faasterBench repository**
+3. **Clone faasterBench repository** on manager instance
 	```
 	git clone https://github.com/martingrambow/faasterBench.git
 	```
-2. **Move to wrapper folder**
+
+## Wrap Functions and create deployment artifact
+
+1. **Move to wrapper folder**
 	```
 	cd wrapper
 	```
-3. **Build wrapper.jar**
+2. **Build wrapper.jar**
 	```
 	./buildWrapper.sh	
 	```
 
-4. **Wrap functions code** and create deployment artifact 
+3. **Wrap functions code** and create deployment artifact 
 	```
 	./wrapper.sh
 	```
-	
+
+## Deploy Function
+
+1. **Move to respective infrastructure folder**
+	```
+	cd ../infrastructure/gcp
+	<-OR->
+	cd ../infrastructure/aws
+	```
+2. **Deploy artifact**
+	```
+	./deploy.sh
+	```
+3. **Endpoint is stored in env variable**
+
+## Run workload
+1. **Move to workload folder**
+	```
+	cd ../workload
+	```
+2. **Run workload**
+	```
+	./workload.sh
+	```
+
+## Destroy artifacts
+
+1. **Move to respective infrastructure folder**
+	```
+	cd ../infrastructure/gcp
+	<-OR->
+	cd ../infrastructure/aws
+	```
+2. **Destroy artifact**
+	```
+	./destroy.sh
+	```
 
 
 # Evaluation
