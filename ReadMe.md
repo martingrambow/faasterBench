@@ -96,42 +96,17 @@ Follow the next steps to (re-) run faasterBench experiments:
 	./wrapper.sh
 	```
 
-## Deploy Function
+## Run experiment
 
-1. **Move to respective infrastructure folder**
+1. **Move to respective experiment folder**
 	```
-	cd ../infrastructure/google
+	cd ../experiment/google
 	<-OR->
-	cd ../infrastructure/aws
+	cd ../experiment/aws
 	```
-2. **Deploy artifact**
+2. **Run experiment**
 	```
-	./deploy.sh
+	./experiment.sh
 	```
-3. **Endpoint is stored in env variable**
-
-## Run workload
-1. **Move to workload folder**
-	```
-	cd ../workload
-	```
-2. **Run workload**
-	```
-	./workload.sh
-	```
-
-## Destroy artifacts
-
-1. **Move to respective infrastructure folder**
-	```
-	cd ../infrastructure/gcp
-	<-OR->
-	cd ../infrastructure/aws
-	```
-2. **Destroy artifact**
-	```
-	./destroy.sh
-	```
-
 
 # Evaluation

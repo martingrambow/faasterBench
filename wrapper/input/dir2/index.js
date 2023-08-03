@@ -1,5 +1,5 @@
 var experimentID = process.env.EXPERIMENTID;
-var trials = 11000000;
+var trials = process.env.TRIALS2;
 var inVar = 0;
 var out = 0;
 var i = 0;
@@ -21,4 +21,4 @@ var end = Date.now();
 //console.log("in is " + inVar);
 //console.log("out is " + out);
 console.log("faaster_" + experimentID + ": Pi is " + pi);
-console.log("faaster_" + experimentID + ": " + (end-start) + "ms");
+console.log("faaster_" + experimentID + ": f2 " + (end-start) + "ms");
