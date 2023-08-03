@@ -1,3 +1,4 @@
+var experimentID = process.env.EXPERIMENTID;
 var trials = 10000000;
 var inVar = 0;
 var out = 0;
@@ -17,7 +18,7 @@ while (i < trials) {
 var pi = 4.0 * ( inVar / trials);
 var end = Date.now();
 
-console.log("in is " + inVar);
-console.log("out is " + out);
-console.log("Pi is " + pi);
-console.log("Duration " + (end-start) + "ms");
+//console.log("in is " + inVar);
+//console.log("out is " + out);
+console.log("faaster_" + experimentID + ": Pi is " + pi);
+console.log("faaster_" + experimentID + ": " + (end-start) + "ms");

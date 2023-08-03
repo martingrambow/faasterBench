@@ -27,6 +27,10 @@ resource "google_cloudfunctions_function" "function" {
     # Must match the function name in the cloud function `main.py` source code
     entry_point           = "wrapperTest"
 
+    environment_variables = {
+        EXPERIMENTID = "${random_string.experiment_id.result}"
+    }
+
     #
     trigger_http          = true
 
@@ -73,5 +77,9 @@ data "google_client_config" "current" {
 }
 
 output "FUNCTION_ENDPOINT" {
-  value = "https://${data.google_client_config.current.region}-${data.google_client_config.current.project}.cloudfunctions.net"
+    value = "https://${data.google_client_config.current.region}-${data.google_client_config.current.project}.cloudfunctions.net/${google_cloudfunctions_function.function.name}"
+}
+
+output "EXPERIMENTID" {
+    value = "${random_string.experiment_id.result}"
 }

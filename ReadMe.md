@@ -36,12 +36,26 @@ Follow the next steps to (re-) run faasterBench experiments:
 		sudo apt-get install -y software-properties-common
 		sudo apt-get install -y git
 		sudo apt-get install -y maven
+		sudo apt-get install -y npm
+		
 		wget -O- https://apt.releases.hashicorp.com/gpg | gpg --dearmor | sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg
 		echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
 		sudo apt update
 		sudo apt-get install -y terraform
+		
+		sudo npm install -g n
+		sudo n lts
+		sudo n prune
+		sudo npm install -g artillery@latest
+		
+		curl -SLO https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-427.0.0-linux-x86_64.tar.gz && tar zxvf google-cloud-sdk-427.0.0-linux-x86_64.tar.gz google-cloud-sdk && ./google-cloud-sdk/install.sh
+		export PATH="/google-cloud-sdk/bin:${PATH}"
 		```
 	3. (Opt.) **Copy provider keys**: For experiments using Google Cloud, Check that the Google key (.json file) is available on the manager instance.
+	4. (Opt.) **Authorize gcloud**
+		```
+		gcloud auth login --cred-file=key.json
+		```
 	4. Adjust .bashrc and **set environment variables** (check cloud regions)
 		Examples:
 		```
@@ -86,7 +100,7 @@ Follow the next steps to (re-) run faasterBench experiments:
 
 1. **Move to respective infrastructure folder**
 	```
-	cd ../infrastructure/gcp
+	cd ../infrastructure/google
 	<-OR->
 	cd ../infrastructure/aws
 	```
