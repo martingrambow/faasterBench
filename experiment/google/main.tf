@@ -29,8 +29,8 @@ resource "google_cloudfunctions_function" "function" {
 
     environment_variables = {
         EXPERIMENTID = "${random_string.experiment_id.result}"
-        TRIALS1 = 1000000
-        TRIALS2 = 1100000
+        TRIALS1 = var.TRIALS1
+        TRIALS2 = var.TRIALS2
     }
 
     #

@@ -1,3 +1,6 @@
+export TF_VAR_TRIALS1=1000000
+export TF_VAR_TRIALS2=1100000
+
 terraform init
 terraform apply -auto-approve
 export FUNCTION_ENDPOINT="$(terraform output -raw FUNCTION_ENDPOINT)"

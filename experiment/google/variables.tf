@@ -8,3 +8,13 @@ variable "runtime" {
   type        = string
   default     = "nodejs16"
 }
+
+variable "TRIALS1" {
+  type    = number
+  default = 1000000
+}
+
+variable "TRIALS2" {
+  type    = number
+  default = 1100000
+}
