@@ -56,7 +56,7 @@ Follow the next steps to (re-) run faasterBench experiments:
 		```
 		gcloud auth login --cred-file=key.json
 		```
-	4. Adjust .bashrc and **set environment variables** (check cloud regions)
+	5. Adjust .bashrc and **set environment variables** (check cloud regions)
 		Examples:
 		```
 		#AWS
@@ -71,10 +71,19 @@ Follow the next steps to (re-) run faasterBench experiments:
 		#Google:
 		export GOOGLE_APPLICATION_CREDENTIALS=<path/to/privatekey.json>
 		export GOOGLE_PROJECT=<project_id>
-		export GOOGLE_REGION=<region e.g. us-east1>		
-		```
-	5. **Restart terminal** to export the environment variables 
+		export GOOGLE_REGION=<region e.g. us-east1>	
 
+		export GOOGLE_APPLICATION_CREDENTIALS="path/to/file.json"
+		export GOOGLE_PROJECT="projectnamehere"
+		export GOOGLE_REGION="europe-west3"		
+		```
+	6. **Restart terminal** to export the environment variables 
+	7. **Install Java and Maven** to be able to run the wrapper tool
+		```
+		sudo apt install default-jre
+		sudo apt install default-jdk
+		```
+		Download the latest Maven version from `https://maven.apache.org/download.cgi` and follow the installation instructions from `https://maven.apache.org/install.html`
 3. **Clone faasterBench repository** on manager instance
 	```
 	git clone https://github.com/martingrambow/faasterBench.git
