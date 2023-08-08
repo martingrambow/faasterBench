@@ -1,6 +1,7 @@
 
 const functions = require('@google-cloud/functions-framework');
 const escapeHtml = require('escape-html');
+
 functions.http('wrapperTest', (req, res) => {
     var mode = escapeHtml(req.query.mode || req.body.mode || 'default (E)');
     switch(mode){

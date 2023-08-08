@@ -15,7 +15,6 @@ public class Main {
         options.addOption("f",true,"Absolute or relative path to your first folder (default : input/dir1)");
         options.addOption("s",true,"Absolute or relative path to your second folder (default : input/dir2)");
         options.addOption("c",false,"Stub-> Flag used if complexity should be added (default : false");
-        options.addOption("p",true,"Stub-> Cloud provider (possible options: 'gcp', 'aws' (default : gcp))");
         options.addOption("h",false,"Provide flag if help is wanted");
         CommandLineParser parser = new BasicParser();
         CommandLine cmd = parser.parse(options, args);
@@ -45,11 +44,6 @@ public class Main {
             secondFolder = cmd.getOptionValue("s");
         }else{
             System.out.println("No value provided for second folder, using default location : "+secondFolder);
-        }
-        if(cmd.hasOption("p")){
-            cloudProvider = cmd.getOptionValue("p");
-        }else{
-            System.out.println("No value provided for cloud provider using default : "+cloudProvider);
         }
         if(cmd.hasOption("c")){
             addComplexity = true;

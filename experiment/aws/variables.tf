@@ -18,10 +18,6 @@ variable "TRIALS2" {
   type    = number
   default = 1100000
 }
-variable "aws_region" {
-  type    = string
-  default = "eu-west-1"
-}
 
 variable "handler"{
   type    = string

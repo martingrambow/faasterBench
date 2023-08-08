@@ -1,1 +1,1 @@
-java -jar wrapper.jar -f input/dir1 -s input/dir2 -p gcp
+java -jar wrapper.jar -f input/dir1 -s input/dir2

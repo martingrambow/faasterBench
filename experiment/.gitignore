@@ -1,0 +1,9 @@
+/aws/.aws/*
+/aws/.terraform/*
+/aws/.terraform*
+/aws/tmp/*
+/aws/terraform.tf*
+/google/.terraform/*
+/google/.terraform*
+/google/terraform.tf*
+/google/tmp/*
