@@ -1,5 +1,5 @@
-export TF_VAR_TRIALS1=1000000
-export TF_VAR_TRIALS2=1100000
+export TF_VAR_TRIALS1=$1
+export TF_VAR_TRIALS2=$2
 
 terraform init
 terraform apply -auto-approve
@@ -13,5 +13,7 @@ do
     artillery run -t $FUNCTION_ENDPOINT basicLoad.yml
 done
 gcloud logging read --project $GOOGLE_PROJECT 'resource.type="cloud_function" AND textPayload:'$EXPERIMENTID --format json > google.log
+mkdir logs
+
 echo "got results, will destroy setup..."
 terraform destroy -auto-approve
