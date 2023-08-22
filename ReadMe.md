@@ -78,12 +78,12 @@ Follow the next steps to (re-) run faasterBench experiments:
 		export GOOGLE_REGION="europe-west3"		
 		```
 	6. **Restart terminal** to export the environment variables 
-	7. **Install Java and Maven** to be able to run the wrapper tool
+	7. **Install Java** to be able to run the wrapper tool
 		```
 		sudo apt install default-jre
 		sudo apt install default-jdk
 		```
-		Download the latest Maven version from `https://maven.apache.org/download.cgi` and follow the installation instructions from `https://maven.apache.org/install.html`
+
 3. **Clone faasterBench repository** on manager instance
 	```
 	git clone https://github.com/martingrambow/faasterBench.git

@@ -6,18 +6,40 @@ functions.http('wrapperTest', (req, res) => {
     var mode = escapeHtml(req.query.mode || req.body.mode || 'default (E)');
     switch(mode){
         case "A":
-            function1();
-            function2();
+            start1 = Date.now();
+            function1()
+            end1 = Date.now();
+
+            start2 = Date.now();
+            function2()
+            end2 = Date.now();
+
+            console.log("faaster_" + experimentID + ": f1 " + (end1-start1) + "ms f2 " + (end2-start2) + "ms");
             break;
         case "B":
-            function2();
-            function1();
+            start2 = Date.now();
+            function2()
+            end2 = Date.now();
+
+            start1 = Date.now();
+            function1()
+            end1 = Date.now();
+
+            console.log("faaster_" + experimentID + ": f1 " + (end1-start1) + "ms f2 " + (end2-start2) + "ms");
             break;
         case "C":
-            function1();
+            start1 = Date.now();
+            func1()
+            end1 = Date.now();
+
+            console.log("faaster_" + experimentID + ": f1 " + (end1-start1) + "ms");
             break;
         case "D":
-            function2();
+            start2 = Date.now();
+            func2()
+            end2 = Date.now();
+
+            console.log("faaster_" + experimentID + ": f2 " + (end2-start2) + "ms");
             break;
         default:
             //threaded

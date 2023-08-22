@@ -20,5 +20,6 @@ var end = Date.now();
 
 //console.log("in is " + inVar);
 //console.log("out is " + out);
-console.log("faaster_" + experimentID + ": Pi is " + pi);
-console.log("faaster_" + experimentID + ": f1 " + (end-start) + "ms");
+//console.log("faaster_" + experimentID + ": Pi is " + pi);
+//console.log("faaster_" + experimentID + ": f1 " + (end-start) + "ms");
+return pi;
