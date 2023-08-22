@@ -17,7 +17,8 @@ resource "random_string" "experiment_id" {
 
 #function
 resource "google_cloudfunctions_function" "function" {
-    name                  = "wrapper"
+    count                 = 10 
+    name                  = "wrapper${count.index}"
     runtime               = var.runtime  # of course changeable
 
     # Get the source code of the cloud function as a Zip compression
@@ -40,9 +41,10 @@ resource "google_cloudfunctions_function" "function" {
 }
 
 resource "google_cloudfunctions_function_iam_member" "invoker" {
-  project        = google_cloudfunctions_function.function.project
-  region         = google_cloudfunctions_function.function.region
-  cloud_function = google_cloudfunctions_function.function.name
+  count = 10
+  project        = google_cloudfunctions_function.function[0].project
+  region         = google_cloudfunctions_function.function[0].region
+  cloud_function = google_cloudfunctions_function.function["${count.index}"].name
 
   role   = "roles/cloudfunctions.invoker"
   member = "allUsers"
@@ -76,11 +78,13 @@ resource "google_storage_bucket_object" "wrapper" {
 }
 
 data "google_client_config" "current" {
+
 }
 
-output "FUNCTION_ENDPOINT" {
-    value = "https://${data.google_client_config.current.region}-${data.google_client_config.current.project}.cloudfunctions.net/${google_cloudfunctions_function.function.name}"
-}
+#output "FUNCTION_ENDPOINT" {
+#    value = ["https://${data.google_client_config.current.region}-${data.google_client_config.current.project}.cloudfunctions.net/${google_cloudfunctions_function.function.*.name}"]
+#    #value = ["${google_cloudfunctions_function.function.*.name}"]
+#}
 
 output "EXPERIMENTID" {
     value = "${random_string.experiment_id.result}"

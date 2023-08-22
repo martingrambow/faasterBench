@@ -20,12 +20,13 @@ resource "null_resource" "main" {
 }
 
 resource "aws_lambda_function" "wrapper" {
+  count         = 10
   filename      = "/tmp/wrapper.zip"
-  function_name = "lambda-wrapper"
+  function_name = "lambda-wrapper${count.index}"
   role          = aws_iam_role.wrapper_role.arn
   handler       = "index.handler"
   runtime       = "nodejs16.x"
-  timeout = 300
+  timeout       = 300
 
   # upload the function if the code hash is changed
   source_code_hash = data.archive_file.main.output_base64sha256
