@@ -20,7 +20,7 @@ resource "null_resource" "main" {
 }
 
 resource "aws_lambda_function" "wrapper" {
-  count         = 10
+  count         = var.WRAPPERCOUNT
   filename      = "/tmp/wrapper.zip"
   function_name = "lambda-wrapper${count.index}"
   role          = aws_iam_role.wrapper_role.arn
@@ -33,7 +33,8 @@ resource "aws_lambda_function" "wrapper" {
 }
 
 resource "aws_lambda_function_url" "function" {
-    function_name      = aws_lambda_function.wrapper.function_name
+    count         = var.WRAPPERCOUNT
+    function_name      = aws_lambda_function.wrapper[count.index].function_name
     authorization_type = "NONE"
 }
 
@@ -68,4 +69,9 @@ EOF
       ]
     })
   }
+}
+
+output "FUNCTION_ENDPOINTS" {
+  description = "The URL of the Lambda Function URL"
+  value       = try(aws_lambda_function_url.function[*].function_url, "")
 }

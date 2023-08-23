@@ -17,7 +17,7 @@ resource "random_string" "experiment_id" {
 
 #function
 resource "google_cloudfunctions_function" "function" {
-    count                 = 10 
+    count                 = var.WRAPPERCOUNT
     name                  = "wrapper${count.index}"
     runtime               = var.runtime  # of course changeable
 
@@ -41,7 +41,7 @@ resource "google_cloudfunctions_function" "function" {
 }
 
 resource "google_cloudfunctions_function_iam_member" "invoker" {
-  count = 10
+  count = var.WRAPPERCOUNT
   project        = google_cloudfunctions_function.function[0].project
   region         = google_cloudfunctions_function.function[0].region
   cloud_function = google_cloudfunctions_function.function["${count.index}"].name
@@ -86,6 +86,13 @@ data "google_client_config" "current" {
 #    #value = ["${google_cloudfunctions_function.function.*.name}"]
 #}
 
+output "FUNCTION_ENDPOINTS" {
+  description = "The URL of the functions"
+  value       = try(google_cloudfunctions_function.function[*].https_trigger_url, "")
+}
+output "WRAPPERCOUNT"{
+    value = var.WRAPPERCOUNT
+}
 output "EXPERIMENTID" {
     value = "${random_string.experiment_id.result}"
 }
