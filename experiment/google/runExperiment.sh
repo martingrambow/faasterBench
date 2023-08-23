@@ -3,7 +3,7 @@ export TF_VAR_TRIALS2=$2
 
 terraform init
 terraform apply -auto-approve
-export count=10
+export count="$(terraform output -raw WRAPPERCOUNT)"
 export EXPERIMENTID="$(terraform output -raw EXPERIMENTID)"
 echo "experiment ID is $EXPERIMENTID"
 for (( i = 0; i < $count; i++ )) 
