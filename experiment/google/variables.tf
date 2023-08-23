@@ -18,3 +18,8 @@ variable "TRIALS2" {
   type    = number
   default = 1100000
 }
+
+variable "WRAPPERCOUNT"{
+  type    = number
+  default = 10
+}

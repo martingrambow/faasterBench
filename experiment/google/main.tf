@@ -85,6 +85,11 @@ data "google_client_config" "current" {
 #    value = ["https://${data.google_client_config.current.region}-${data.google_client_config.current.project}.cloudfunctions.net/${google_cloudfunctions_function.function.*.name}"]
 #    #value = ["${google_cloudfunctions_function.function.*.name}"]
 #}
+
+output "FUNCTION_ENDPOINTS" {
+  description = "The URL of the functions"
+  value       = try(google_cloudfunctions_function.function[*].https_trigger_url, "")
+}
 output "WRAPPERCOUNT"{
     value = var.WRAPPERCOUNT
 }

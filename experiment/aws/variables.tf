@@ -23,3 +23,7 @@ variable "handler"{
   type    = string
   default = "wrapperTest"
 }
+variable "WRAPPERCOUNT"{
+  type    = number
+  default = 10
+}
