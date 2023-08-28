@@ -41,7 +41,7 @@ resource "google_cloudfunctions_function" "function" {
 }
 
 resource "google_cloudfunctions_function_iam_member" "invoker" {
-  count = var.WRAPPERCOUNT
+  count          = var.WRAPPERCOUNT
   project        = google_cloudfunctions_function.function[0].project
   region         = google_cloudfunctions_function.function[0].region
   cloud_function = google_cloudfunctions_function.function["${count.index}"].name
@@ -49,6 +49,7 @@ resource "google_cloudfunctions_function_iam_member" "invoker" {
   role   = "roles/cloudfunctions.invoker"
   member = "allUsers"
 }
+
 #storage
 resource "google_storage_bucket" "function_bucket" {
     name     = "${local.project_name}-function"

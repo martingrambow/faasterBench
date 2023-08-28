@@ -6,6 +6,7 @@ exports.handler = async (event) => {
         mode = event.queryStringParameters.mode;
     }
     let responseMessage = 'Ran mode ' + mode + ' according to passed variable';
+	var experimentID = process.env.EXPERIMENTID;
     switch(mode){
         case "A":
             start1 = Date.now();

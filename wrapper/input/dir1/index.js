@@ -1,4 +1,3 @@
-var experimentID = process.env.EXPERIMENTID;
 var trials = process.env.TRIALS1;
 var inVar = 0;
 var out = 0;
