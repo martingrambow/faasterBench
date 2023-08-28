@@ -32,7 +32,7 @@ exports.handler = async (event) => {
             break;
         case "C":
             start1 = Date.now();
-            func1()
+            function1()
             end1 = Date.now();
 
             console.log("faaster_" + experimentID + ": f1 " + (end1-start1) + "ms");
@@ -40,7 +40,7 @@ exports.handler = async (event) => {
         case "D":
 
             start2 = Date.now();
-            func2()
+            function2()
             end2 = Date.now();
 
             console.log("faaster_" + experimentID + ": f2 " + (end2-start2) + "ms");

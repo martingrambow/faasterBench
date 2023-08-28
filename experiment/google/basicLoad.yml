@@ -1,8 +1,8 @@
 config:
   target: use-t-flag
   phases:
-    - duration: 10
-      arrivalRate: 1
+    - duration: 50
+      arrivalCount: 50
       name: basic load phase
 scenarios:
   - flow:
@@ -10,4 +10,12 @@ scenarios:
         url: "/?mode=A"
     - get:
         url: "/?mode=B"
+    - get:
+        url: "/?mode=C"
+    - get:
+        url: "/?mode=D"
+    - get:
+        url: "/?mode=C"
+    - get:
+        url: "/?mode=D"
     name: 'basic calls'
