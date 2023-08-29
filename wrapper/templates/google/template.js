@@ -16,37 +16,37 @@ functions.http('wrapperTest', (req, res) => {
         switch (mode) {
             case "A":
                 if (getRandomBool) {
-                    start1 = performance.now();
+                    start1 = Date.now();
                     function1();
-                    end1 = performance.now();
+                    end1 = Date.now();
 
-                    start2 = performance.now();
+                    start2 = Date.now();
                     function2();
-                    end2 = performance.now();
+                    end2 = Date.now();
                 } else {
-                    start2 = performance.now();
+                    start2 = Date.now();
                     function2();
-                    end2 = performance.now();
+                    end2 = Date.now();
 
-                    start1 = performance.now();
+                    start1 = Date.now();
                     function1();
-                    end1 = performance.now();
+                    end1 = Date.now();
                 }
 
                 fun1.push((end1 - start1));
                 fun2.push((end2 - start2));
                 break;
             case "B":
-                start1 = performance.now();
+                start1 = Date.now();
                 function1();
-                end1 = performance.now();
+                end1 = Date.now();
 
                 fun1.push((end1 - start1));
                 break;
             case "C":
-                start2 = performance.now();
+                start2 = Date.now();
                 function2();
-                end2 = performance.now();
+                end2 = Date.now();
 
                 fun2.push((end2 - start2));
                 break;
