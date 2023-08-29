@@ -1,8 +1,8 @@
 config:
   target: use-t-flag
   phases:
-    - duration: 50
-      arrivalCount: 50
+    - duration: 60
+      arrivalCount: 100
       name: basic load phase
 scenarios:
   - flow:
