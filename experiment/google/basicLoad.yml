@@ -7,15 +7,13 @@ config:
 scenarios:
   - flow:
     - get:
-        url: "/?mode=A"
+        url: "/?mode=A&iterations=3"
     - get:
-        url: "/?mode=B"
+        url: "/?mode=B&iterations=3"
     - get:
-        url: "/?mode=C"
+        url: "/?mode=C&iterations=3"
     - get:
-        url: "/?mode=D"
+        url: "/?mode=B&iterations=3"
     - get:
-        url: "/?mode=C"
-    - get:
-        url: "/?mode=D"
+        url: "/?mode=C&iterations=3"
     name: 'basic calls'
