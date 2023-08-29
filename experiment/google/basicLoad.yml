@@ -8,7 +8,7 @@ scenarios:
   - flow:
     - get:
         url: "/?mode=A&iterations=3"
-     - get:
+    - get:
         url: "/?mode=B&iterations=3"
     - get:
         url: "/?mode=C&iterations=3"
