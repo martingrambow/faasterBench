@@ -1,4 +1,7 @@
 provider "aws" {
+  #region      = var.aws_region
+  #access_key  = var.aws_access_key
+  #secret_key  = var.aws_secret_key
 }
 
 # Archive lambda function
@@ -19,6 +22,15 @@ resource "null_resource" "main" {
 
 }
 
+resource "random_string" "experiment_id" {
+  length  = 5
+  special = false
+  upper   = false
+  keepers = {
+    prefix = var.project_prefix
+  }
+}
+
 resource "aws_lambda_function" "wrapper" {
   count         = var.WRAPPERCOUNT
   filename      = "/tmp/wrapper.zip"
@@ -27,10 +39,31 @@ resource "aws_lambda_function" "wrapper" {
   handler       = "index.handler"
   runtime       = "nodejs16.x"
   timeout       = 300
+  memory_size   = 512
 
   # upload the function if the code hash is changed
   source_code_hash = data.archive_file.main.output_base64sha256
+
+  depends_on = [
+    aws_cloudwatch_log_group.loggroup,
+  ]
+
+  environment {
+    variables = {
+      EXPERIMENTID = "${random_string.experiment_id.result}"
+      TRIALS1 = var.TRIALS1
+      TRIALS2 = var.TRIALS2
+    }
+  }
 }
+
+resource "aws_cloudwatch_log_group" "loggroup" {
+  count             = 10 
+  name              = "/aws/lambda/lambda-wrapper${count.index}"
+  retention_in_days = 14
+}
+
+
 
 resource "aws_lambda_function_url" "function" {
     count         = var.WRAPPERCOUNT
@@ -72,6 +105,13 @@ EOF
 }
 
 output "FUNCTION_ENDPOINTS" {
-  description = "The URL of the Lambda Function URL"
+  description = "The URLs of the Lambda Function"
   value       = try(aws_lambda_function_url.function[*].function_url, "")
+}
+
+output "EXPERIMENTID" {
+    value = "${random_string.experiment_id.result}"
+}
+output "WRAPPERCOUNT"{
+    value = var.WRAPPERCOUNT
 }

@@ -11,7 +11,10 @@ functions.http('wrapperTest', (req, res) => {
     var experimentID = process.env.EXPERIMENTID;
     let fun1 = [];
     let fun2 = [];
-
+    var start1;
+    var start2;
+    var end1;
+    var end2;
     for (let i = 0; i < iterations; i++) {
         switch (mode) {
             case "A":
@@ -50,10 +53,33 @@ functions.http('wrapperTest', (req, res) => {
 
                 fun2.push((end2 - start2));
                 break;
-            default:
+            case "D":
                 //threaded
                 //web worker approach? needs separate files to work then, which would maybe be possible?
                 break;
+            default:
+                if (getRandomBool) {
+                    start1 = Date.now();
+                    function1();
+                    end1 = Date.now();
+
+                    start2 = Date.now();
+                    function2();
+                    end2 = Date.now();
+                } else {
+                    start2 = Date.now();
+                    function2();
+                    end2 = Date.now();
+
+                    start1 = Date.now();
+                    function1();
+                    end1 = Date.now();
+                }
+
+                fun1.push((end1 - start1));
+                fun2.push((end2 - start2));
+                break;
+                
         }
     }
 
