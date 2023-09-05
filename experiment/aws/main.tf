@@ -1,7 +1,7 @@
 provider "aws" {
-  region      = var.aws_region
-  access_key  = var.aws_access_key
-  secret_key  = var.aws_secret_key
+  #region      = var.aws_region
+  #access_key  = var.aws_access_key
+  #secret_key  = var.aws_secret_key
 }
 
 # Archive lambda function
@@ -45,7 +45,7 @@ resource "aws_lambda_function" "wrapper" {
   source_code_hash = data.archive_file.main.output_base64sha256
 
   depends_on = [
-    aws_cloudwatch_log_group.experiment,
+    aws_cloudwatch_log_group.loggroup,
   ]
 
   environment {
@@ -57,24 +57,10 @@ resource "aws_lambda_function" "wrapper" {
   }
 }
 
-
-resource "aws_cloudwatch_log_group" "experiment" {
-  name              = "/aws/lambda/${random_string.experiment_id.result}"
+resource "aws_cloudwatch_log_group" "loggroup" {
+  count             = 10 
+  name              = "/aws/lambda/lambda-wrapper${count.index}"
   retention_in_days = 14
-}
-
-data "aws_iam_policy_document" "lambda_logging" {
-  statement {
-    effect = "Allow"
-
-    actions = [
-      "logs:CreateLogGroup",
-      "logs:CreateLogStream",
-      "logs:PutLogEvents",
-    ]
-
-    resources = ["arn:aws:logs:*:*:*"]
-  }
 }
 
 
