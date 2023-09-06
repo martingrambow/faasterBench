@@ -24,6 +24,8 @@ sleep 300
 
 export queryIDs="awsQueryIDs.log"
 export log=aws.log
+rm logs/$queryIDs
+rm logs/$log
 touch logs/$queryIDs
 touch logs/$log
 for ((i = 0 ; i < $count ; i++)); do
