@@ -36,6 +36,7 @@ Follow the next steps to (re-) run faasterBench experiments:
 		sudo apt-get install -y software-properties-common
 		sudo apt-get install -y git
 		sudo apt-get install -y maven
+		sudo apt-get install -y awscli
 		sudo apt-get install -y npm
 		sudo apt-get install -y jq
 		
