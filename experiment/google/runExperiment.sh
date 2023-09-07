@@ -1,5 +1,9 @@
 export TF_VAR_TRIALS1=$1
 export TF_VAR_TRIALS2=$2
+export REGRESSION=$3
+export TF_VAR_WRAPPERCOUNT=$4
+export CALLS=$5
+export ITERATIONS=$6
 
 terraform init
 terraform apply -auto-approve
@@ -12,11 +16,11 @@ for (( i = 0; i < $count; i++ ))
 do
     FUNCTION_ENDPOINT="$(echo $FUNCTION_ENDPOINTS | jq -r .[$i])"
     echo "endpoint is $FUNCTION_ENDPOINT"
-    artillery run -t $FUNCTION_ENDPOINT basicLoad.yml
+    artillery run -t $FUNCTION_ENDPOINT basicLoad_${CALLS}_${ITERATIONS}.yml
 done
 
 gcloud logging read --project $GOOGLE_PROJECT 'resource.type="cloud_function" AND textPayload:'$EXPERIMENTID --format json > google.log
-mkdir logs
+mv google.log google_${REGRESSION}_${count}_${CALLS}_${ITERATIONS}.log
 
 echo "got results, will destroy setup..."
 terraform destroy -auto-approve
