@@ -1,0 +1,3502 @@
+[
+  {
+    "insertId": "64f9fc16000b0fda874525cc",
+    "labels": {
+      "execution_id": "pc63z6l1nc1a",
+      "instance_id": "00e67600730b9c9e78133420a436ab22f6e105c610911b4d8f756fc8002422cfd2ac2614d9b7ded152b3d579a3911b8ed37e6dd33183ed556e17dc29e999aa942c"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:36:39.009827798Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper4",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 519 ",
+    "timestamp": "2023-09-07T16:36:38.724954Z",
+    "trace": "projects/faasterbench/traces/8e18aa639f5fa0f83ac29bbbde276cfc"
+  },
+  {
+    "insertId": "64f9fc1600024dda530175ce",
+    "labels": {
+      "execution_id": "pc632stkzdmm",
+      "instance_id": "00e67600730b9c9e78133420a436ab22f6e105c610911b4d8f756fc8002422cfd2ac2614d9b7ded152b3d579a3911b8ed37e6dd33183ed556e17dc29e999aa942c"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:36:38.343598429Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper4",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 470 f2 ",
+    "timestamp": "2023-09-07T16:36:38.151002Z",
+    "trace": "projects/faasterbench/traces/6b12285ecf5885dc07b195114d1b4041"
+  },
+  {
+    "insertId": "64f9fc150009c2b3a3b45a52",
+    "labels": {
+      "execution_id": "pc63fap1xgd1",
+      "instance_id": "00e67600730b9c9e78133420a436ab22f6e105c610911b4d8f756fc8002422cfd2ac2614d9b7ded152b3d579a3911b8ed37e6dd33183ed556e17dc29e999aa942c"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:36:37.679423902Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper4",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 475 ",
+    "timestamp": "2023-09-07T16:36:37.639667Z",
+    "trace": "projects/faasterbench/traces/2747c4ddc6fbe53ff34a653fe3a5bd73"
+  },
+  {
+    "insertId": "64f9fc150001cd9344e88304",
+    "labels": {
+      "execution_id": "pc634npsa5ld",
+      "instance_id": "00e67600730b9c9e78133420a436ab22f6e105c610911b4d8f756fc8002422cfd2ac2614d9b7ded152b3d579a3911b8ed37e6dd33183ed556e17dc29e999aa942c"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:36:37.344689328Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper4",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 465 f2 ",
+    "timestamp": "2023-09-07T16:36:37.118163Z",
+    "trace": "projects/faasterbench/traces/ae55f668ef85ddc412612f5f02cea575"
+  },
+  {
+    "insertId": "64f9fc1400094f862724cc59",
+    "labels": {
+      "execution_id": "pc63jnxh6q1r",
+      "instance_id": "00e67600730b9c9e78133420a436ab22f6e105c610911b4d8f756fc8002422cfd2ac2614d9b7ded152b3d579a3911b8ed37e6dd33183ed556e17dc29e999aa942c"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:36:36.679472466Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper4",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeA f1 463 505 514 f2 573 514 568 ",
+    "timestamp": "2023-09-07T16:36:36.610182Z",
+    "trace": "projects/faasterbench/traces/957dd6f8c475f0672017d1e6fc56a902"
+  },
+  {
+    "insertId": "64f9fc11000696cc517de343",
+    "labels": {
+      "execution_id": "pc638sbcazss",
+      "instance_id": "00e67600730b9c9e78133420a436ab22f6e105c610911b4d8f756fc8002422cfd2ac2614d9b7ded152b3d579a3911b8ed37e6dd33183ed556e17dc29e999aa942c"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:36:33.682609338Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper4",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 519 ",
+    "timestamp": "2023-09-07T16:36:33.431820Z",
+    "trace": "projects/faasterbench/traces/346ea5a9d8f694053f30b0ff2a97c8d0"
+  },
+  {
+    "insertId": "64f9fc10000d4517ed3a8564",
+    "labels": {
+      "execution_id": "4l9h2kc9b1zi",
+      "instance_id": "00e67600737eec56bf542d4e6827669293a74697636bd7acc296488120b205c8c7836b1fa400d8ed321c176fa10a771cbf28a85ef5e3526858f1e83fbdcf72112e"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:36:33.055023265Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper4",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 516 f2 ",
+    "timestamp": "2023-09-07T16:36:32.869655Z",
+    "trace": "projects/faasterbench/traces/0d15186c6bc9cd88693a97a5d2f156c8"
+  },
+  {
+    "insertId": "64f9fc1000081d62a53fd7db",
+    "labels": {
+      "execution_id": "pc63uphu0uy7",
+      "instance_id": "00e67600730b9c9e78133420a436ab22f6e105c610911b4d8f756fc8002422cfd2ac2614d9b7ded152b3d579a3911b8ed37e6dd33183ed556e17dc29e999aa942c"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:36:32.683349822Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper4",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 483 ",
+    "timestamp": "2023-09-07T16:36:32.531810Z",
+    "trace": "projects/faasterbench/traces/d4f162a857cc8250c0d664456ef6c4d8"
+  },
+  {
+    "insertId": "64f9fc10000022e79a5a9620",
+    "labels": {
+      "execution_id": "pc63ln4i3r35",
+      "instance_id": "00e67600730b9c9e78133420a436ab22f6e105c610911b4d8f756fc8002422cfd2ac2614d9b7ded152b3d579a3911b8ed37e6dd33183ed556e17dc29e999aa942c"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:36:32.018145919Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper4",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 462 f2 ",
+    "timestamp": "2023-09-07T16:36:32.008935Z",
+    "trace": "projects/faasterbench/traces/0da9cfdb5b8d7798d806dad1c4fc5ae9"
+  },
+  {
+    "insertId": "64f9fc0f0007b538e4a6b302",
+    "labels": {
+      "execution_id": "pc63yzrf8ta2",
+      "instance_id": "00e67600730b9c9e78133420a436ab22f6e105c610911b4d8f756fc8002422cfd2ac2614d9b7ded152b3d579a3911b8ed37e6dd33183ed556e17dc29e999aa942c"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:36:31.683706599Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper4",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 529 ",
+    "timestamp": "2023-09-07T16:36:31.505144Z",
+    "trace": "projects/faasterbench/traces/ff7bcce50ed5e5f0b3b9397bd0235ace"
+  },
+  {
+    "insertId": "64f9fc0e000e2a1c76afbbb4",
+    "labels": {
+      "execution_id": "pc63uvgpjbke",
+      "instance_id": "00e67600730b9c9e78133420a436ab22f6e105c610911b4d8f756fc8002422cfd2ac2614d9b7ded152b3d579a3911b8ed37e6dd33183ed556e17dc29e999aa942c"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:36:31.017795056Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper4",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 462 f2 ",
+    "timestamp": "2023-09-07T16:36:30.928284Z",
+    "trace": "projects/faasterbench/traces/98ee2cad7485ddc2b5064c1943c4f87c"
+  },
+  {
+    "insertId": "64f9fc0e00067aa9c63e9612",
+    "labels": {
+      "execution_id": "pc631l0he94t",
+      "instance_id": "00e67600730b9c9e78133420a436ab22f6e105c610911b4d8f756fc8002422cfd2ac2614d9b7ded152b3d579a3911b8ed37e6dd33183ed556e17dc29e999aa942c"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:36:30.684609871Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper4",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeA f1 466 492 501 f2 522 569 511 ",
+    "timestamp": "2023-09-07T16:36:30.424617Z",
+    "trace": "projects/faasterbench/traces/dccb4cd82e6caa13c655da45d0dfc6b1"
+  },
+  {
+    "insertId": "64f9fc0b0004ebfa103e34d2",
+    "labels": {
+      "execution_id": "pc63ge76mw5r",
+      "instance_id": "00e67600730b9c9e78133420a436ab22f6e105c610911b4d8f756fc8002422cfd2ac2614d9b7ded152b3d579a3911b8ed37e6dd33183ed556e17dc29e999aa942c"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:36:27.354663970Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper4",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 480 ",
+    "timestamp": "2023-09-07T16:36:27.322554Z",
+    "trace": "projects/faasterbench/traces/9a7a94f2a691b4f87ffd625bc1b5afd3"
+  },
+  {
+    "insertId": "64f9fc0a000c47e9b5f04428",
+    "labels": {
+      "execution_id": "4l9h88g6ymoj",
+      "instance_id": "00e67600737eec56bf542d4e6827669293a74697636bd7acc296488120b205c8c7836b1fa400d8ed321c176fa10a771cbf28a85ef5e3526858f1e83fbdcf72112e"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:36:27.060722945Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper4",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 443 f2 ",
+    "timestamp": "2023-09-07T16:36:26.804841Z",
+    "trace": "projects/faasterbench/traces/1f7a48717243d09d77c60f31899b5d5a"
+  },
+  {
+    "insertId": "64f9fc0a0009a300a3911b73",
+    "labels": {
+      "execution_id": "pc63042cwkzg",
+      "instance_id": "00e67600730b9c9e78133420a436ab22f6e105c610911b4d8f756fc8002422cfd2ac2614d9b7ded152b3d579a3911b8ed37e6dd33183ed556e17dc29e999aa942c"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:36:26.688945614Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper4",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 476 ",
+    "timestamp": "2023-09-07T16:36:26.631552Z",
+    "trace": "projects/faasterbench/traces/0b2a69a819d990535b8f8cf33757b637"
+  },
+  {
+    "insertId": "64f9fc0a0001b320bf02fe5c",
+    "labels": {
+      "execution_id": "pc63ercrao78",
+      "instance_id": "00e67600730b9c9e78133420a436ab22f6e105c610911b4d8f756fc8002422cfd2ac2614d9b7ded152b3d579a3911b8ed37e6dd33183ed556e17dc29e999aa942c"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:36:26.355735297Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper4",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 507 f2 ",
+    "timestamp": "2023-09-07T16:36:26.111392Z",
+    "trace": "projects/faasterbench/traces/a0d3a8f83d1d9978496a50c5f2e8c557"
+  },
+  {
+    "insertId": "64f9fc0900085858e737675c",
+    "labels": {
+      "execution_id": "pc630m670559",
+      "instance_id": "00e67600730b9c9e78133420a436ab22f6e105c610911b4d8f756fc8002422cfd2ac2614d9b7ded152b3d579a3911b8ed37e6dd33183ed556e17dc29e999aa942c"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:36:25.689408983Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper4",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 482 ",
+    "timestamp": "2023-09-07T16:36:25.546904Z",
+    "trace": "projects/faasterbench/traces/3669a0740389cc829738001f5a1ff9ce"
+  },
+  {
+    "insertId": "64f9fc09000050f6adae4fe7",
+    "labels": {
+      "execution_id": "pc631imfhihx",
+      "instance_id": "00e67600730b9c9e78133420a436ab22f6e105c610911b4d8f756fc8002422cfd2ac2614d9b7ded152b3d579a3911b8ed37e6dd33183ed556e17dc29e999aa942c"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:36:25.025043204Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper4",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 453 f2 ",
+    "timestamp": "2023-09-07T16:36:25.020726Z",
+    "trace": "projects/faasterbench/traces/84090d5e2796a85f11d723ae23bb483c"
+  },
+  {
+    "insertId": "64f9fc080007ddc9abaa8d5d",
+    "labels": {
+      "execution_id": "pc63sep96pg4",
+      "instance_id": "00e67600730b9c9e78133420a436ab22f6e105c610911b4d8f756fc8002422cfd2ac2614d9b7ded152b3d579a3911b8ed37e6dd33183ed556e17dc29e999aa942c"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:36:24.691273915Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper4",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeA f1 449 501 501 f2 520 512 570 ",
+    "timestamp": "2023-09-07T16:36:24.515529Z",
+    "trace": "projects/faasterbench/traces/56d4ad731aa9e6e395acbc60dabc60ae"
+  },
+  {
+    "insertId": "64f9fc0500064d60f92dd0a2",
+    "labels": {
+      "execution_id": "4l9hzh36xhia",
+      "instance_id": "00e67600737eec56bf542d4e6827669293a74697636bd7acc296488120b205c8c7836b1fa400d8ed321c176fa10a771cbf28a85ef5e3526858f1e83fbdcf72112e"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:36:21.734380605Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper4",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 491 ",
+    "timestamp": "2023-09-07T16:36:21.413024Z",
+    "trace": "projects/faasterbench/traces/71b47ae750e389960e03f1f528bc11bc"
+  },
+  {
+    "insertId": "64f9fc05000362b7185b68f9",
+    "labels": {
+      "execution_id": "pc63gcv0tr2g",
+      "instance_id": "00e67600730b9c9e78133420a436ab22f6e105c610911b4d8f756fc8002422cfd2ac2614d9b7ded152b3d579a3911b8ed37e6dd33183ed556e17dc29e999aa942c"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:36:21.360556809Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper4",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 478 ",
+    "timestamp": "2023-09-07T16:36:21.221879Z",
+    "trace": "projects/faasterbench/traces/3bce53a01e9a6bc0bf0f1d57ce106c50"
+  },
+  {
+    "insertId": "64f9fc04000d72bae942c13f",
+    "labels": {
+      "execution_id": "4l9h3pxksqx5",
+      "instance_id": "00e67600737eec56bf542d4e6827669293a74697636bd7acc296488120b205c8c7836b1fa400d8ed321c176fa10a771cbf28a85ef5e3526858f1e83fbdcf72112e"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:36:21.068260507Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper4",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 505 f2 ",
+    "timestamp": "2023-09-07T16:36:20.881338Z",
+    "trace": "projects/faasterbench/traces/595502ba6d0bbd3da7470dd349c00506"
+  },
+  {
+    "insertId": "64f9fc04000ac1a676e82340",
+    "labels": {
+      "execution_id": "pc633qm8hv68",
+      "instance_id": "00e67600730b9c9e78133420a436ab22f6e105c610911b4d8f756fc8002422cfd2ac2614d9b7ded152b3d579a3911b8ed37e6dd33183ed556e17dc29e999aa942c"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:36:21.027598884Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper4",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 513 f2 ",
+    "timestamp": "2023-09-07T16:36:20.704934Z",
+    "trace": "projects/faasterbench/traces/d17770d5b219d8c24cb37d4c83039fbf"
+  },
+  {
+    "insertId": "64f9fc0400023493630895cc",
+    "labels": {
+      "execution_id": "pc63sr8dxoch",
+      "instance_id": "00e67600730b9c9e78133420a436ab22f6e105c610911b4d8f756fc8002422cfd2ac2614d9b7ded152b3d579a3911b8ed37e6dd33183ed556e17dc29e999aa942c"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:36:20.364132844Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper4",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 467 ",
+    "timestamp": "2023-09-07T16:36:20.144531Z",
+    "trace": "projects/faasterbench/traces/d99413975ff9b25eac0dbe7e8f96ca79"
+  },
+  {
+    "insertId": "64f9fc030009822d1c5caf41",
+    "labels": {
+      "execution_id": "pc63w3n5anhr",
+      "instance_id": "00e67600730b9c9e78133420a436ab22f6e105c610911b4d8f756fc8002422cfd2ac2614d9b7ded152b3d579a3911b8ed37e6dd33183ed556e17dc29e999aa942c"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:36:19.696740111Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper4",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 445 f2 ",
+    "timestamp": "2023-09-07T16:36:19.623149Z",
+    "trace": "projects/faasterbench/traces/3830c3d92303681ab7d231e2b19cbf26"
+  },
+  {
+    "insertId": "64f9fc030001bf533fd6aecc",
+    "labels": {
+      "execution_id": "pc632grjxwus",
+      "instance_id": "00e67600730b9c9e78133420a436ab22f6e105c610911b4d8f756fc8002422cfd2ac2614d9b7ded152b3d579a3911b8ed37e6dd33183ed556e17dc29e999aa942c"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:36:19.362358661Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper4",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeA f1 509 498 501 f2 519 514 568 ",
+    "timestamp": "2023-09-07T16:36:19.114515Z",
+    "trace": "projects/faasterbench/traces/805cec293049752cae26461f5b0f35c9"
+  },
+  {
+    "insertId": "64f9fbff000e66edfb4797cd",
+    "labels": {
+      "execution_id": "pc63zhmcdkar",
+      "instance_id": "00e67600730b9c9e78133420a436ab22f6e105c610911b4d8f756fc8002422cfd2ac2614d9b7ded152b3d579a3911b8ed37e6dd33183ed556e17dc29e999aa942c"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:36:16.032484761Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper4",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 457 ",
+    "timestamp": "2023-09-07T16:36:15.943853Z",
+    "trace": "projects/faasterbench/traces/123df928a7714e0b2874339588a1bb65"
+  },
+  {
+    "insertId": "64f9fbff000648cb1adae280",
+    "labels": {
+      "execution_id": "4l9hwr16dhs1",
+      "instance_id": "00e67600737eec56bf542d4e6827669293a74697636bd7acc296488120b205c8c7836b1fa400d8ed321c176fa10a771cbf28a85ef5e3526858f1e83fbdcf72112e"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:36:15.737807054Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper4",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 250 f2 ",
+    "timestamp": "2023-09-07T16:36:15.411851Z",
+    "trace": "projects/faasterbench/traces/55835bb1b10919672d371fc301b1cb41"
+  },
+  {
+    "insertId": "64f9fbfe000b3e5c4f20c2d9",
+    "labels": {
+      "execution_id": "pc63xo9hnm13",
+      "instance_id": "00e67600730b9c9e78133420a436ab22f6e105c610911b4d8f756fc8002422cfd2ac2614d9b7ded152b3d579a3911b8ed37e6dd33183ed556e17dc29e999aa942c"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:36:15.033199104Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper4",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 478 ",
+    "timestamp": "2023-09-07T16:36:14.736860Z",
+    "trace": "projects/faasterbench/traces/6aa071012ce759a664e4a969a4e4ac11"
+  },
+  {
+    "insertId": "64f9fbfe000358fc1d6db642",
+    "labels": {
+      "execution_id": "pc63fhnxcwli",
+      "instance_id": "00e67600730b9c9e78133420a436ab22f6e105c610911b4d8f756fc8002422cfd2ac2614d9b7ded152b3d579a3911b8ed37e6dd33183ed556e17dc29e999aa942c"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:36:14.367081237Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper4",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 465 f2 ",
+    "timestamp": "2023-09-07T16:36:14.219388Z",
+    "trace": "projects/faasterbench/traces/446ec7f0cf49e789793e43a5c29075c4"
+  },
+  {
+    "insertId": "64f9fbfd000acab131dec3d7",
+    "labels": {
+      "execution_id": "pc638y3gieoe",
+      "instance_id": "00e67600730b9c9e78133420a436ab22f6e105c610911b4d8f756fc8002422cfd2ac2614d9b7ded152b3d579a3911b8ed37e6dd33183ed556e17dc29e999aa942c"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:36:14.033422951Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper4",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 525 ",
+    "timestamp": "2023-09-07T16:36:13.707249Z",
+    "trace": "projects/faasterbench/traces/b07b4d8306eebee0efe63bedd5ff3831"
+  },
+  {
+    "insertId": "64f9fbfd00020df9a286c3e9",
+    "labels": {
+      "execution_id": "pc63dxnn76v1",
+      "instance_id": "00e67600730b9c9e78133420a436ab22f6e105c610911b4d8f756fc8002422cfd2ac2614d9b7ded152b3d579a3911b8ed37e6dd33183ed556e17dc29e999aa942c"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:36:13.370215125Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper4",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 464 f2 ",
+    "timestamp": "2023-09-07T16:36:13.134649Z",
+    "trace": "projects/faasterbench/traces/6a326dab923bce958e3c66e2ec46380e"
+  },
+  {
+    "insertId": "64f9fbfc00099e2a07cd2948",
+    "labels": {
+      "execution_id": "pc63v6fl31x7",
+      "instance_id": "00e67600730b9c9e78133420a436ab22f6e105c610911b4d8f756fc8002422cfd2ac2614d9b7ded152b3d579a3911b8ed37e6dd33183ed556e17dc29e999aa942c"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:36:12.701990073Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper4",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeA f1 473 561 499 f2 516 515 510 ",
+    "timestamp": "2023-09-07T16:36:12.630314Z",
+    "trace": "projects/faasterbench/traces/1517b6faf37fd16ef3de635e6e228b6d"
+  },
+  {
+    "insertId": "64f9fbf90007e47348fd6dcf",
+    "labels": {
+      "execution_id": "pc636o06t73d",
+      "instance_id": "00e67600730b9c9e78133420a436ab22f6e105c610911b4d8f756fc8002422cfd2ac2614d9b7ded152b3d579a3911b8ed37e6dd33183ed556e17dc29e999aa942c"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:36:09.705141364Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper4",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 513 ",
+    "timestamp": "2023-09-07T16:36:09.517235Z",
+    "trace": "projects/faasterbench/traces/c6ea920e45724c3fe02f0359db8e0b84"
+  },
+  {
+    "insertId": "64f9fbf8000cf03b930d89b0",
+    "labels": {
+      "execution_id": "pc63yu74n7wx",
+      "instance_id": "00e67600730b9c9e78133420a436ab22f6e105c610911b4d8f756fc8002422cfd2ac2614d9b7ded152b3d579a3911b8ed37e6dd33183ed556e17dc29e999aa942c"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:36:09.038657591Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper4",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 465 f2 ",
+    "timestamp": "2023-09-07T16:36:08.847931Z",
+    "trace": "projects/faasterbench/traces/53d87f55b20e43f8cb06e968ec1b98a9"
+  },
+  {
+    "insertId": "64f9fbde00014d82d4124aef",
+    "labels": {
+      "execution_id": "o11ib73cwuy2",
+      "instance_id": "00e67600736e56c016a07126df4ec000947de2c0bfccc16764dbe1a237a7fd6b9465f732dff928492063b9eb089a7e862662fd19fb8668b8194a689c5dfac5e231"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:35:42.309671253Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper3",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 557 ",
+    "timestamp": "2023-09-07T16:35:42.085378Z",
+    "trace": "projects/faasterbench/traces/43ac8a4aa4a9e09fd8df948fd473cb30"
+  },
+  {
+    "insertId": "64f9fbdd00076ecdaf0b94b3",
+    "labels": {
+      "execution_id": "o11iec3ljkdd",
+      "instance_id": "00e67600736e56c016a07126df4ec000947de2c0bfccc16764dbe1a237a7fd6b9465f732dff928492063b9eb089a7e862662fd19fb8668b8194a689c5dfac5e231"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:35:41.643194955Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper3",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 487 f2 ",
+    "timestamp": "2023-09-07T16:35:41.487117Z",
+    "trace": "projects/faasterbench/traces/e6cdd716b37eabba1db33cc1e00402bd"
+  },
+  {
+    "insertId": "64f9fbdc000e8886ddb4719a",
+    "labels": {
+      "execution_id": "o11ixpx42rhl",
+      "instance_id": "00e67600736e56c016a07126df4ec000947de2c0bfccc16764dbe1a237a7fd6b9465f732dff928492063b9eb089a7e862662fd19fb8668b8194a689c5dfac5e231"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:35:40.978226677Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper3",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 555 ",
+    "timestamp": "2023-09-07T16:35:40.952454Z",
+    "trace": "projects/faasterbench/traces/db799bb0054af543192a4752ab4a69ac"
+  },
+  {
+    "insertId": "64f9fbdc00056a0274bfd88b",
+    "labels": {
+      "execution_id": "o11ihf31cs50",
+      "instance_id": "00e67600736e56c016a07126df4ec000947de2c0bfccc16764dbe1a237a7fd6b9465f732dff928492063b9eb089a7e862662fd19fb8668b8194a689c5dfac5e231"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:35:40.646156058Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper3",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 545 f2 ",
+    "timestamp": "2023-09-07T16:35:40.354818Z",
+    "trace": "projects/faasterbench/traces/270cc2afab72d5822701a8919ec6b52c"
+  },
+  {
+    "insertId": "64f9fbdb000bac4ab1df7586",
+    "labels": {
+      "execution_id": "o11ik04qp2sj",
+      "instance_id": "00e67600736e56c016a07126df4ec000947de2c0bfccc16764dbe1a237a7fd6b9465f732dff928492063b9eb089a7e862662fd19fb8668b8194a689c5dfac5e231"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:35:39.979994430Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper3",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeA f1 529 536 587 f2 600 583 594 ",
+    "timestamp": "2023-09-07T16:35:39.765002Z",
+    "trace": "projects/faasterbench/traces/78dffb6491235d12b2f035a81c520bb1"
+  },
+  {
+    "insertId": "64f9fbd8000481c81188e99c",
+    "labels": {
+      "execution_id": "i0obgywgwzem",
+      "instance_id": "00e67600735282f293ce931f27134ceb6c345e2ee437b062a4a4b86a09d3d70be73926326a5f24069dda5b8c4372fa2f6424925638f5301a1e526f8213e0d6fb5c49"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:35:36.584552248Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper3",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 478 ",
+    "timestamp": "2023-09-07T16:35:36.295368Z",
+    "trace": "projects/faasterbench/traces/535e0e037b710a828ca424af0a95cb36"
+  },
+  {
+    "insertId": "64f9fbd8000151d9d24cc503",
+    "labels": {
+      "execution_id": "o11i0k974e73",
+      "instance_id": "00e67600736e56c016a07126df4ec000947de2c0bfccc16764dbe1a237a7fd6b9465f732dff928492063b9eb089a7e862662fd19fb8668b8194a689c5dfac5e231"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:35:36.314893790Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper3",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 562 ",
+    "timestamp": "2023-09-07T16:35:36.086489Z",
+    "trace": "projects/faasterbench/traces/e62a47c413a954cc85edbdc516ca9ff1"
+  },
+  {
+    "insertId": "64f9fbd7000be22b483304e4",
+    "labels": {
+      "execution_id": "i0obd34in03c",
+      "instance_id": "00e67600735282f293ce931f27134ceb6c345e2ee437b062a4a4b86a09d3d70be73926326a5f24069dda5b8c4372fa2f6424925638f5301a1e526f8213e0d6fb5c49"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:35:35.921496557Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper3",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 476 f2 ",
+    "timestamp": "2023-09-07T16:35:35.778795Z",
+    "trace": "projects/faasterbench/traces/21a143178171c2ba1a8b75e5d9a8e3be"
+  },
+  {
+    "insertId": "64f9fbd700076fb8c1847be1",
+    "labels": {
+      "execution_id": "o11id2mnixpj",
+      "instance_id": "00e67600736e56c016a07126df4ec000947de2c0bfccc16764dbe1a237a7fd6b9465f732dff928492063b9eb089a7e862662fd19fb8668b8194a689c5dfac5e231"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:35:35.650757808Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper3",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 490 f2 ",
+    "timestamp": "2023-09-07T16:35:35.487352Z",
+    "trace": "projects/faasterbench/traces/81327447ee0cc0d9fdc102a429edf66c"
+  },
+  {
+    "insertId": "64f9fbd6000ea036d8a72a43",
+    "labels": {
+      "execution_id": "o11igvx6iisx",
+      "instance_id": "00e67600736e56c016a07126df4ec000947de2c0bfccc16764dbe1a237a7fd6b9465f732dff928492063b9eb089a7e862662fd19fb8668b8194a689c5dfac5e231"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:35:34.983501575Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper3",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 555 ",
+    "timestamp": "2023-09-07T16:35:34.958518Z",
+    "trace": "projects/faasterbench/traces/0048f1c61d5c4214dcdb2c0ed411e83f"
+  },
+  {
+    "insertId": "64f9fbd6000578ae0ccc45ff",
+    "labels": {
+      "execution_id": "o11igvyqlb2n",
+      "instance_id": "00e67600736e56c016a07126df4ec000947de2c0bfccc16764dbe1a237a7fd6b9465f732dff928492063b9eb089a7e862662fd19fb8668b8194a689c5dfac5e231"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:35:34.649932295Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper3",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 543 f2 ",
+    "timestamp": "2023-09-07T16:35:34.358574Z",
+    "trace": "projects/faasterbench/traces/0547d26c0de8c8b50c8335e6dc4f64cb"
+  },
+  {
+    "insertId": "64f9fbd5000bc7bc7e4ef40d",
+    "labels": {
+      "execution_id": "o11iqftn3qjf",
+      "instance_id": "00e67600736e56c016a07126df4ec000947de2c0bfccc16764dbe1a237a7fd6b9465f732dff928492063b9eb089a7e862662fd19fb8668b8194a689c5dfac5e231"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:35:33.984161612Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper3",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeA f1 538 586 583 f2 593 533 597 ",
+    "timestamp": "2023-09-07T16:35:33.772028Z",
+    "trace": "projects/faasterbench/traces/008245afd256593c2986a1e9ac08bd11"
+  },
+  {
+    "insertId": "64f9fbd200048f0e5aee01a4",
+    "labels": {
+      "execution_id": "i0obybrmajd8",
+      "instance_id": "00e67600735282f293ce931f27134ceb6c345e2ee437b062a4a4b86a09d3d70be73926326a5f24069dda5b8c4372fa2f6424925638f5301a1e526f8213e0d6fb5c49"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:35:30.590467646Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper3",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 475 ",
+    "timestamp": "2023-09-07T16:35:30.298766Z",
+    "trace": "projects/faasterbench/traces/98c963536fb1caf20b463a126448597e"
+  },
+  {
+    "insertId": "64f9fbd200045c0f63932381",
+    "labels": {
+      "execution_id": "o11i32bdcxr5",
+      "instance_id": "00e67600736e56c016a07126df4ec000947de2c0bfccc16764dbe1a237a7fd6b9465f732dff928492063b9eb089a7e862662fd19fb8668b8194a689c5dfac5e231"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:35:30.322309408Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper3",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 534 ",
+    "timestamp": "2023-09-07T16:35:30.285711Z",
+    "trace": "projects/faasterbench/traces/50d17e3496dce2d66c86fdeec3bbda0b"
+  },
+  {
+    "insertId": "64f9fbd1000be40c7cf6e6d9",
+    "labels": {
+      "execution_id": "i0obfkudm5jx",
+      "instance_id": "00e67600735282f293ce931f27134ceb6c345e2ee437b062a4a4b86a09d3d70be73926326a5f24069dda5b8c4372fa2f6424925638f5301a1e526f8213e0d6fb5c49"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:35:29.924213048Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper3",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 486 f2 ",
+    "timestamp": "2023-09-07T16:35:29.779276Z",
+    "trace": "projects/faasterbench/traces/26a7e85ec873ef95b876e6753b10eee8"
+  },
+  {
+    "insertId": "64f9fbd1000a7f0b98481f7a",
+    "labels": {
+      "execution_id": "o11i4jn495r8",
+      "instance_id": "00e67600736e56c016a07126df4ec000947de2c0bfccc16764dbe1a237a7fd6b9465f732dff928492063b9eb089a7e862662fd19fb8668b8194a689c5dfac5e231"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:35:29.987770481Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper3",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 482 f2 ",
+    "timestamp": "2023-09-07T16:35:29.687883Z",
+    "trace": "projects/faasterbench/traces/ade39878bb98455d8950954fef6617d7"
+  },
+  {
+    "insertId": "64f9fbd10002698bbcd7cf32",
+    "labels": {
+      "execution_id": "o11ii7jdu959",
+      "instance_id": "00e67600736e56c016a07126df4ec000947de2c0bfccc16764dbe1a237a7fd6b9465f732dff928492063b9eb089a7e862662fd19fb8668b8194a689c5dfac5e231"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:35:29.321322221Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper3",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 552 ",
+    "timestamp": "2023-09-07T16:35:29.158091Z",
+    "trace": "projects/faasterbench/traces/25825153b84fc4ffa9ba8f00e6b7afaa"
+  },
+  {
+    "insertId": "64f9fbd000088a9a2298e7fb",
+    "labels": {
+      "execution_id": "o11ic0gtfzun",
+      "instance_id": "00e67600736e56c016a07126df4ec000947de2c0bfccc16764dbe1a237a7fd6b9465f732dff928492063b9eb089a7e862662fd19fb8668b8194a689c5dfac5e231"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:35:28.655724731Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper3",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 546 f2 ",
+    "timestamp": "2023-09-07T16:35:28.559770Z",
+    "trace": "projects/faasterbench/traces/381ab686ac6ba46a35a50c0b552b3ba3"
+  },
+  {
+    "insertId": "64f9fbcf000ec17cb52d77d3",
+    "labels": {
+      "execution_id": "o11iz0d9i38q",
+      "instance_id": "00e67600736e56c016a07126df4ec000947de2c0bfccc16764dbe1a237a7fd6b9465f732dff928492063b9eb089a7e862662fd19fb8668b8194a689c5dfac5e231"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:35:27.991372165Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper3",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeA f1 525 597 585 f2 607 600 598 ",
+    "timestamp": "2023-09-07T16:35:27.967036Z",
+    "trace": "projects/faasterbench/traces/4fc0a00350a9ffb171f538bc33c1f9ff"
+  },
+  {
+    "insertId": "64f9fbcc0005ed2e499235e2",
+    "labels": {
+      "execution_id": "o11ibd8dhkcz",
+      "instance_id": "00e67600736e56c016a07126df4ec000947de2c0bfccc16764dbe1a237a7fd6b9465f732dff928492063b9eb089a7e862662fd19fb8668b8194a689c5dfac5e231"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:35:24.659222167Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper3",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 535 ",
+    "timestamp": "2023-09-07T16:35:24.388398Z",
+    "trace": "projects/faasterbench/traces/776274cc79d64322efa39efba320fcd6"
+  },
+  {
+    "insertId": "64f9fbcc00027c0f5e80d8c2",
+    "labels": {
+      "execution_id": "i0ob94tg5pqi",
+      "instance_id": "00e67600735282f293ce931f27134ceb6c345e2ee437b062a4a4b86a09d3d70be73926326a5f24069dda5b8c4372fa2f6424925638f5301a1e526f8213e0d6fb5c49"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:35:24.264389056Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper3",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 531 ",
+    "timestamp": "2023-09-07T16:35:24.162831Z",
+    "trace": "projects/faasterbench/traces/0d67045d64220a7050b54ba50c9afb45"
+  },
+  {
+    "insertId": "64f9fbcb000c1245261285fc",
+    "labels": {
+      "execution_id": "o11i0b7ss4zv",
+      "instance_id": "00e67600736e56c016a07126df4ec000947de2c0bfccc16764dbe1a237a7fd6b9465f732dff928492063b9eb089a7e862662fd19fb8668b8194a689c5dfac5e231"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:35:23.995009749Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper3",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 512 f2 ",
+    "timestamp": "2023-09-07T16:35:23.791109Z",
+    "trace": "projects/faasterbench/traces/428c56d45739609f14696f4a38dd2077"
+  },
+  {
+    "insertId": "64f9fbcb0008e69a4bf450b6",
+    "labels": {
+      "execution_id": "i0ob0z6dlh0m",
+      "instance_id": "00e67600735282f293ce931f27134ceb6c345e2ee437b062a4a4b86a09d3d70be73926326a5f24069dda5b8c4372fa2f6424925638f5301a1e526f8213e0d6fb5c49"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:35:23.599311789Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper3",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 456 f2 ",
+    "timestamp": "2023-09-07T16:35:23.583322Z",
+    "trace": "projects/faasterbench/traces/f518c82158434dc7cc4e3cf024fa5873"
+  },
+  {
+    "insertId": "64f9fbcb000133fb667a4028",
+    "labels": {
+      "execution_id": "i0obz0msbznn",
+      "instance_id": "00e67600735282f293ce931f27134ceb6c345e2ee437b062a4a4b86a09d3d70be73926326a5f24069dda5b8c4372fa2f6424925638f5301a1e526f8213e0d6fb5c49"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:35:23.264447170Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper3",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 517 ",
+    "timestamp": "2023-09-07T16:35:23.078843Z",
+    "trace": "projects/faasterbench/traces/6893e2b7ddfe94863639b8163eb122cf"
+  },
+  {
+    "insertId": "64f9fbca00079685b8ffa2b5",
+    "labels": {
+      "execution_id": "i0ob0bteg0d3",
+      "instance_id": "00e67600735282f293ce931f27134ceb6c345e2ee437b062a4a4b86a09d3d70be73926326a5f24069dda5b8c4372fa2f6424925638f5301a1e526f8213e0d6fb5c49"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:35:22.598027268Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper3",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 445 f2 ",
+    "timestamp": "2023-09-07T16:35:22.497285Z",
+    "trace": "projects/faasterbench/traces/3704f8985592040686e79ac4babb03a2"
+  },
+  {
+    "insertId": "64f9fbc9000f0f43aa504795",
+    "labels": {
+      "execution_id": "o11ihcerdn6e",
+      "instance_id": "00e67600736e56c016a07126df4ec000947de2c0bfccc16764dbe1a237a7fd6b9465f732dff928492063b9eb089a7e862662fd19fb8668b8194a689c5dfac5e231"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:35:21.995962950Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper3",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeA f1 543 589 544 f2 607 599 590 ",
+    "timestamp": "2023-09-07T16:35:21.986947Z",
+    "trace": "projects/faasterbench/traces/89fc8fc464313e833fc0868670d1f4bb"
+  },
+  {
+    "insertId": "64f9fbc6000c2ce1608cbc7d",
+    "labels": {
+      "execution_id": "i0obsuv0o7t5",
+      "instance_id": "00e67600735282f293ce931f27134ceb6c345e2ee437b062a4a4b86a09d3d70be73926326a5f24069dda5b8c4372fa2f6424925638f5301a1e526f8213e0d6fb5c49"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:35:18.934496988Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper3",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 471 ",
+    "timestamp": "2023-09-07T16:35:18.797921Z",
+    "trace": "projects/faasterbench/traces/daea8e9aba5ad795a32671b36dade7ad"
+  },
+  {
+    "insertId": "64f9fbc6000711e822e6121c",
+    "labels": {
+      "execution_id": "o11i75w80uyq",
+      "instance_id": "00e67600736e56c016a07126df4ec000947de2c0bfccc16764dbe1a237a7fd6b9465f732dff928492063b9eb089a7e862662fd19fb8668b8194a689c5dfac5e231"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:35:18.665553315Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper3",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 555 ",
+    "timestamp": "2023-09-07T16:35:18.463336Z",
+    "trace": "projects/faasterbench/traces/f11c5f92fa94a1217df933929e4c5cea"
+  },
+  {
+    "insertId": "64f9fbc6000427c9331d3d72",
+    "labels": {
+      "execution_id": "i0obhig3a8ll",
+      "instance_id": "00e67600735282f293ce931f27134ceb6c345e2ee437b062a4a4b86a09d3d70be73926326a5f24069dda5b8c4372fa2f6424925638f5301a1e526f8213e0d6fb5c49"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:35:18.602827612Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper3",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 458 f2 ",
+    "timestamp": "2023-09-07T16:35:18.272329Z",
+    "trace": "projects/faasterbench/traces/6843633d6ab01db3c699a4291ec1b5a9"
+  },
+  {
+    "insertId": "64f9fbc5000d23208f91f9c9",
+    "labels": {
+      "execution_id": "o11iyktl9a9j",
+      "instance_id": "00e67600736e56c016a07126df4ec000947de2c0bfccc16764dbe1a237a7fd6b9465f732dff928492063b9eb089a7e862662fd19fb8668b8194a689c5dfac5e231"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:35:17.999231091Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper3",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 571 f2 ",
+    "timestamp": "2023-09-07T16:35:17.860960Z",
+    "trace": "projects/faasterbench/traces/0f6460e189c26df54050b0267dfb6c41"
+  },
+  {
+    "insertId": "64f9fbc5000baeab2248869c",
+    "labels": {
+      "execution_id": "i0obd3f3zdti",
+      "instance_id": "00e67600735282f293ce931f27134ceb6c345e2ee437b062a4a4b86a09d3d70be73926326a5f24069dda5b8c4372fa2f6424925638f5301a1e526f8213e0d6fb5c49"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:35:17.935351583Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper3",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 527 ",
+    "timestamp": "2023-09-07T16:35:17.765611Z",
+    "trace": "projects/faasterbench/traces/d7d157516d6bb3ed04d59119ff594d14"
+  },
+  {
+    "insertId": "64f9fbc50002dca4300b969b",
+    "labels": {
+      "execution_id": "i0obzljk82e1",
+      "instance_id": "00e67600735282f293ce931f27134ceb6c345e2ee437b062a4a4b86a09d3d70be73926326a5f24069dda5b8c4372fa2f6424925638f5301a1e526f8213e0d6fb5c49"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:35:17.269183690Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper3",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 456 f2 ",
+    "timestamp": "2023-09-07T16:35:17.187556Z",
+    "trace": "projects/faasterbench/traces/54184d1409b9a31844d5f61c98bc095d"
+  },
+  {
+    "insertId": "64f9fbc4000a5754c99b7837",
+    "labels": {
+      "execution_id": "i0obtpqdz8zb",
+      "instance_id": "00e67600735282f293ce931f27134ceb6c345e2ee437b062a4a4b86a09d3d70be73926326a5f24069dda5b8c4372fa2f6424925638f5301a1e526f8213e0d6fb5c49"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:35:16.936337186Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper3",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeA f1 495 562 560 f2 595 535 512 ",
+    "timestamp": "2023-09-07T16:35:16.677716Z",
+    "trace": "projects/faasterbench/traces/9ac31784477358b457db3b245f0dab0b"
+  },
+  {
+    "insertId": "64f9fbc1000541e3465c5c3a",
+    "labels": {
+      "execution_id": "o11i3nukp7sd",
+      "instance_id": "00e67600736e56c016a07126df4ec000947de2c0bfccc16764dbe1a237a7fd6b9465f732dff928492063b9eb089a7e862662fd19fb8668b8194a689c5dfac5e231"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:35:13.671635817Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper3",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 264 ",
+    "timestamp": "2023-09-07T16:35:13.344547Z",
+    "trace": "projects/faasterbench/traces/09c1b43c44f9eedc90f58527f6424368"
+  },
+  {
+    "insertId": "64f9fbbf000e43412f47dd6b",
+    "labels": {
+      "execution_id": "i0ob4objs5gv",
+      "instance_id": "00e67600735282f293ce931f27134ceb6c345e2ee437b062a4a4b86a09d3d70be73926326a5f24069dda5b8c4372fa2f6424925638f5301a1e526f8213e0d6fb5c49"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:35:11.941255794Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper3",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 635 f2 ",
+    "timestamp": "2023-09-07T16:35:11.934721Z",
+    "trace": "projects/faasterbench/traces/1c4da98c96d717fa347063165644ed64"
+  },
+  {
+    "insertId": "64f9fba4000b6b66b4953adf",
+    "labels": {
+      "execution_id": "vaq3b6efs6uf",
+      "instance_id": "00e67600732aeda46adc8e27ead11701d62b3dd7f18e9b606ae4f0433cc002ca57a77ae97f1f04148990c82fc752f1b8b79dcee525ba9b907a9c0d8930ef54a642"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:34:44.862719616Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper2",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 533 ",
+    "timestamp": "2023-09-07T16:34:44.748390Z",
+    "trace": "projects/faasterbench/traces/1320d34a33885730f7f4f0f739c60377"
+  },
+  {
+    "insertId": "64f9fba40002a7f9f6dfd4d3",
+    "labels": {
+      "execution_id": "vaq3woty0c9p",
+      "instance_id": "00e67600732aeda46adc8e27ead11701d62b3dd7f18e9b606ae4f0433cc002ca57a77ae97f1f04148990c82fc752f1b8b79dcee525ba9b907a9c0d8930ef54a642"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:34:44.198675343Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper2",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 466 f2 ",
+    "timestamp": "2023-09-07T16:34:44.174073Z",
+    "trace": "projects/faasterbench/traces/39ba6032b20fce8cbedec36c243c4d65"
+  },
+  {
+    "insertId": "64f9fba3000a1c4004336c3a",
+    "labels": {
+      "execution_id": "vaq3rj1glfsx",
+      "instance_id": "00e67600732aeda46adc8e27ead11701d62b3dd7f18e9b606ae4f0433cc002ca57a77ae97f1f04148990c82fc752f1b8b79dcee525ba9b907a9c0d8930ef54a642"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:34:43.866914277Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper2",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 482 ",
+    "timestamp": "2023-09-07T16:34:43.662592Z",
+    "trace": "projects/faasterbench/traces/eb386e1fc1b67eeb50568bfbc9e1747d"
+  },
+  {
+    "insertId": "64f9fba300021f4370bb0a03",
+    "labels": {
+      "execution_id": "vaq321i1a8ii",
+      "instance_id": "00e67600732aeda46adc8e27ead11701d62b3dd7f18e9b606ae4f0433cc002ca57a77ae97f1f04148990c82fc752f1b8b79dcee525ba9b907a9c0d8930ef54a642"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:34:43.197920667Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper2",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 507 f2 ",
+    "timestamp": "2023-09-07T16:34:43.139075Z",
+    "trace": "projects/faasterbench/traces/48ef7b5c8dfaa4acc4f85782ca9a93ca"
+  },
+  {
+    "insertId": "64f9fba20008b4b5f6baa113",
+    "labels": {
+      "execution_id": "vaq3ay3ih32b",
+      "instance_id": "00e67600732aeda46adc8e27ead11701d62b3dd7f18e9b606ae4f0433cc002ca57a77ae97f1f04148990c82fc752f1b8b79dcee525ba9b907a9c0d8930ef54a642"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:34:42.868470996Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper2",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeA f1 466 512 564 f2 570 536 527 ",
+    "timestamp": "2023-09-07T16:34:42.570549Z",
+    "trace": "projects/faasterbench/traces/dc1b3df8f1c30e0977aca1dec3c1ac9b"
+  },
+  {
+    "insertId": "64f9fb9f000569226e4b854d",
+    "labels": {
+      "execution_id": "vaq36ffms8u9",
+      "instance_id": "00e67600732aeda46adc8e27ead11701d62b3dd7f18e9b606ae4f0433cc002ca57a77ae97f1f04148990c82fc752f1b8b79dcee525ba9b907a9c0d8930ef54a642"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:34:39.540083916Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper2",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 498 ",
+    "timestamp": "2023-09-07T16:34:39.354594Z",
+    "trace": "projects/faasterbench/traces/95cf5716df503f6770841b396d6e0897"
+  },
+  {
+    "insertId": "64f9fb9e000c7df043f54833",
+    "labels": {
+      "execution_id": "y9z8i6xadb5x",
+      "instance_id": "00e67600732e8de366621d104fece754c8ed4e2edbe9b4108d0e8946faaaee186d48917516e8c3a1f20fedfeeccb87ed9841b50c4e937dba921ce8670a46dea361"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:34:39.009579238Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper2",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 579 f2 ",
+    "timestamp": "2023-09-07T16:34:38.818672Z",
+    "trace": "projects/faasterbench/traces/0e5100eea1a9173ecd4b6dc3c61fcdac"
+  },
+  {
+    "insertId": "64f9fb9e000737607dee9e73",
+    "labels": {
+      "execution_id": "vaq3733kdwqo",
+      "instance_id": "00e67600732aeda46adc8e27ead11701d62b3dd7f18e9b606ae4f0433cc002ca57a77ae97f1f04148990c82fc752f1b8b79dcee525ba9b907a9c0d8930ef54a642"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:34:38.535264103Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper2",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 482 ",
+    "timestamp": "2023-09-07T16:34:38.472928Z",
+    "trace": "projects/faasterbench/traces/e1f68b44ab055283609fe258329141b2"
+  },
+  {
+    "insertId": "64f9fb9d000e76feefc992b5",
+    "labels": {
+      "execution_id": "vaq3co5sj34p",
+      "instance_id": "00e67600732aeda46adc8e27ead11701d62b3dd7f18e9b606ae4f0433cc002ca57a77ae97f1f04148990c82fc752f1b8b79dcee525ba9b907a9c0d8930ef54a642"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:34:38.203621237Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper2",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 463 f2 ",
+    "timestamp": "2023-09-07T16:34:37.947966Z",
+    "trace": "projects/faasterbench/traces/b96da54284c4a8dae69881fc2f00f1b4"
+  },
+  {
+    "insertId": "64f9fb9d0006a95a988096be",
+    "labels": {
+      "execution_id": "vaq3cx54w8t9",
+      "instance_id": "00e67600732aeda46adc8e27ead11701d62b3dd7f18e9b606ae4f0433cc002ca57a77ae97f1f04148990c82fc752f1b8b79dcee525ba9b907a9c0d8930ef54a642"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:34:37.538294373Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper2",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 534 ",
+    "timestamp": "2023-09-07T16:34:37.436570Z",
+    "trace": "projects/faasterbench/traces/7bb4b08dd426b97696873cfd686d3946"
+  },
+  {
+    "insertId": "64f9fb9c000d1c5a17480dae",
+    "labels": {
+      "execution_id": "vaq3mmc9b4yp",
+      "instance_id": "00e67600732aeda46adc8e27ead11701d62b3dd7f18e9b606ae4f0433cc002ca57a77ae97f1f04148990c82fc752f1b8b79dcee525ba9b907a9c0d8930ef54a642"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:34:36.871315808Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper2",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 465 f2 ",
+    "timestamp": "2023-09-07T16:34:36.859226Z",
+    "trace": "projects/faasterbench/traces/437c6cf0bca18561f4bb90f2de1cdc5b"
+  },
+  {
+    "insertId": "64f9fb9c00056488e64b403f",
+    "labels": {
+      "execution_id": "vaq38ku8xtmm",
+      "instance_id": "00e67600732aeda46adc8e27ead11701d62b3dd7f18e9b606ae4f0433cc002ca57a77ae97f1f04148990c82fc752f1b8b79dcee525ba9b907a9c0d8930ef54a642"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:34:36.537286471Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper2",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeA f1 471 503 501 f2 509 567 514 ",
+    "timestamp": "2023-09-07T16:34:36.353416Z",
+    "trace": "projects/faasterbench/traces/5712ffbdf4f2e43580090f4c9af642de"
+  },
+  {
+    "insertId": "64f9fb990003c98c45fe250d",
+    "labels": {
+      "execution_id": "vaq3w8trj68d",
+      "instance_id": "00e67600732aeda46adc8e27ead11701d62b3dd7f18e9b606ae4f0433cc002ca57a77ae97f1f04148990c82fc752f1b8b79dcee525ba9b907a9c0d8930ef54a642"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:34:33.540551149Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper2",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 465 ",
+    "timestamp": "2023-09-07T16:34:33.248204Z",
+    "trace": "projects/faasterbench/traces/58383a90659c82c6dc3fbf64c378f033"
+  },
+  {
+    "insertId": "64f9fb98000b672dda561a08",
+    "labels": {
+      "execution_id": "y9z8ggjy6wzj",
+      "instance_id": "00e67600732e8de366621d104fece754c8ed4e2edbe9b4108d0e8946faaaee186d48917516e8c3a1f20fedfeeccb87ed9841b50c4e937dba921ce8670a46dea361"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:34:33.016920626Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper2",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 498 f2 ",
+    "timestamp": "2023-09-07T16:34:32.747309Z",
+    "trace": "projects/faasterbench/traces/9478f279d8bc6847827692d28c74f94d"
+  },
+  {
+    "insertId": "64f9fb98000a4905f0ca0ed2",
+    "labels": {
+      "execution_id": "vaq37et5gppt",
+      "instance_id": "00e67600732aeda46adc8e27ead11701d62b3dd7f18e9b606ae4f0433cc002ca57a77ae97f1f04148990c82fc752f1b8b79dcee525ba9b907a9c0d8930ef54a642"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:34:32.874276612Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper2",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 476 ",
+    "timestamp": "2023-09-07T16:34:32.674053Z",
+    "trace": "projects/faasterbench/traces/35ca421ddb0eab8ca5dbb1a6a3cd78ec"
+  },
+  {
+    "insertId": "64f9fb9800024c42ddb940ee",
+    "labels": {
+      "execution_id": "vaq38ud1bt7u",
+      "instance_id": "00e67600732aeda46adc8e27ead11701d62b3dd7f18e9b606ae4f0433cc002ca57a77ae97f1f04148990c82fc752f1b8b79dcee525ba9b907a9c0d8930ef54a642"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:34:32.208570901Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper2",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 470 f2 ",
+    "timestamp": "2023-09-07T16:34:32.150594Z",
+    "trace": "projects/faasterbench/traces/7a2e08c387406b21d4d3d8e5a6c21121"
+  },
+  {
+    "insertId": "64f9fb970009bc422c0634a1",
+    "labels": {
+      "execution_id": "vaq3071a2p6o",
+      "instance_id": "00e67600732aeda46adc8e27ead11701d62b3dd7f18e9b606ae4f0433cc002ca57a77ae97f1f04148990c82fc752f1b8b79dcee525ba9b907a9c0d8930ef54a642"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:34:31.875148186Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper2",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 511 ",
+    "timestamp": "2023-09-07T16:34:31.638018Z",
+    "trace": "projects/faasterbench/traces/b088aca826a775b551d1fe063ddb54cf"
+  },
+  {
+    "insertId": "64f9fb9700010da3e5a86c3f",
+    "labels": {
+      "execution_id": "vaq3jk7ytwrx",
+      "instance_id": "00e67600732aeda46adc8e27ead11701d62b3dd7f18e9b606ae4f0433cc002ca57a77ae97f1f04148990c82fc752f1b8b79dcee525ba9b907a9c0d8930ef54a642"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:34:31.210075315Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper2",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 470 f2 ",
+    "timestamp": "2023-09-07T16:34:31.069027Z",
+    "trace": "projects/faasterbench/traces/ba7e56a29f1e4e6e40af57505c8dff6f"
+  },
+  {
+    "insertId": "64f9fb96000885033cb5f3dc",
+    "labels": {
+      "execution_id": "vaq3kjrt2ady",
+      "instance_id": "00e67600732aeda46adc8e27ead11701d62b3dd7f18e9b606ae4f0433cc002ca57a77ae97f1f04148990c82fc752f1b8b79dcee525ba9b907a9c0d8930ef54a642"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:34:30.876514132Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper2",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeA f1 446 508 503 f2 517 570 519 ",
+    "timestamp": "2023-09-07T16:34:30.558339Z",
+    "trace": "projects/faasterbench/traces/4ac475c7e485215cc1fe6df20228eea1"
+  },
+  {
+    "insertId": "64f9fb930006cf9c458ce229",
+    "labels": {
+      "execution_id": "y9z8cjbjj4v5",
+      "instance_id": "00e67600732e8de366621d104fece754c8ed4e2edbe9b4108d0e8946faaaee186d48917516e8c3a1f20fedfeeccb87ed9841b50c4e937dba921ce8670a46dea361"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:34:27.686809367Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper2",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 577 ",
+    "timestamp": "2023-09-07T16:34:27.446364Z",
+    "trace": "projects/faasterbench/traces/adcd28938a9cf33df63b6785a56f3722"
+  },
+  {
+    "insertId": "64f9fb9300029fc48b49b2c1",
+    "labels": {
+      "execution_id": "vaq329lv7zm9",
+      "instance_id": "00e67600732aeda46adc8e27ead11701d62b3dd7f18e9b606ae4f0433cc002ca57a77ae97f1f04148990c82fc752f1b8b79dcee525ba9b907a9c0d8930ef54a642"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:34:27.214361799Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper2",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 476 ",
+    "timestamp": "2023-09-07T16:34:27.171972Z",
+    "trace": "projects/faasterbench/traces/59fd4bc24e858d24c4559dc8876eb901"
+  },
+  {
+    "insertId": "64f9fb92000ca6bc2a830bd4",
+    "labels": {
+      "execution_id": "y9z8tlmi0iz2",
+      "instance_id": "00e67600732e8de366621d104fece754c8ed4e2edbe9b4108d0e8946faaaee186d48917516e8c3a1f20fedfeeccb87ed9841b50c4e937dba921ce8670a46dea361"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:34:27.022945883Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper2",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 569 f2 ",
+    "timestamp": "2023-09-07T16:34:26.829116Z",
+    "trace": "projects/faasterbench/traces/b99037669272fe40d1f5894262334581"
+  },
+  {
+    "insertId": "64f9fb92000a01ed4b4555f9",
+    "labels": {
+      "execution_id": "vaq3dhkr5q9n",
+      "instance_id": "00e67600732aeda46adc8e27ead11701d62b3dd7f18e9b606ae4f0433cc002ca57a77ae97f1f04148990c82fc752f1b8b79dcee525ba9b907a9c0d8930ef54a642"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:34:26.880282097Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper2",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 464 f2 ",
+    "timestamp": "2023-09-07T16:34:26.655853Z",
+    "trace": "projects/faasterbench/traces/b3afc660c7bff1eebea4f0c46f023a0d"
+  },
+  {
+    "insertId": "64f9fb92000230c738125516",
+    "labels": {
+      "execution_id": "vaq3r5zhmqgy",
+      "instance_id": "00e67600732aeda46adc8e27ead11701d62b3dd7f18e9b606ae4f0433cc002ca57a77ae97f1f04148990c82fc752f1b8b79dcee525ba9b907a9c0d8930ef54a642"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:34:26.216299576Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper2",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 528 ",
+    "timestamp": "2023-09-07T16:34:26.143559Z",
+    "trace": "projects/faasterbench/traces/5ad49ca351497c20b317b50eb2c8852a"
+  },
+  {
+    "insertId": "64f9fb910008a25069a27e77",
+    "labels": {
+      "execution_id": "vaq3o90huvzz",
+      "instance_id": "00e67600732aeda46adc8e27ead11701d62b3dd7f18e9b606ae4f0433cc002ca57a77ae97f1f04148990c82fc752f1b8b79dcee525ba9b907a9c0d8930ef54a642"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:34:25.880819233Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper2",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 464 f2 ",
+    "timestamp": "2023-09-07T16:34:25.565840Z",
+    "trace": "projects/faasterbench/traces/a835a2d92d3ef56343cd45a6e04a7dd6"
+  },
+  {
+    "insertId": "64f9fb910000d86602bde7f4",
+    "labels": {
+      "execution_id": "vaq3jjmzbcgm",
+      "instance_id": "00e67600732aeda46adc8e27ead11701d62b3dd7f18e9b606ae4f0433cc002ca57a77ae97f1f04148990c82fc752f1b8b79dcee525ba9b907a9c0d8930ef54a642"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:34:25.215685512Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper2",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeA f1 456 505 503 f2 513 566 515 ",
+    "timestamp": "2023-09-07T16:34:25.055398Z",
+    "trace": "projects/faasterbench/traces/94375290e403b4a55d8a198642f6d748"
+  },
+  {
+    "insertId": "64f9fb8d000e6380f70159f6",
+    "labels": {
+      "execution_id": "vaq3mdo9cjl9",
+      "instance_id": "00e67600732aeda46adc8e27ead11701d62b3dd7f18e9b606ae4f0433cc002ca57a77ae97f1f04148990c82fc752f1b8b79dcee525ba9b907a9c0d8930ef54a642"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:34:22.218626353Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper2",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 510 ",
+    "timestamp": "2023-09-07T16:34:21.942976Z",
+    "trace": "projects/faasterbench/traces/229a1e55e672f8e3617aa6f016def211"
+  },
+  {
+    "insertId": "64f9fb8d00057d207f02913c",
+    "labels": {
+      "execution_id": "y9z8e310xhy8",
+      "instance_id": "00e67600732e8de366621d104fece754c8ed4e2edbe9b4108d0e8946faaaee186d48917516e8c3a1f20fedfeeccb87ed9841b50c4e937dba921ce8670a46dea361"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:34:21.691966820Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper2",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 238 f2 ",
+    "timestamp": "2023-09-07T16:34:21.359712Z",
+    "trace": "projects/faasterbench/traces/a1b945b9f0a3338a13e14c27a5e91253"
+  },
+  {
+    "insertId": "64f9fb8c0009b76c82c79913",
+    "labels": {
+      "execution_id": "vaq3unuy1n6w",
+      "instance_id": "00e67600732aeda46adc8e27ead11701d62b3dd7f18e9b606ae4f0433cc002ca57a77ae97f1f04148990c82fc752f1b8b79dcee525ba9b907a9c0d8930ef54a642"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:34:20.886305450Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper2",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 528 ",
+    "timestamp": "2023-09-07T16:34:20.636780Z",
+    "trace": "projects/faasterbench/traces/d4abaef57ab01276a1274f10aab4dd19"
+  },
+  {
+    "insertId": "64f9fb8c0000edc7fe62e4f0",
+    "labels": {
+      "execution_id": "vaq3zu91vror",
+      "instance_id": "00e67600732aeda46adc8e27ead11701d62b3dd7f18e9b606ae4f0433cc002ca57a77ae97f1f04148990c82fc752f1b8b79dcee525ba9b907a9c0d8930ef54a642"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:34:20.222671659Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper2",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 457 f2 ",
+    "timestamp": "2023-09-07T16:34:20.060871Z",
+    "trace": "projects/faasterbench/traces/ddc718869a776d4210328ea253f6e74d"
+  },
+  {
+    "insertId": "64f9fb8b000877995652cb0a",
+    "labels": {
+      "execution_id": "vaq3jp3xup5w",
+      "instance_id": "00e67600732aeda46adc8e27ead11701d62b3dd7f18e9b606ae4f0433cc002ca57a77ae97f1f04148990c82fc752f1b8b79dcee525ba9b907a9c0d8930ef54a642"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:34:19.889591636Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper2",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 522 ",
+    "timestamp": "2023-09-07T16:34:19.554905Z",
+    "trace": "projects/faasterbench/traces/1921535c7088cb2a36a0870ab3fb71be"
+  },
+  {
+    "insertId": "64f9fb8a000edc353daa9b72",
+    "labels": {
+      "execution_id": "vaq3xc8wvv1v",
+      "instance_id": "00e67600732aeda46adc8e27ead11701d62b3dd7f18e9b606ae4f0433cc002ca57a77ae97f1f04148990c82fc752f1b8b79dcee525ba9b907a9c0d8930ef54a642"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:34:19.220788208Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper2",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 456 f2 ",
+    "timestamp": "2023-09-07T16:34:18.973877Z",
+    "trace": "projects/faasterbench/traces/053d95d835beca602d0f4f07cf646a6a"
+  },
+  {
+    "insertId": "64f9fb8a0007147652a30882",
+    "labels": {
+      "execution_id": "vaq3nop7nxjb",
+      "instance_id": "00e67600732aeda46adc8e27ead11701d62b3dd7f18e9b606ae4f0433cc002ca57a77ae97f1f04148990c82fc752f1b8b79dcee525ba9b907a9c0d8930ef54a642"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:34:18.557262669Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper2",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeA f1 469 559 499 f2 517 519 512 ",
+    "timestamp": "2023-09-07T16:34:18.463990Z",
+    "trace": "projects/faasterbench/traces/1dd2c7a9ce10baa906b32ca7c7bdd421"
+  },
+  {
+    "insertId": "64f9fb870005524be562a4df",
+    "labels": {
+      "execution_id": "vaq3p272clcd",
+      "instance_id": "00e67600732aeda46adc8e27ead11701d62b3dd7f18e9b606ae4f0433cc002ca57a77ae97f1f04148990c82fc752f1b8b79dcee525ba9b907a9c0d8930ef54a642"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:34:15.560977809Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper2",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 504 ",
+    "timestamp": "2023-09-07T16:34:15.348747Z",
+    "trace": "projects/faasterbench/traces/c51630f1021318adca73b3fd84f9e993"
+  },
+  {
+    "insertId": "64f9fb86000b9c2e4ca7fa34",
+    "labels": {
+      "execution_id": "vaq3a8j4qo1u",
+      "instance_id": "00e67600732aeda46adc8e27ead11701d62b3dd7f18e9b606ae4f0433cc002ca57a77ae97f1f04148990c82fc752f1b8b79dcee525ba9b907a9c0d8930ef54a642"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:34:14.892200988Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper2",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 524 f2 ",
+    "timestamp": "2023-09-07T16:34:14.760878Z",
+    "trace": "projects/faasterbench/traces/fa712aa0295205bb8e62797cdf74ecd0"
+  },
+  {
+    "insertId": "64f9fb6a00045c1629fd9ad9",
+    "labels": {
+      "execution_id": "lbvbfchwewp8",
+      "instance_id": "00e6760073c5a8df031d296d17a75e715b9418c73be2acea8d76c8d50ca0e3fcdac7f835d1e56d99688f29935df8b203b7932b74505a177f5814981860bcf64291"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:33:46.371725523Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper1",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 563 ",
+    "timestamp": "2023-09-07T16:33:46.285718Z",
+    "trace": "projects/faasterbench/traces/8dbb5dd491716892374b9d5d2cb5e7e9"
+  },
+  {
+    "insertId": "64f9fb69000a71254531abfb",
+    "labels": {
+      "execution_id": "lbvbld5rwcql",
+      "instance_id": "00e6760073c5a8df031d296d17a75e715b9418c73be2acea8d76c8d50ca0e3fcdac7f835d1e56d99688f29935df8b203b7932b74505a177f5814981860bcf64291"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:33:45.705874737Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper1",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 547 f2 ",
+    "timestamp": "2023-09-07T16:33:45.684325Z",
+    "trace": "projects/faasterbench/traces/49b55a794c41705ea4df3dd30a8cc2f7"
+  },
+  {
+    "insertId": "64f9fb69000185c19e42a459",
+    "labels": {
+      "execution_id": "lbvbxw9votb0",
+      "instance_id": "00e6760073c5a8df031d296d17a75e715b9418c73be2acea8d76c8d50ca0e3fcdac7f835d1e56d99688f29935df8b203b7932b74505a177f5814981860bcf64291"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:33:45.370852358Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper1",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 569 ",
+    "timestamp": "2023-09-07T16:33:45.099777Z",
+    "trace": "projects/faasterbench/traces/3a9456579eada2ac9511ca223fd7d557"
+  },
+  {
+    "insertId": "64f9fb6800078e55b656bd8a",
+    "labels": {
+      "execution_id": "lbvbgb41vb3y",
+      "instance_id": "00e6760073c5a8df031d296d17a75e715b9418c73be2acea8d76c8d50ca0e3fcdac7f835d1e56d99688f29935df8b203b7932b74505a177f5814981860bcf64291"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:33:44.704347232Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper1",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 485 f2 ",
+    "timestamp": "2023-09-07T16:33:44.495189Z",
+    "trace": "projects/faasterbench/traces/bc84288ffa5c84a021ce760dabc38582"
+  },
+  {
+    "insertId": "64f9fb67000ec89ac9876e23",
+    "labels": {
+      "execution_id": "lbvb0gliccjo",
+      "instance_id": "00e6760073c5a8df031d296d17a75e715b9418c73be2acea8d76c8d50ca0e3fcdac7f835d1e56d99688f29935df8b203b7932b74505a177f5814981860bcf64291"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:33:44.038138172Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper1",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeA f1 482 585 590 f2 593 607 605 ",
+    "timestamp": "2023-09-07T16:33:43.968858Z",
+    "trace": "projects/faasterbench/traces/23a2213e8182de3daaffcc6d72edb7de"
+  },
+  {
+    "insertId": "64f9fb64000718383bcb1123",
+    "labels": {
+      "execution_id": "w1rvf65gdfic",
+      "instance_id": "00e67600739c05ec72d190441aded3346af92a74a6eadf53d93428f65cbe768ed74035e0f2d699f7d2df7bad6f4605d9724385ed3c0bc4001ff1a2781004d1729d"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:33:40.635592316Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper1",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 561 ",
+    "timestamp": "2023-09-07T16:33:40.464952Z",
+    "trace": "projects/faasterbench/traces/f86b843f95487c8bd6aae86188c2a0d2"
+  },
+  {
+    "insertId": "64f9fb64000587bc202366d9",
+    "labels": {
+      "execution_id": "lbvb4pnvdpad",
+      "instance_id": "00e6760073c5a8df031d296d17a75e715b9418c73be2acea8d76c8d50ca0e3fcdac7f835d1e56d99688f29935df8b203b7932b74505a177f5814981860bcf64291"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:33:40.376700035Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper1",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 628 ",
+    "timestamp": "2023-09-07T16:33:40.362428Z",
+    "trace": "projects/faasterbench/traces/bad8a827a1128fa5c37a5f144f1ca242"
+  },
+  {
+    "insertId": "64f9fb63000d3112db54c4ce",
+    "labels": {
+      "execution_id": "w1rvvz6z34wd",
+      "instance_id": "00e67600739c05ec72d190441aded3346af92a74a6eadf53d93428f65cbe768ed74035e0f2d699f7d2df7bad6f4605d9724385ed3c0bc4001ff1a2781004d1729d"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:33:39.969392783Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper1",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 520 f2 ",
+    "timestamp": "2023-09-07T16:33:39.864530Z",
+    "trace": "projects/faasterbench/traces/e1d59d96c44bee480af852b2e611c0fc"
+  },
+  {
+    "insertId": "64f9fb63000a9bc2042f0007",
+    "labels": {
+      "execution_id": "lbvbds4ufpfs",
+      "instance_id": "00e6760073c5a8df031d296d17a75e715b9418c73be2acea8d76c8d50ca0e3fcdac7f835d1e56d99688f29935df8b203b7932b74505a177f5814981860bcf64291"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:33:39.710808815Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper1",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 486 f2 ",
+    "timestamp": "2023-09-07T16:33:39.695234Z",
+    "trace": "projects/faasterbench/traces/b9549b3e2bb9d0218d8b7fd0f573e030"
+  },
+  {
+    "insertId": "64f9fb6300028ba92e47506b",
+    "labels": {
+      "execution_id": "lbvb81x34frg",
+      "instance_id": "00e6760073c5a8df031d296d17a75e715b9418c73be2acea8d76c8d50ca0e3fcdac7f835d1e56d99688f29935df8b203b7932b74505a177f5814981860bcf64291"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:33:39.376604269Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper1",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 568 ",
+    "timestamp": "2023-09-07T16:33:39.166825Z",
+    "trace": "projects/faasterbench/traces/d10753a021c14b6c5cad4a8a0817f87f"
+  },
+  {
+    "insertId": "64f9fb6200088f52686f30a7",
+    "labels": {
+      "execution_id": "lbvb80qrr3t1",
+      "instance_id": "00e6760073c5a8df031d296d17a75e715b9418c73be2acea8d76c8d50ca0e3fcdac7f835d1e56d99688f29935df8b203b7932b74505a177f5814981860bcf64291"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:33:38.710188412Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper1",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 567 f2 ",
+    "timestamp": "2023-09-07T16:33:38.560978Z",
+    "trace": "projects/faasterbench/traces/f1f4ea3efe65690ef8191c59716829cb"
+  },
+  {
+    "insertId": "64f9fb61000e8bd2ac9f948d",
+    "labels": {
+      "execution_id": "w1rvroe8su48",
+      "instance_id": "00e67600739c05ec72d190441aded3346af92a74a6eadf53d93428f65cbe768ed74035e0f2d699f7d2df7bad6f4605d9724385ed3c0bc4001ff1a2781004d1729d"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:33:37.972431702Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper1",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeA f1 552 587 585 f2 594 539 598 ",
+    "timestamp": "2023-09-07T16:33:37.953298Z",
+    "trace": "projects/faasterbench/traces/dbc8f46463fbc313368ab8abce0b405e"
+  },
+  {
+    "insertId": "64f9fb5e0006fd646b35fb2f",
+    "labels": {
+      "execution_id": "w1rvu0v22wn4",
+      "instance_id": "00e67600739c05ec72d190441aded3346af92a74a6eadf53d93428f65cbe768ed74035e0f2d699f7d2df7bad6f4605d9724385ed3c0bc4001ff1a2781004d1729d"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:33:34.642776259Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper1",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 549 ",
+    "timestamp": "2023-09-07T16:33:34.458084Z",
+    "trace": "projects/faasterbench/traces/0b63c62cbda317471d1f9ad58b1ceae8"
+  },
+  {
+    "insertId": "64f9fb5e000585e3911886d5",
+    "labels": {
+      "execution_id": "lbvbepwmreac",
+      "instance_id": "00e6760073c5a8df031d296d17a75e715b9418c73be2acea8d76c8d50ca0e3fcdac7f835d1e56d99688f29935df8b203b7932b74505a177f5814981860bcf64291"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:33:34.382677757Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper1",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 561 ",
+    "timestamp": "2023-09-07T16:33:34.361955Z",
+    "trace": "projects/faasterbench/traces/bc421a0b0acaf8748dfe607797c13b05"
+  },
+  {
+    "insertId": "64f9fb5d000d24dc8151ca6f",
+    "labels": {
+      "execution_id": "w1rvjwjnn3h5",
+      "instance_id": "00e67600739c05ec72d190441aded3346af92a74a6eadf53d93428f65cbe768ed74035e0f2d699f7d2df7bad6f4605d9724385ed3c0bc4001ff1a2781004d1729d"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:33:33.977386780Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper1",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 523 f2 ",
+    "timestamp": "2023-09-07T16:33:33.861404Z",
+    "trace": "projects/faasterbench/traces/4fe2061f9665d45856196e2091eb4aec"
+  },
+  {
+    "insertId": "64f9fb5d000b993ef7d2b036",
+    "labels": {
+      "execution_id": "lbvbzz8qekj9",
+      "instance_id": "00e6760073c5a8df031d296d17a75e715b9418c73be2acea8d76c8d50ca0e3fcdac7f835d1e56d99688f29935df8b203b7932b74505a177f5814981860bcf64291"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:33:34.048367698Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper1",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 496 f2 ",
+    "timestamp": "2023-09-07T16:33:33.760126Z",
+    "trace": "projects/faasterbench/traces/b38f280a373d30427dd17327db44184b"
+  },
+  {
+    "insertId": "64f9fb5d00029795e0d3e200",
+    "labels": {
+      "execution_id": "lbvbyxuw3jtr",
+      "instance_id": "00e6760073c5a8df031d296d17a75e715b9418c73be2acea8d76c8d50ca0e3fcdac7f835d1e56d99688f29935df8b203b7932b74505a177f5814981860bcf64291"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:33:33.381808979Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper1",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 565 ",
+    "timestamp": "2023-09-07T16:33:33.169877Z",
+    "trace": "projects/faasterbench/traces/4261d4b2bde05c223b9daf8cecfe77b3"
+  },
+  {
+    "insertId": "64f9fb5c00089c70f869a867",
+    "labels": {
+      "execution_id": "lbvbz1a5sxgx",
+      "instance_id": "00e6760073c5a8df031d296d17a75e715b9418c73be2acea8d76c8d50ca0e3fcdac7f835d1e56d99688f29935df8b203b7932b74505a177f5814981860bcf64291"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:33:32.715932707Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper1",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 563 f2 ",
+    "timestamp": "2023-09-07T16:33:32.564336Z",
+    "trace": "projects/faasterbench/traces/12018132556b420d8efb9e52672020a4"
+  },
+  {
+    "insertId": "64f9fb5b000eb46118d0580c",
+    "labels": {
+      "execution_id": "w1rvxb1pev6f",
+      "instance_id": "00e67600739c05ec72d190441aded3346af92a74a6eadf53d93428f65cbe768ed74035e0f2d699f7d2df7bad6f4605d9724385ed3c0bc4001ff1a2781004d1729d"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:33:31.976582955Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper1",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeA f1 486 591 582 f2 597 595 536 ",
+    "timestamp": "2023-09-07T16:33:31.963681Z",
+    "trace": "projects/faasterbench/traces/cf484b3a46441d77864cf1dc0b5cf772"
+  },
+  {
+    "insertId": "64f9fb58000c13b99473077d",
+    "labels": {
+      "execution_id": "lbvbqk8vwvhj",
+      "instance_id": "00e6760073c5a8df031d296d17a75e715b9418c73be2acea8d76c8d50ca0e3fcdac7f835d1e56d99688f29935df8b203b7932b74505a177f5814981860bcf64291"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:33:29.053123234Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper1",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 560 ",
+    "timestamp": "2023-09-07T16:33:28.791481Z",
+    "trace": "projects/faasterbench/traces/bd3095be0735b11505d7dff679193c52"
+  },
+  {
+    "insertId": "64f9fb58000813fbc5e0f7b5",
+    "labels": {
+      "execution_id": "w1rvibvv5jou",
+      "instance_id": "00e67600739c05ec72d190441aded3346af92a74a6eadf53d93428f65cbe768ed74035e0f2d699f7d2df7bad6f4605d9724385ed3c0bc4001ff1a2781004d1729d"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:33:28.646987642Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper1",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 600 ",
+    "timestamp": "2023-09-07T16:33:28.529403Z",
+    "trace": "projects/faasterbench/traces/a3660b1245fbfa471a2bd0a0ac0a6216"
+  },
+  {
+    "insertId": "64f9fb580002dc40bf8d5065",
+    "labels": {
+      "execution_id": "lbvb5q52u4ki",
+      "instance_id": "00e6760073c5a8df031d296d17a75e715b9418c73be2acea8d76c8d50ca0e3fcdac7f835d1e56d99688f29935df8b203b7932b74505a177f5814981860bcf64291"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:33:28.387519293Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper1",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 553 f2 ",
+    "timestamp": "2023-09-07T16:33:28.187456Z",
+    "trace": "projects/faasterbench/traces/1094d1134a62c16571832505c44c817a"
+  },
+  {
+    "insertId": "64f9fb57000d382bcaa75a6d",
+    "labels": {
+      "execution_id": "w1rvtf7trz60",
+      "instance_id": "00e67600739c05ec72d190441aded3346af92a74a6eadf53d93428f65cbe768ed74035e0f2d699f7d2df7bad6f4605d9724385ed3c0bc4001ff1a2781004d1729d"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:33:27.981333379Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper1",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 500 f2 ",
+    "timestamp": "2023-09-07T16:33:27.866347Z",
+    "trace": "projects/faasterbench/traces/e1f11c6f89c312d3bd8ea86a3f12b6c1"
+  },
+  {
+    "insertId": "64f9fb5700090a2f703741be",
+    "labels": {
+      "execution_id": "lbvbnto99iji",
+      "instance_id": "00e6760073c5a8df031d296d17a75e715b9418c73be2acea8d76c8d50ca0e3fcdac7f835d1e56d99688f29935df8b203b7932b74505a177f5814981860bcf64291"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:33:27.722047413Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper1",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 558 ",
+    "timestamp": "2023-09-07T16:33:27.592431Z",
+    "trace": "projects/faasterbench/traces/00c722851b342d1148b6dc3404536aef"
+  },
+  {
+    "insertId": "64f9fb56000f0876d4818d1a",
+    "labels": {
+      "execution_id": "lbvbh47wh2yl",
+      "instance_id": "00e6760073c5a8df031d296d17a75e715b9418c73be2acea8d76c8d50ca0e3fcdac7f835d1e56d99688f29935df8b203b7932b74505a177f5814981860bcf64291"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:33:27.055162815Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper1",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 466 f2 ",
+    "timestamp": "2023-09-07T16:33:26.985206Z",
+    "trace": "projects/faasterbench/traces/bc104e3450274e4c5f366d6104c7a6cd"
+  },
+  {
+    "insertId": "64f9fb5600070a2357d2cade",
+    "labels": {
+      "execution_id": "lbvb4h51ca3e",
+      "instance_id": "00e6760073c5a8df031d296d17a75e715b9418c73be2acea8d76c8d50ca0e3fcdac7f835d1e56d99688f29935df8b203b7932b74505a177f5814981860bcf64291"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:33:26.721937221Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper1",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeA f1 510 581 586 f2 601 597 597 ",
+    "timestamp": "2023-09-07T16:33:26.461347Z",
+    "trace": "projects/faasterbench/traces/36d959737a85dea7be8ccb545ca4c8fb"
+  },
+  {
+    "insertId": "64f9fb52000e4f42392d2c80",
+    "labels": {
+      "execution_id": "w1rvmn5lk1vg",
+      "instance_id": "00e67600739c05ec72d190441aded3346af92a74a6eadf53d93428f65cbe768ed74035e0f2d699f7d2df7bad6f4605d9724385ed3c0bc4001ff1a2781004d1729d"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:33:22.985922219Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper1",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 571 ",
+    "timestamp": "2023-09-07T16:33:22.937794Z",
+    "trace": "projects/faasterbench/traces/1e260599ac8e8b73cccf2673fa24c891"
+  },
+  {
+    "insertId": "64f9fb52000a4c1be824e732",
+    "labels": {
+      "execution_id": "lbvbino18gfc",
+      "instance_id": "00e6760073c5a8df031d296d17a75e715b9418c73be2acea8d76c8d50ca0e3fcdac7f835d1e56d99688f29935df8b203b7932b74505a177f5814981860bcf64291"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:33:22.727984644Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper1",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 561 ",
+    "timestamp": "2023-09-07T16:33:22.674843Z",
+    "trace": "projects/faasterbench/traces/402aec5a4613ab2ef5e4963c23a7fe7e"
+  },
+  {
+    "insertId": "64f9fb5200046b7ce2549d9e",
+    "labels": {
+      "execution_id": "w1rvebx7x5w0",
+      "instance_id": "00e67600739c05ec72d190441aded3346af92a74a6eadf53d93428f65cbe768ed74035e0f2d699f7d2df7bad6f4605d9724385ed3c0bc4001ff1a2781004d1729d"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:33:22.319425988Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper1",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 237 f2 ",
+    "timestamp": "2023-09-07T16:33:22.289660Z",
+    "trace": "projects/faasterbench/traces/1a0c4d3cf22058c581bcc1a3dad7fbe3"
+  },
+  {
+    "insertId": "64f9fb52000101a653083a7b",
+    "labels": {
+      "execution_id": "lbvbdigo9w99",
+      "instance_id": "00e6760073c5a8df031d296d17a75e715b9418c73be2acea8d76c8d50ca0e3fcdac7f835d1e56d99688f29935df8b203b7932b74505a177f5814981860bcf64291"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:33:22.393132062Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper1",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 550 f2 ",
+    "timestamp": "2023-09-07T16:33:22.065958Z",
+    "trace": "projects/faasterbench/traces/339ef527c1b69b4cae8077c89489e274"
+  },
+  {
+    "insertId": "64f9fb51000721d071dac4e6",
+    "labels": {
+      "execution_id": "lbvbwn9h8c13",
+      "instance_id": "00e6760073c5a8df031d296d17a75e715b9418c73be2acea8d76c8d50ca0e3fcdac7f835d1e56d99688f29935df8b203b7932b74505a177f5814981860bcf64291"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:33:21.726454487Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper1",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 560 ",
+    "timestamp": "2023-09-07T16:33:21.467408Z",
+    "trace": "projects/faasterbench/traces/419ee7f6c765c793a527ee755ffb15fa"
+  },
+  {
+    "insertId": "64f9fb50000d3a560bdc5e5a",
+    "labels": {
+      "execution_id": "lbvb9u33k0gh",
+      "instance_id": "00e6760073c5a8df031d296d17a75e715b9418c73be2acea8d76c8d50ca0e3fcdac7f835d1e56d99688f29935df8b203b7932b74505a177f5814981860bcf64291"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:33:21.061424181Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper1",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 601 f2 ",
+    "timestamp": "2023-09-07T16:33:20.866902Z",
+    "trace": "projects/faasterbench/traces/27730542d442b5c0aee52238fadf6a1e"
+  },
+  {
+    "insertId": "64f9fb500002c77bcf807a91",
+    "labels": {
+      "execution_id": "lbvb9sh4vj84",
+      "instance_id": "00e6760073c5a8df031d296d17a75e715b9418c73be2acea8d76c8d50ca0e3fcdac7f835d1e56d99688f29935df8b203b7932b74505a177f5814981860bcf64291"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:33:20.395350153Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper1",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeA f1 555 531 581 f2 602 603 602 ",
+    "timestamp": "2023-09-07T16:33:20.182139Z",
+    "trace": "projects/faasterbench/traces/df1eb992ecdb1b84825a7a7638635cbb"
+  },
+  {
+    "insertId": "64f9fb4c000a2afbf1d352bb",
+    "labels": {
+      "execution_id": "lbvbqusqhrqm",
+      "instance_id": "00e6760073c5a8df031d296d17a75e715b9418c73be2acea8d76c8d50ca0e3fcdac7f835d1e56d99688f29935df8b203b7932b74505a177f5814981860bcf64291"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:33:16.731355579Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper1",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 594 ",
+    "timestamp": "2023-09-07T16:33:16.666363Z",
+    "trace": "projects/faasterbench/traces/9588736b4909725f873b5044b25a9363"
+  },
+  {
+    "insertId": "64f9fb4b000f1a7cb569e88e",
+    "labels": {
+      "execution_id": "lbvbk5sg6xx1",
+      "instance_id": "00e6760073c5a8df031d296d17a75e715b9418c73be2acea8d76c8d50ca0e3fcdac7f835d1e56d99688f29935df8b203b7932b74505a177f5814981860bcf64291"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:33:16.065039833Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper1",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 581 f2 ",
+    "timestamp": "2023-09-07T16:33:15.989820Z",
+    "trace": "projects/faasterbench/traces/4afb94b42366093568c63fcd2c84fb0d"
+  },
+  {
+    "insertId": "64f9fb2e000815a89bea8fe2",
+    "labels": {
+      "execution_id": "fbim5jv2fykw",
+      "instance_id": "00e6760073d1e4dd1af493271e2eed98b3a143afcafdd8700687a9094d1a2e48a1913be96cd4dc36745f62f971c3a3c658bc3f194a5a3fc775968c0924d5859035"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:32:46.862916067Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper0",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 554 ",
+    "timestamp": "2023-09-07T16:32:46.529832Z",
+    "trace": "projects/faasterbench/traces/8b3ba052cbd15392f0808a86eba39ffe"
+  },
+  {
+    "insertId": "64f9fb2d000e45ea8e0b71d2",
+    "labels": {
+      "execution_id": "fbimv0ebxf0i",
+      "instance_id": "00e6760073d1e4dd1af493271e2eed98b3a143afcafdd8700687a9094d1a2e48a1913be96cd4dc36745f62f971c3a3c658bc3f194a5a3fc775968c0924d5859035"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:32:46.198363476Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper0",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 531 f2 ",
+    "timestamp": "2023-09-07T16:32:45.935402Z",
+    "trace": "projects/faasterbench/traces/3d1f5b510492a38b9c8eb2ddafdaef87"
+  },
+  {
+    "insertId": "64f9fb2d000543143d57ac36",
+    "labels": {
+      "execution_id": "fbime3269w6r",
+      "instance_id": "00e6760073d1e4dd1af493271e2eed98b3a143afcafdd8700687a9094d1a2e48a1913be96cd4dc36745f62f971c3a3c658bc3f194a5a3fc775968c0924d5859035"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:32:45.531659102Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper0",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 490 ",
+    "timestamp": "2023-09-07T16:32:45.344852Z",
+    "trace": "projects/faasterbench/traces/a0ca81915466a0d981d99c10edfd1c03"
+  },
+  {
+    "insertId": "64f9fb2c000c4590dff07408",
+    "labels": {
+      "execution_id": "fbimv44ctaey",
+      "instance_id": "00e6760073d1e4dd1af493271e2eed98b3a143afcafdd8700687a9094d1a2e48a1913be96cd4dc36745f62f971c3a3c658bc3f194a5a3fc775968c0924d5859035"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:32:44.865593404Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper0",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 549 f2 ",
+    "timestamp": "2023-09-07T16:32:44.804240Z",
+    "trace": "projects/faasterbench/traces/01acce2c3e4eb39d6c3ae309e73482dd"
+  },
+  {
+    "insertId": "64f9fb2c000345f9cd0edc2c",
+    "labels": {
+      "execution_id": "fbimdurerzc5",
+      "instance_id": "00e6760073d1e4dd1af493271e2eed98b3a143afcafdd8700687a9094d1a2e48a1913be96cd4dc36745f62f971c3a3c658bc3f194a5a3fc775968c0924d5859035"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:32:44.531765408Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper0",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeA f1 551 529 588 f2 594 596 594 ",
+    "timestamp": "2023-09-07T16:32:44.214521Z",
+    "trace": "projects/faasterbench/traces/a8c388bc782c884e48d0745dbf837206"
+  },
+  {
+    "insertId": "64f9fb28000b7512c43fc48d",
+    "labels": {
+      "execution_id": "z5wowjfiae7p",
+      "instance_id": "00e676007338e01994b5a4d5d6257b58aa8dc41eec66d384ea19af8870821a08c76f6fbfbba94d1e8267b2977f259b76dc16f8f861e5b2148a0dc75c2cad696320"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:32:41.056639447Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper0",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 567 ",
+    "timestamp": "2023-09-07T16:32:40.750866Z",
+    "trace": "projects/faasterbench/traces/da0da8f983f321f435eaf33f7722c812"
+  },
+  {
+    "insertId": "64f9fb28000b03e219bf8e33",
+    "labels": {
+      "execution_id": "fbim1yqpgzxw",
+      "instance_id": "00e6760073d1e4dd1af493271e2eed98b3a143afcafdd8700687a9094d1a2e48a1913be96cd4dc36745f62f971c3a3c658bc3f194a5a3fc775968c0924d5859035"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:32:40.869598294Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper0",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 557 ",
+    "timestamp": "2023-09-07T16:32:40.721890Z",
+    "trace": "projects/faasterbench/traces/30e71c86fb6470d79f0fcf1f9d4d2e4f"
+  },
+  {
+    "insertId": "64f9fb280002322c2a091bec",
+    "labels": {
+      "execution_id": "z5wozj1pwm1t",
+      "instance_id": "00e676007338e01994b5a4d5d6257b58aa8dc41eec66d384ea19af8870821a08c76f6fbfbba94d1e8267b2977f259b76dc16f8f861e5b2148a0dc75c2cad696320"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:32:40.390694497Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper0",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 510 f2 ",
+    "timestamp": "2023-09-07T16:32:40.143916Z",
+    "trace": "projects/faasterbench/traces/d0db5883cd3ad9a256c7cf583fb1de64"
+  },
+  {
+    "insertId": "64f9fb280001f3fc6654733b",
+    "labels": {
+      "execution_id": "fbim7oqyp3oh",
+      "instance_id": "00e6760073d1e4dd1af493271e2eed98b3a143afcafdd8700687a9094d1a2e48a1913be96cd4dc36745f62f971c3a3c658bc3f194a5a3fc775968c0924d5859035"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:32:40.202855227Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper0",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 576 f2 ",
+    "timestamp": "2023-09-07T16:32:40.127996Z",
+    "trace": "projects/faasterbench/traces/5fba64e110db5ee53f061554f6fc0666"
+  },
+  {
+    "insertId": "64f9fb270008364016b4ebf0",
+    "labels": {
+      "execution_id": "fbimfk4tai3b",
+      "instance_id": "00e6760073d1e4dd1af493271e2eed98b3a143afcafdd8700687a9094d1a2e48a1913be96cd4dc36745f62f971c3a3c658bc3f194a5a3fc775968c0924d5859035"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:32:39.869732670Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper0",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 546 ",
+    "timestamp": "2023-09-07T16:32:39.538176Z",
+    "trace": "projects/faasterbench/traces/56c132a94f5c5b03f948f7c50d1cf6a8"
+  },
+  {
+    "insertId": "64f9fb26000e58ff879fb2ac",
+    "labels": {
+      "execution_id": "fbimv2atloc3",
+      "instance_id": "00e6760073d1e4dd1af493271e2eed98b3a143afcafdd8700687a9094d1a2e48a1913be96cd4dc36745f62f971c3a3c658bc3f194a5a3fc775968c0924d5859035"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:32:39.204324178Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper0",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 508 f2 ",
+    "timestamp": "2023-09-07T16:32:38.940287Z",
+    "trace": "projects/faasterbench/traces/f9553017a8c230316d95e4542fc69233"
+  },
+  {
+    "insertId": "64f9fb260002661f5ba7aa2b",
+    "labels": {
+      "execution_id": "z5woxq7g8jwo",
+      "instance_id": "00e676007338e01994b5a4d5d6257b58aa8dc41eec66d384ea19af8870821a08c76f6fbfbba94d1e8267b2977f259b76dc16f8f861e5b2148a0dc75c2cad696320"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:32:38.392094582Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper0",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeA f1 505 590 587 f2 602 599 600 ",
+    "timestamp": "2023-09-07T16:32:38.157215Z",
+    "trace": "projects/faasterbench/traces/eff38fd47932b59a065ad3b9e024ada6"
+  },
+  {
+    "insertId": "64f9fb220009ae03eef08dfa",
+    "labels": {
+      "execution_id": "fbim7dhfbq8g",
+      "instance_id": "00e6760073d1e4dd1af493271e2eed98b3a143afcafdd8700687a9094d1a2e48a1913be96cd4dc36745f62f971c3a3c658bc3f194a5a3fc775968c0924d5859035"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:32:34.874723853Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper0",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 529 ",
+    "timestamp": "2023-09-07T16:32:34.634371Z",
+    "trace": "projects/faasterbench/traces/7acebb8aa1f84dec26aa8c4e5705d4b3"
+  },
+  {
+    "insertId": "64f9fb2200075b19f63529e7",
+    "labels": {
+      "execution_id": "z5wo48ak7h8c",
+      "instance_id": "00e676007338e01994b5a4d5d6257b58aa8dc41eec66d384ea19af8870821a08c76f6fbfbba94d1e8267b2977f259b76dc16f8f861e5b2148a0dc75c2cad696320"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:32:34.729607598Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper0",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 568 ",
+    "timestamp": "2023-09-07T16:32:34.482073Z",
+    "trace": "projects/faasterbench/traces/5cd3123d211e50168a10a1cce9c6bd20"
+  },
+  {
+    "insertId": "64f9fb220000993c81dc8e98",
+    "labels": {
+      "execution_id": "fbim4372s00q",
+      "instance_id": "00e6760073d1e4dd1af493271e2eed98b3a143afcafdd8700687a9094d1a2e48a1913be96cd4dc36745f62f971c3a3c658bc3f194a5a3fc775968c0924d5859035"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:32:34.209388152Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper0",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 493 f2 ",
+    "timestamp": "2023-09-07T16:32:34.039228Z",
+    "trace": "projects/faasterbench/traces/f8a181ba67da0ff48eb91b658434eb9e"
+  },
+  {
+    "insertId": "64f9fb21000d5fb91792277e",
+    "labels": {
+      "execution_id": "z5woa54wj6w8",
+      "instance_id": "00e676007338e01994b5a4d5d6257b58aa8dc41eec66d384ea19af8870821a08c76f6fbfbba94d1e8267b2977f259b76dc16f8f861e5b2148a0dc75c2cad696320"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:32:34.063362707Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper0",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 494 f2 ",
+    "timestamp": "2023-09-07T16:32:33.876473Z",
+    "trace": "projects/faasterbench/traces/a9d09c70bee28a99ca3ae84f5de7ae23"
+  },
+  {
+    "insertId": "64f9fb21000548a3045eee9e",
+    "labels": {
+      "execution_id": "z5woo7plukry",
+      "instance_id": "00e676007338e01994b5a4d5d6257b58aa8dc41eec66d384ea19af8870821a08c76f6fbfbba94d1e8267b2977f259b76dc16f8f861e5b2148a0dc75c2cad696320"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:32:33.397619208Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper0",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 619 ",
+    "timestamp": "2023-09-07T16:32:33.346275Z",
+    "trace": "projects/faasterbench/traces/118e19ac5f1375cc4b8ab22e01acdcdb"
+  },
+  {
+    "insertId": "64f9fb20000a66da8f8e5e04",
+    "labels": {
+      "execution_id": "z5wokwcked74",
+      "instance_id": "00e676007338e01994b5a4d5d6257b58aa8dc41eec66d384ea19af8870821a08c76f6fbfbba94d1e8267b2977f259b76dc16f8f861e5b2148a0dc75c2cad696320"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:32:32.731444415Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper0",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 517 f2 ",
+    "timestamp": "2023-09-07T16:32:32.681690Z",
+    "trace": "projects/faasterbench/traces/8580c9ec670f1b05486efb4f196f3547"
+  },
+  {
+    "insertId": "64f9fb200001e40422fb6fe2",
+    "labels": {
+      "execution_id": "fbimg17ua71x",
+      "instance_id": "00e6760073d1e4dd1af493271e2eed98b3a143afcafdd8700687a9094d1a2e48a1913be96cd4dc36745f62f971c3a3c658bc3f194a5a3fc775968c0924d5859035"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:32:32.211139849Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper0",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeA f1 527 583 589 f2 593 533 593 ",
+    "timestamp": "2023-09-07T16:32:32.123908Z",
+    "trace": "projects/faasterbench/traces/737e8c84d527ca958e310f43ba9ca70d"
+  },
+  {
+    "insertId": "64f9fb1d0000af32277228f8",
+    "labels": {
+      "execution_id": "z5wo87ahes20",
+      "instance_id": "00e676007338e01994b5a4d5d6257b58aa8dc41eec66d384ea19af8870821a08c76f6fbfbba94d1e8267b2977f259b76dc16f8f861e5b2148a0dc75c2cad696320"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:32:29.068618875Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper0",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 599 ",
+    "timestamp": "2023-09-07T16:32:29.044850Z",
+    "trace": "projects/faasterbench/traces/96f7ab61867f801e4ea2e93ede5448a0"
+  },
+  {
+    "insertId": "64f9fb1c0009cb7d7ce50dd5",
+    "labels": {
+      "execution_id": "fbimlxj4pcf8",
+      "instance_id": "00e6760073d1e4dd1af493271e2eed98b3a143afcafdd8700687a9094d1a2e48a1913be96cd4dc36745f62f971c3a3c658bc3f194a5a3fc775968c0924d5859035"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:32:28.880601827Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper0",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 535 ",
+    "timestamp": "2023-09-07T16:32:28.641917Z",
+    "trace": "projects/faasterbench/traces/1eeb7405668252f3385db49f1745c7f0"
+  },
+  {
+    "insertId": "64f9fb1c0005d6edde22f912",
+    "labels": {
+      "execution_id": "z5wooj8n974r",
+      "instance_id": "00e676007338e01994b5a4d5d6257b58aa8dc41eec66d384ea19af8870821a08c76f6fbfbba94d1e8267b2977f259b76dc16f8f861e5b2148a0dc75c2cad696320"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:32:28.401863896Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper0",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 480 f2 ",
+    "timestamp": "2023-09-07T16:32:28.382701Z",
+    "trace": "projects/faasterbench/traces/90d3f08c717d40b936e5777e4242d242"
+  },
+  {
+    "insertId": "64f9fb1c0000a50f5739f79a",
+    "labels": {
+      "execution_id": "fbim8mq96vzn",
+      "instance_id": "00e6760073d1e4dd1af493271e2eed98b3a143afcafdd8700687a9094d1a2e48a1913be96cd4dc36745f62f971c3a3c658bc3f194a5a3fc775968c0924d5859035"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:32:28.215133825Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper0",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 481 f2 ",
+    "timestamp": "2023-09-07T16:32:28.042255Z",
+    "trace": "projects/faasterbench/traces/0f69eba0afe3831dfaaf1f04aee2a868"
+  },
+  {
+    "insertId": "64f9fb1b000d05cdc7b16b11",
+    "labels": {
+      "execution_id": "z5wob8ob96i3",
+      "instance_id": "00e676007338e01994b5a4d5d6257b58aa8dc41eec66d384ea19af8870821a08c76f6fbfbba94d1e8267b2977f259b76dc16f8f861e5b2148a0dc75c2cad696320"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:32:28.068849098Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper0",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 559 ",
+    "timestamp": "2023-09-07T16:32:27.853453Z",
+    "trace": "projects/faasterbench/traces/ff3cc0a7e9e311bce1f98e6d89ecae95"
+  },
+  {
+    "insertId": "64f9fb1b0003cf4409769701",
+    "labels": {
+      "execution_id": "z5wo1ojrdeh6",
+      "instance_id": "00e676007338e01994b5a4d5d6257b58aa8dc41eec66d384ea19af8870821a08c76f6fbfbba94d1e8267b2977f259b76dc16f8f861e5b2148a0dc75c2cad696320"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:32:27.402674766Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper0",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 527 f2 ",
+    "timestamp": "2023-09-07T16:32:27.249668Z",
+    "trace": "projects/faasterbench/traces/d2c72233671e873800a7f2dd8baef37e"
+  },
+  {
+    "insertId": "64f9fb1a000a0e4cd89dd8e6",
+    "labels": {
+      "execution_id": "z5wotbnlgnve",
+      "instance_id": "00e676007338e01994b5a4d5d6257b58aa8dc41eec66d384ea19af8870821a08c76f6fbfbba94d1e8267b2977f259b76dc16f8f861e5b2148a0dc75c2cad696320"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:32:26.737250298Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper0",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeA f1 513 525 587 f2 665 604 597 ",
+    "timestamp": "2023-09-07T16:32:26.659020Z",
+    "trace": "projects/faasterbench/traces/a687da25a9eebfb56a66a171718764ec"
+  },
+  {
+    "insertId": "64f9fb170001eaf67d6aab6b",
+    "labels": {
+      "execution_id": "fbimnenbsd0s",
+      "instance_id": "00e6760073d1e4dd1af493271e2eed98b3a143afcafdd8700687a9094d1a2e48a1913be96cd4dc36745f62f971c3a3c658bc3f194a5a3fc775968c0924d5859035"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:32:23.220297428Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper0",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 549 ",
+    "timestamp": "2023-09-07T16:32:23.125686Z",
+    "trace": "projects/faasterbench/traces/13fa2c474dca495ee0d47fc9c239e9d7"
+  },
+  {
+    "insertId": "64f9fb16000e8486dc069f9b",
+    "labels": {
+      "execution_id": "z5woosj86q0e",
+      "instance_id": "00e676007338e01994b5a4d5d6257b58aa8dc41eec66d384ea19af8870821a08c76f6fbfbba94d1e8267b2977f259b76dc16f8f861e5b2148a0dc75c2cad696320"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:32:23.074131677Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper0",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 558 ",
+    "timestamp": "2023-09-07T16:32:22.951430Z",
+    "trace": "projects/faasterbench/traces/ffecc9a097cb99592a172d16dfe08517"
+  },
+  {
+    "insertId": "64f9fb1600078a0103202eb8",
+    "labels": {
+      "execution_id": "fbim3s0vcjr0",
+      "instance_id": "00e6760073d1e4dd1af493271e2eed98b3a143afcafdd8700687a9094d1a2e48a1913be96cd4dc36745f62f971c3a3c658bc3f194a5a3fc775968c0924d5859035"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:32:22.553220059Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper0",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 233 f2 ",
+    "timestamp": "2023-09-07T16:32:22.494081Z",
+    "trace": "projects/faasterbench/traces/647e7edaf65738797c6b28cf609cc9b6"
+  },
+  {
+    "insertId": "64f9fb16000549a13ea3718a",
+    "labels": {
+      "execution_id": "z5wo7tgbxgsl",
+      "instance_id": "00e676007338e01994b5a4d5d6257b58aa8dc41eec66d384ea19af8870821a08c76f6fbfbba94d1e8267b2977f259b76dc16f8f861e5b2148a0dc75c2cad696320"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:32:22.407390814Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper0",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 552 f2 ",
+    "timestamp": "2023-09-07T16:32:22.346529Z",
+    "trace": "projects/faasterbench/traces/5eb5b8544440146366d4c03714bf529d"
+  },
+  {
+    "insertId": "64f9fb15000b845730a3f48e",
+    "labels": {
+      "execution_id": "z5wo2fns6v13",
+      "instance_id": "00e676007338e01994b5a4d5d6257b58aa8dc41eec66d384ea19af8870821a08c76f6fbfbba94d1e8267b2977f259b76dc16f8f861e5b2148a0dc75c2cad696320"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:32:22.075169431Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper0",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 556 ",
+    "timestamp": "2023-09-07T16:32:21.754775Z",
+    "trace": "projects/faasterbench/traces/6e0da4b793447b8b41e55b7d986e21fd"
+  },
+  {
+    "insertId": "64f9fb150002499756033bed",
+    "labels": {
+      "execution_id": "z5woqxcgxcpu",
+      "instance_id": "00e676007338e01994b5a4d5d6257b58aa8dc41eec66d384ea19af8870821a08c76f6fbfbba94d1e8267b2977f259b76dc16f8f861e5b2148a0dc75c2cad696320"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:32:21.408239297Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper0",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 536 f2 ",
+    "timestamp": "2023-09-07T16:32:21.149911Z",
+    "trace": "projects/faasterbench/traces/4752f58770707537769fe77a16256c56"
+  },
+  {
+    "insertId": "64f9fb1400088c916e27958f",
+    "labels": {
+      "execution_id": "z5woelc15tjb",
+      "instance_id": "00e676007338e01994b5a4d5d6257b58aa8dc41eec66d384ea19af8870821a08c76f6fbfbba94d1e8267b2977f259b76dc16f8f861e5b2148a0dc75c2cad696320"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:32:20.741978382Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper0",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeA f1 492 527 584 f2 661 605 599 ",
+    "timestamp": "2023-09-07T16:32:20.560273Z",
+    "trace": "projects/faasterbench/traces/756340734b2386c6b2d1ab73a2179b4a"
+  },
+  {
+    "insertId": "64f9fb110000c3b97c72b020",
+    "labels": {
+      "execution_id": "z5wo6osy282a",
+      "instance_id": "00e676007338e01994b5a4d5d6257b58aa8dc41eec66d384ea19af8870821a08c76f6fbfbba94d1e8267b2977f259b76dc16f8f861e5b2148a0dc75c2cad696320"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:32:17.077121835Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper0",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeC f1 f2 602 ",
+    "timestamp": "2023-09-07T16:32:17.050105Z",
+    "trace": "projects/faasterbench/traces/842e756cd73b65869fc0fa7560d4a00f"
+  },
+  {
+    "insertId": "64f9fb1000059d54f36c9797",
+    "labels": {
+      "execution_id": "z5wowx3l0rr7",
+      "instance_id": "00e676007338e01994b5a4d5d6257b58aa8dc41eec66d384ea19af8870821a08c76f6fbfbba94d1e8267b2977f259b76dc16f8f861e5b2148a0dc75c2cad696320"
+    },
+    "logName": "projects/faasterbench/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2023-09-07T16:32:16.409985362Z",
+    "resource": {
+      "labels": {
+        "function_name": "wrapper0",
+        "project_id": "faasterbench",
+        "region": "europe-west3"
+      },
+      "type": "cloud_function"
+    },
+    "textPayload": "faaster_69zz9: modeB f1 616 f2 ",
+    "timestamp": "2023-09-07T16:32:16.367956Z",
+    "trace": "projects/faasterbench/traces/7d6bb00b821ecc7761cca883428ff4d5"
+  }
+]

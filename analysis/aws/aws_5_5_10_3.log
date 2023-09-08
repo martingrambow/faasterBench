@@ -1,0 +1,3550 @@
+{
+    "results": [
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:37.964Z\t3260c3d3-ea7d-4974-9543-76ba39303dd1\tINFO\tfaaster_1n87c: modeC f1 f2 707 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAFEjcaGAIGTDDsBwAAAACoVr7QAAZPng6wAAABciABKLHc24CnMTC92d2ApzE4iQFAl7YCSP1UUP5AGAAgARCGARgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:37.202Z\ta5bea75a-6f8a-4012-acb4-90e7cc387df9\tINFO\tfaaster_1n87c: modeB f1 666 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAFEjcaGAIGTDDsBwAAAACoVr7QAAZPng6wAAABciABKLHc24CnMTC92d2ApzE4iQFAl7YCSP1UUP5AGAAgARB/GAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:36.505Z\t3319f922-f1c6-4719-a3eb-e10f63873cfd\tINFO\tfaaster_1n87c: modeC f1 f2 672 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBACEjYaGAIGTZMMjwAAAACgcYijAAZPng5AAAAE8iABKJ6I3YCnMTCYzt2ApzE4OEC+gAFImTtQkSgYACABEDEYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:35.803Z\tc6ae6038-4407-41a2-9357-eb93138b3981\tINFO\tfaaster_1n87c: modeB f1 661 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBACEjYaGAIGTZMMjwAAAACgcYijAAZPng5AAAAE8iABKJ6I3YCnMTCYzt2ApzE4OEC+gAFImTtQkSgYACABECoYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:35.102Z\t6fb51d4b-0495-4c24-b74d-c7f330fedec1\tINFO\tfaaster_1n87c: modeA f1 658 682 681 f2 720 719 718 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBACEjYaGAIGTZMMjwAAAACgcYijAAZPng5AAAAE8iABKJ6I3YCnMTCYzt2ApzE4OEC+gAFImTtQkSgYACABECMYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:34.832Z\tb1fd0cad-1de4-4cf5-9e82-b690ecff4228\tINFO\tfaaster_1n87c: modeC f1 f2 670 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAAEjUaGAIGSFxG3gAAAAQBvQkcAAZPngtwAAAA4iABKOCd3ICnMTCCwd2ApzE4NECmc0j0OVDsJhgAIAEQMRgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:34.112Z\t8f4ae0ab-6aeb-4410-8fa3-9b8a0b763055\tINFO\tfaaster_1n87c: modeB f1 649 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAAEjUaGAIGSFxG3gAAAAQBvQkcAAZPngtwAAAA4iABKOCd3ICnMTCCwd2ApzE4NECmc0j0OVDsJhgAIAEQKhgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:33.430Z\te5b63a3a-bbfb-46bd-aa96-5525b3eb2ee4\tINFO\tfaaster_1n87c: modeC f1 f2 690 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAAEjUaGAIGSFxG3gAAAAQBvQkcAAZPngtwAAAA4iABKOCd3ICnMTCCwd2ApzE4NECmc0j0OVDsJhgAIAEQIxgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:32.710Z\ta96e876f-2e2d-4e18-9770-67bf7771a0cf\tINFO\tfaaster_1n87c: modeB f1 665 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAAEjUaGAIGSFxG3gAAAAQBvQkcAAZPngtwAAAA4iABKOCd3ICnMTCCwd2ApzE4NECmc0j0OVDsJhgAIAEQHBgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:31.991Z\tcc1ebc73-8d9c-42f0-b37b-d32a39d08b05\tINFO\tfaaster_1n87c: modeA f1 663 678 676 f2 701 703 699 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAFEjcaGAIGTDDsBwAAAACoVr7QAAZPng6wAAABciABKLHc24CnMTC92d2ApzE4iQFAl7YCSP1UUP5AGAAgARBZGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:31.909Z\t5e5c5451-9fc7-4e1e-9886-23fa9d0a63c7\tINFO\tfaaster_1n87c: modeC f1 f2 705 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAFEjcaGAIGTDDsBwAAAACoVr7QAAZPng6wAAABciABKLHc24CnMTC92d2ApzE4iQFAl7YCSP1UUP5AGAAgARB8GAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:31.170Z\t0288d05c-298d-4cc2-8436-b7a73d2d918f\tINFO\tfaaster_1n87c: modeB f1 648 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAFEjcaGAIGTDDsBwAAAACoVr7QAAZPng6wAAABciABKLHc24CnMTC92d2ApzE4iQFAl7YCSP1UUP5AGAAgARB1GAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:30.890Z\tafdf0a28-b709-4cf1-9178-29b0e71a4d87\tINFO\tfaaster_1n87c: modeC f1 f2 729 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBACEjYaGAIGTZMMjwAAAACgcYijAAZPng5AAAAE8iABKJ6I3YCnMTCYzt2ApzE4OEC+gAFImTtQkSgYACABEBwYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:30.484Z\tc85e26ab-9c93-4c4f-8a2e-f886c0931cb3\tINFO\tfaaster_1n87c: modeC f1 f2 703 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAFEjcaGAIGTDDsBwAAAACoVr7QAAZPng6wAAABciABKLHc24CnMTC92d2ApzE4iQFAl7YCSP1UUP5AGAAgARBuGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:30.086Z\tc2cd82f4-da6d-4781-bc55-c7eb742b8d5d\tINFO\tfaaster_1n87c: modeB f1 691 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBACEjYaGAIGTZMMjwAAAACgcYijAAZPng5AAAAE8iABKJ6I3YCnMTCYzt2ApzE4OEC+gAFImTtQkSgYACABEBUYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:29.750Z\tc649c667-7f71-48c9-91d6-cff02aa5d363\tINFO\tfaaster_1n87c: modeB f1 658 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAFEjcaGAIGTDDsBwAAAACoVr7QAAZPng6wAAABciABKLHc24CnMTC92d2ApzE4iQFAl7YCSP1UUP5AGAAgARBnGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:29.044Z\ta515404c-32dd-481a-838c-927c499622a7\tINFO\tfaaster_1n87c: modeA f1 651 681 662 f2 734 719 718 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAFEjcaGAIGTDDsBwAAAACoVr7QAAZPng6wAAABciABKLHc24CnMTC92d2ApzE4iQFAl7YCSP1UUP5AGAAgARBgGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:29.005Z\t9a452394-755a-4a4a-b795-7c75ffdc7d5e\tINFO\tfaaster_1n87c: modeC f1 f2 689 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBACEjYaGAIGTZMMjwAAAACgcYijAAZPng5AAAAE8iABKJ6I3YCnMTCYzt2ApzE4OEC+gAFImTtQkSgYACABEA4YAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:28.281Z\t50cdd4a4-d979-4998-88bd-8e93d8243e14\tINFO\tfaaster_1n87c: modeB f1 667 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBACEjYaGAIGTZMMjwAAAACgcYijAAZPng5AAAAE8iABKJ6I3YCnMTCYzt2ApzE4OEC+gAFImTtQkSgYACABEAcYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:27.792Z\tb1890946-6923-43d4-887f-ac4553c33488\tINFO\tfaaster_1n87c: modeC f1 f2 710 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAFEjcaGAIGTDDsBwAAAACoVr7QAAZPng6wAAABciABKLHc24CnMTC92d2ApzE4iQFAl7YCSP1UUP5AGAAgARBSGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:27.582Z\t008eff61-85ed-4efb-92fc-86ed17bd660c\tINFO\tfaaster_1n87c: modeC f1 f2 710 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBACEjYaGAIGTZMMjwAAAACgcYijAAZPng5AAAAE8iABKJ6I3YCnMTCYzt2ApzE4OEC+gAFImTtQkSgYACABEAAYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:27.052Z\te4d0312f-bc2f-442f-9e20-c0f1077e08d4\tINFO\tfaaster_1n87c: modeB f1 663 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAFEjcaGAIGTDDsBwAAAACoVr7QAAZPng6wAAABciABKLHc24CnMTC92d2ApzE4iQFAl7YCSP1UUP5AGAAgARBLGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:26.842Z\t3425dae0-226c-40f2-88ee-e6b7bfad617a\tINFO\tfaaster_1n87c: modeB f1 681 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAGEjYaGAIGTh7MWAAAAAMljMWqAAZPng2AAAABgiABKLj924CnMTDYgt2ApzE4SkDKrQFI90BQ7C0YACABEEMYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:26.123Z\ta12dde5a-224d-46ca-b91e-1386f6a0f504\tINFO\tfaaster_1n87c: modeA f1 701 682 695 f2 722 721 721 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAGEjYaGAIGTh7MWAAAAAMljMWqAAZPng2AAAABgiABKLj924CnMTDYgt2ApzE4SkDKrQFI90BQ7C0YACABEDwYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:25.933Z\td0f73b09-fdeb-4f75-a702-1c41b4213a9a\tINFO\tfaaster_1n87c: modeC f1 f2 692 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAFEjcaGAIGTDDsBwAAAACoVr7QAAZPng6wAAABciABKLHc24CnMTC92d2ApzE4iQFAl7YCSP1UUP5AGAAgARBEGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:25.192Z\tbc0e8bd8-4312-4ee6-86f8-0597929610fb\tINFO\tfaaster_1n87c: modeB f1 651 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAFEjcaGAIGTDDsBwAAAACoVr7QAAZPng6wAAABciABKLHc24CnMTC92d2ApzE4iQFAl7YCSP1UUP5AGAAgARA9GAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:24.848Z\tafde2bfb-b2bd-4a60-86fd-a2c1c8147026\tINFO\tfaaster_1n87c: modeC f1 f2 694 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAHEjYaGAIGTudmHgAAAAAZAfdHAAZPngugAAAE4iABKPK73ICnMTCP89yApzE4UEDmswFI90FQ7i4YACABECMYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:24.492Z\tab73f77d-9102-4e2b-b589-b6837e827ad7\tINFO\tfaaster_1n87c: modeC f1 f2 691 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAFEjcaGAIGTDDsBwAAAACoVr7QAAZPng6wAAABciABKLHc24CnMTC92d2ApzE4iQFAl7YCSP1UUP5AGAAgARA2GAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:24.120Z\tc43ebded-8051-4681-a445-7bb7e69669ef\tINFO\tfaaster_1n87c: modeB f1 705 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAHEjYaGAIGTudmHgAAAAAZAfdHAAZPngugAAAE4iABKPK73ICnMTCP89yApzE4UEDmswFI90FQ7i4YACABEE0YAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:23.769Z\t76f49531-57bf-4a80-b519-5ffee5df6bcd\tINFO\tfaaster_1n87c: modeB f1 665 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAFEjcaGAIGTDDsBwAAAACoVr7QAAZPng6wAAABciABKLHc24CnMTC92d2ApzE4iQFAl7YCSP1UUP5AGAAgARAvGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:23.072Z\t3368f2ef-d3ce-4552-8d72-b414a2b395d3\tINFO\tfaaster_1n87c: modeA f1 653 680 683 f2 734 719 720 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAFEjcaGAIGTDDsBwAAAACoVr7QAAZPng6wAAABciABKLHc24CnMTC92d2ApzE4iQFAl7YCSP1UUP5AGAAgARAoGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:23.037Z\ta3104bc8-f71e-456e-b3e0-f8a83cf60bbb\tINFO\tfaaster_1n87c: modeC f1 f2 707 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAHEjYaGAIGTudmHgAAAAAZAfdHAAZPngugAAAE4iABKPK73ICnMTCP89yApzE4UEDmswFI90FQ7i4YACABEEYYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:22.298Z\t297b0392-349e-4c7a-a565-489b6390bc82\tINFO\tfaaster_1n87c: modeB f1 685 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAHEjYaGAIGTudmHgAAAAAZAfdHAAZPngugAAAE4iABKPK73ICnMTCP89yApzE4UEDmswFI90FQ7i4YACABED8YAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:21.843Z\tdad38143-62e5-4062-adff-b3ee2a35300a\tINFO\tfaaster_1n87c: modeC f1 f2 708 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAGEjYaGAIGTh7MWAAAAAMljMWqAAZPng2AAAABgiABKLj924CnMTDYgt2ApzE4SkDKrQFI90BQ7C0YACABEDUYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:21.580Z\tb9480995-918a-4aeb-b463-a0f53ac34752\tINFO\tfaaster_1n87c: modeC f1 f2 709 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAHEjYaGAIGTudmHgAAAAAZAfdHAAZPngugAAAE4iABKPK73ICnMTCP89yApzE4UEDmswFI90FQ7i4YACABEDgYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:21.101Z\t032de7c8-09da-42b1-9f4e-97303907bd88\tINFO\tfaaster_1n87c: modeB f1 681 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAGEjYaGAIGTh7MWAAAAAMljMWqAAZPng2AAAABgiABKLj924CnMTDYgt2ApzE4SkDKrQFI90BQ7C0YACABEC4YAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:20.839Z\td79f2d35-57c2-4adb-ac1c-93845baaa5ff\tINFO\tfaaster_1n87c: modeB f1 670 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAHEjYaGAIGTudmHgAAAAAZAfdHAAZPngugAAAE4iABKPK73ICnMTCP89yApzE4UEDmswFI90FQ7i4YACABEDEYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:20.727Z\t292a051c-8430-487c-ad70-58cca2c639b6\tINFO\tfaaster_1n87c: modeC f1 f2 707 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAHEjYaGAIGTudmHgAAAAAZAfdHAAZPngugAAAE4iABKPK73ICnMTCP89yApzE4UEDmswFI90FQ7i4YACABEBwYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:20.138Z\t47cf0d6d-b2f7-433b-b1aa-23f24394e19c\tINFO\tfaaster_1n87c: modeA f1 667 681 697 f2 739 723 720 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAHEjYaGAIGTudmHgAAAAAZAfdHAAZPngugAAAE4iABKPK73ICnMTCP89yApzE4UEDmswFI90FQ7i4YACABECoYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:19.984Z\t6a634a88-6de4-4970-88b9-d28126b44afd\tINFO\tfaaster_1n87c: modeB f1 682 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAHEjYaGAIGTudmHgAAAAAZAfdHAAZPngugAAAE4iABKPK73ICnMTCP89yApzE4UEDmswFI90FQ7i4YACABEBUYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:19.243Z\td7ee4366-c9a7-403d-8f19-c1e45e4d770b\tINFO\tfaaster_1n87c: modeC f1 f2 705 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAHEjYaGAIGTudmHgAAAAAZAfdHAAZPngugAAAE4iABKPK73ICnMTCP89yApzE4UEDmswFI90FQ7i4YACABEA4YAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:18.850Z\ta5f150b3-7286-4b99-bc38-516c7263f05e\tINFO\tfaaster_1n87c: modeC f1 f2 711 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAAEjUaGAIGSFxG3gAAAAQBvQkcAAZPngtwAAAA4iABKOCd3ICnMTCCwd2ApzE4NECmc0j0OVDsJhgAIAEQFRgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:18.507Z\t68e72b0e-63fe-4823-8145-abe04b437805\tINFO\tfaaster_1n87c: modeB f1 652 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAHEjYaGAIGTudmHgAAAAAZAfdHAAZPngugAAAE4iABKPK73ICnMTCP89yApzE4UEDmswFI90FQ7i4YACABEAcYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:18.096Z\t2c066da1-5634-4423-a092-34c239372da2\tINFO\tfaaster_1n87c: modeB f1 665 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAAEjUaGAIGSFxG3gAAAAQBvQkcAAZPngtwAAAA4iABKOCd3ICnMTCCwd2ApzE4NECmc0j0OVDsJhgAIAEQDhgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:17.881Z\t4802d619-d3ff-473b-a953-19d4d91af4eb\tINFO\tfaaster_1n87c: modeC f1 f2 743 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAGEjYaGAIGTh7MWAAAAAMljMWqAAZPng2AAAABgiABKLj924CnMTDYgt2ApzE4SkDKrQFI90BQ7C0YACABECcYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:17.810Z\t52d6e237-8a7b-41af-98ef-8f79c4fc9c25\tINFO\tfaaster_1n87c: modeA f1 668 699 694 f2 723 724 707 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAHEjYaGAIGTudmHgAAAAAZAfdHAAZPngugAAAE4iABKPK73ICnMTCP89yApzE4UEDmswFI90FQ7i4YACABEAAYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:17.105Z\tf9a0c09c-182e-4cbd-a71e-77c802582736\tINFO\tfaaster_1n87c: modeB f1 667 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBADEjYaGAIGSRpsIwAAAAIqlc9VAAZPng4AAAABMiABKLLF24CnMTDSttyApzE4TECasQFI1kNQ3C8YACABEEUYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:16.405Z\t7d86c5e9-5580-4425-8732-3f057032a316\tINFO\tfaaster_1n87c: modeC f1 f2 695 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBADEjYaGAIGSRpsIwAAAAIqlc9VAAZPng4AAAABMiABKLLF24CnMTDSttyApzE4TECasQFI1kNQ3C8YACABED4YAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:15.879Z\t54d01f1a-dd74-4148-a825-e7769c6392b5\tINFO\tfaaster_1n87c: modeC f1 f2 710 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAGEjYaGAIGTh7MWAAAAAMljMWqAAZPng2AAAABgiABKLj924CnMTDYgt2ApzE4SkDKrQFI90BQ7C0YACABECAYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:15.680Z\t4c0a31e8-fb2d-4c95-bf5e-0bb2f846c6c4\tINFO\tfaaster_1n87c: modeB f1 668 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBADEjYaGAIGSRpsIwAAAAIqlc9VAAZPng4AAAABMiABKLLF24CnMTDSttyApzE4TECasQFI1kNQ3C8YACABEDcYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:15.122Z\ta9813c09-0e6f-4742-90e3-099a7eb1893c\tINFO\tfaaster_1n87c: modeB f1 671 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAGEjYaGAIGTh7MWAAAAAMljMWqAAZPng2AAAABgiABKLj924CnMTDYgt2ApzE4SkDKrQFI90BQ7C0YACABEBkYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:14.968Z\t92ab451d-73ce-4e27-b529-716f3c11e54c\tINFO\tfaaster_1n87c: modeA f1 686 700 703 f2 740 740 723 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBADEjYaGAIGSRpsIwAAAAIqlc9VAAZPng4AAAABMiABKLLF24CnMTDSttyApzE4TECasQFI1kNQ3C8YACABEDAYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:14.709Z\t2419ab02-2603-4847-8d7d-2b89e84dfbc5\tINFO\tfaaster_1n87c: modeC f1 f2 717 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAAEjUaGAIGSFxG3gAAAAQBvQkcAAZPngtwAAAA4iABKOCd3ICnMTCCwd2ApzE4NECmc0j0OVDsJhgAIAEQBxgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:13.952Z\tb5f3bb54-9efd-480d-a906-00cfca607b2d\tINFO\tfaaster_1n87c: modeB f1 663 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAAEjUaGAIGSFxG3gAAAAQBvQkcAAZPngtwAAAA4iABKOCd3ICnMTCCwd2ApzE4NECmc0j0OVDsJhgAIAEQABgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:13.546Z\tacb52f40-5726-4fc1-8630-3482e0b33fa9\tINFO\tfaaster_1n87c: modeC f1 f2 706 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAEEjUaGAIGNFGbVQAAAAEnGWbeAAZPng5wAAAFUiABKJ+L3ICnMTD7mtyApzE4E0DpLkiXMVDfHRgAIAEQDBgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:13.252Z\ta86a3672-87b6-429e-98bf-a4d58ecf3894\tINFO\tfaaster_1n87c: modeC f1 f2 703 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAFEjcaGAIGTDDsBwAAAACoVr7QAAZPng6wAAABciABKLHc24CnMTC92d2ApzE4iQFAl7YCSP1UUP5AGAAgARAhGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:12.806Z\taa380ba0-fa7f-4a35-b43e-3f9b320b3a5e\tINFO\tfaaster_1n87c: modeB f1 719 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAEEjUaGAIGNFGbVQAAAAEnGWbeAAZPng5wAAAFUiABKJ+L3ICnMTD7mtyApzE4E0DpLkiXMVDfHRgAIAEQBRgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:12.515Z\t6605d168-7ec5-472d-b800-a4c9306d9db5\tINFO\tfaaster_1n87c: modeB f1 650 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAFEjcaGAIGTDDsBwAAAACoVr7QAAZPng6wAAABciABKLHc24CnMTC92d2ApzE4iQFAl7YCSP1UUP5AGAAgARAaGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:12.020Z\t2674d9bf-a34e-4fd3-97f6-79d6a0fa972d\tINFO\tfaaster_1n87c: modeC f1 f2 724 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAGEjYaGAIGTh7MWAAAAAMljMWqAAZPng2AAAABgiABKLj924CnMTDYgt2ApzE4SkDKrQFI90BQ7C0YACABEBIYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:11.830Z\td9e55904-176e-4d38-abb2-109874497788\tINFO\tfaaster_1n87c: modeA f1 682 682 681 f2 741 734 740 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAFEjcaGAIGTDDsBwAAAACoVr7QAAZPng6wAAABciABKLHc24CnMTC92d2ApzE4iQFAl7YCSP1UUP5AGAAgARATGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:11.242Z\t862f209a-68ef-4b02-9867-f65fc9a0068f\tINFO\tfaaster_1n87c: modeB f1 664 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAGEjYaGAIGTh7MWAAAAAMljMWqAAZPng2AAAABgiABKLj924CnMTDYgt2ApzE4SkDKrQFI90BQ7C0YACABEAsYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:10.626Z\t7b782e38-0f49-406f-93a5-99b6502337e4\tINFO\tfaaster_1n87c: modeC f1 f2 748 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBADEjYaGAIGSRpsIwAAAAIqlc9VAAZPng4AAAABMiABKLLF24CnMTDSttyApzE4TECasQFI1kNQ3C8YACABECkYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:10.540Z\tc9a6d929-af67-4f0a-be72-5f6fe6faa48e\tINFO\tfaaster_1n87c: modeC f1 f2 723 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAGEjYaGAIGTh7MWAAAAAMljMWqAAZPng2AAAABgiABKLj924CnMTDYgt2ApzE4SkDKrQFI90BQ7C0YACABEAQYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:09.842Z\t1cc55b6b-5179-48d4-81b4-a0f7bd7d3c0e\tINFO\tfaaster_1n87c: modeB f1 732 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBADEjYaGAIGSRpsIwAAAAIqlc9VAAZPng4AAAABMiABKLLF24CnMTDSttyApzE4TECasQFI1kNQ3C8YACABECIYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:09.718Z\t5e6f78fd-b002-4f4a-b923-43c35590d791\tINFO\tfaaster_1n87c: modeB f1 687 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBADEjYaGAIGSRpsIwAAAAIqlc9VAAZPng4AAAABMiABKLLF24CnMTDSttyApzE4TECasQFI1kNQ3C8YACABEBoYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:08.997Z\t4e057700-6347-4457-8cce-5730681765d0\tINFO\tfaaster_1n87c: modeA f1 693 687 698 f2 740 740 736 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBADEjYaGAIGSRpsIwAAAAIqlc9VAAZPng4AAAABMiABKLLF24CnMTDSttyApzE4TECasQFI1kNQ3C8YACABEBMYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:07.533Z\t4136342e-f495-4eb6-8abb-4f52d2fdcc7f\tINFO\tfaaster_1n87c: modeC f1 f2 724 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAFEjcaGAIGTDDsBwAAAACoVr7QAAZPng6wAAABciABKLHc24CnMTC92d2ApzE4iQFAl7YCSP1UUP5AGAAgARAMGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:06.771Z\t17fe738c-5c61-4254-b1bc-13da8f285670\tINFO\tfaaster_1n87c: modeB f1 729 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBAFEjcaGAIGTDDsBwAAAACoVr7QAAZPng6wAAABciABKLHc24CnMTC92d2ApzE4iQFAl7YCSP1UUP5AGAAgARAFGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:04.657Z\t17584fbf-8aeb-45a1-88ed-c51b05f5f01a\tINFO\tfaaster_1n87c: modeC f1 f2 724 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBADEjYaGAIGSRpsIwAAAAIqlc9VAAZPng4AAAABMiABKLLF24CnMTDSttyApzE4TECasQFI1kNQ3C8YACABEAwYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:41:03.843Z\t436bd37f-f2d6-4fb3-94dc-ce2a34008f5d\tINFO\tfaaster_1n87c: modeB f1 717 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMBADEjYaGAIGSRpsIwAAAAIqlc9VAAZPng4AAAABMiABKLLF24CnMTDSttyApzE4TECasQFI1kNQ3C8YACABEAUYAQ=="
+            }
+        ]
+    ],
+    "statistics": {
+        "recordsMatched": 70.0,
+        "recordsScanned": 494.0,
+        "bytesScanned": 144814.0
+    },
+    "status": "Complete"
+}
+{
+    "results": [
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:39.065Z\tdc7bb4bf-f7a9-4178-93cd-bb5668f908f3\tINFO\tfaaster_1n87c: modeC f1 f2 829 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRAAEjYaGAIGR7GilwAAAAU+X3hWAAZPnhJQAAAAciABKOOS4ICnMTDbtuGApzE4XUCHygFIvkVQsjIYACABEFoYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:38.202Z\t45182e5a-654e-4749-a6c1-239098e0f211\tINFO\tfaaster_1n87c: modeB f1 761 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRADEjYaGAIGTl9jvAAAAAAfQbhCAAZPnhEAAAAEwiABKMjf34CnMTCcsOGApzE4QUCfnAFI+0BQgi0YACABEDoYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:37.407Z\ta6dda62a-c7bf-4e7a-ad2f-f0929e648d31\tINFO\tfaaster_1n87c: modeC f1 f2 788 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRADEjYaGAIGTl9jvAAAAAAfQbhCAAZPnhEAAAAEwiABKMjf34CnMTCcsOGApzE4QUCfnAFI+0BQgi0YACABEDMYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:36.585Z\t0466a706-487e-4a77-aebb-bbdb5d3ce2f0\tINFO\tfaaster_1n87c: modeB f1 762 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRADEjYaGAIGTl9jvAAAAAAfQbhCAAZPnhEAAAAEwiABKMjf34CnMTCcsOGApzE4QUCfnAFI+0BQgi0YACABECwYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:35.788Z\t89208db7-22bc-4b06-ad27-03d5c4c355d2\tINFO\tfaaster_1n87c: modeA f1 749 779 779 f2 838 803 805 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRADEjYaGAIGTl9jvAAAAAAfQbhCAAZPnhEAAAAEwiABKMjf34CnMTCcsOGApzE4QUCfnAFI+0BQgi0YACABECUYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:34.831Z\t4094e9ee-adc4-4b61-9056-0153376f5cb3\tINFO\tfaaster_1n87c: modeC f1 f2 689 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRAEEjYaGAIGK+/2PAAAAAJRtX0/AAZPnhBgAAAHwiABKIvk34CnMTDQleGApzE4WkDuxgFIgUVQ9jEYACABEFcYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:34.111Z\te3e98ad1-825b-4c82-967d-2a5d0b34c0b9\tINFO\tfaaster_1n87c: modeB f1 631 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRAEEjYaGAIGK+/2PAAAAAJRtX0/AAZPnhBgAAAHwiABKIvk34CnMTDQleGApzE4WkDuxgFIgUVQ9jEYACABEFAYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:33.436Z\ta3fc86b7-224d-49fb-b157-0bbc93b35d4e\tINFO\tfaaster_1n87c: modeC f1 f2 703 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRAEEjYaGAIGK+/2PAAAAAJRtX0/AAZPnhBgAAAHwiABKIvk34CnMTDQleGApzE4WkDuxgFIgUVQ9jEYACABEEkYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:32.698Z\tbb537d46-25e5-48a2-86ce-cf1565a2100f\tINFO\tfaaster_1n87c: modeB f1 656 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRAEEjYaGAIGK+/2PAAAAAJRtX0/AAZPnhBgAAAHwiABKIvk34CnMTDQleGApzE4WkDuxgFIgUVQ9jEYACABEEIYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:32.012Z\tf5c29b2c-1023-4941-9e16-ede69c4e65a2\tINFO\tfaaster_1n87c: modeA f1 649 681 693 f2 719 723 721 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRAEEjYaGAIGK+/2PAAAAAJRtX0/AAZPnhBgAAAHwiABKIvk34CnMTDQleGApzE4WkDuxgFIgUVQ9jEYACABEDsYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:31.872Z\tf95f6653-625e-4091-be16-4ae9a459ecca\tINFO\tfaaster_1n87c: modeC f1 f2 690 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRAEEjYaGAIGK+/2PAAAAAJRtX0/AAZPnhBgAAAHwiABKIvk34CnMTDQleGApzE4WkDuxgFIgUVQ9jEYACABEDgYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:31.148Z\t2bcf56dc-9e41-4cf5-b80e-c58f2dc7c403\tINFO\tfaaster_1n87c: modeB f1 651 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRAEEjYaGAIGK+/2PAAAAAJRtX0/AAZPnhBgAAAHwiABKIvk34CnMTDQleGApzE4WkDuxgFIgUVQ9jEYACABEDEYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:30.988Z\t95ee42a5-2bda-4c92-be0d-6bd364770eb4\tINFO\tfaaster_1n87c: modeC f1 f2 774 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRADEjYaGAIGTl9jvAAAAAAfQbhCAAZPnhEAAAAEwiABKMjf34CnMTCcsOGApzE4QUCfnAFI+0BQgi0YACABEB4YAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:30.451Z\t0f41fec8-9899-4444-a12b-fae62e4b4b78\tINFO\tfaaster_1n87c: modeC f1 f2 671 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRAEEjYaGAIGK+/2PAAAAAJRtX0/AAZPnhBgAAAHwiABKIvk34CnMTDQleGApzE4WkDuxgFIgUVQ9jEYACABECoYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:30.164Z\t5b86b54c-cb25-4594-abdc-ef45b22fe88c\tINFO\tfaaster_1n87c: modeB f1 752 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRADEjYaGAIGTl9jvAAAAAAfQbhCAAZPnhEAAAAEwiABKMjf34CnMTCcsOGApzE4QUCfnAFI+0BQgi0YACABEBcYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:29.749Z\td823867f-7a2d-4aa3-b234-30dc674c1b9f\tINFO\tfaaster_1n87c: modeB f1 663 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRAEEjYaGAIGK+/2PAAAAAJRtX0/AAZPnhBgAAAHwiABKIvk34CnMTDQleGApzE4WkDuxgFIgUVQ9jEYACABECMYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:29.567Z\t7b1f6f21-d7f3-420d-a502-8342d577a383\tINFO\tfaaster_1n87c: modeC f1 f2 756 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRAAEjYaGAIGR7GilwAAAAU+X3hWAAZPnhJQAAAAciABKOOS4ICnMTDbtuGApzE4XUCHygFIvkVQsjIYACABEFcYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:29.051Z\tcf83c8e4-af82-4fed-817c-7b114f7fd870\tINFO\tfaaster_1n87c: modeA f1 666 662 679 f2 699 701 683 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRACEjYaGAIGT1vuJAAAAAAPSgl7AAZPnhOAAAAEQiABKLKj4ICnMTDe6OCApzE4OEDUgAFIuTtQsSgYACABEDEYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:28.767Z\t8d8b5577-2fb8-45c0-b7ea-3696ff69a165\tINFO\tfaaster_1n87c: modeB f1 726 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRAAEjYaGAIGR7GilwAAAAU+X3hWAAZPnhJQAAAAciABKOOS4ICnMTDbtuGApzE4XUCHygFIvkVQsjIYACABEFAYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:28.009Z\t4857f081-45b1-449b-99d7-64408904260e\tINFO\tfaaster_1n87c: modeC f1 f2 746 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRAAEjYaGAIGR7GilwAAAAU+X3hWAAZPnhJQAAAAciABKOOS4ICnMTDbtuGApzE4XUCHygFIvkVQsjIYACABEEkYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:27.793Z\t52bca62e-a401-4a0e-ab64-51649016c542\tINFO\tfaaster_1n87c: modeC f1 f2 692 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRABEjcaGAIGT5YWsgAAAAAQRYtUAAZPnhMAAAACIiABKPua34CnMTDy3uCApzE4uQFAgK8DSKxfUK1LGAAgARCyARgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:27.233Z\tb138dd61-cf53-4d1b-adb6-2a430a10d621\tINFO\tfaaster_1n87c: modeB f1 711 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRAAEjYaGAIGR7GilwAAAAU+X3hWAAZPnhJQAAAAciABKOOS4ICnMTDbtuGApzE4XUCHygFIvkVQsjIYACABEEIYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:27.073Z\t8e42553f-7fb6-46bb-bee9-bec6d65f8e3e\tINFO\tfaaster_1n87c: modeB f1 664 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRABEjcaGAIGT5YWsgAAAAAQRYtUAAZPnhMAAAACIiABKPua34CnMTDy3uCApzE4uQFAgK8DSKxfUK1LGAAgARCrARgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:26.862Z\t4a367679-1777-4fdd-8855-93bf125fd9b2\tINFO\tfaaster_1n87c: modeC f1 f2 787 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRAAEjYaGAIGR7GilwAAAAU+X3hWAAZPnhJQAAAAciABKOOS4ICnMTDbtuGApzE4XUCHygFIvkVQsjIYACABECoYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:26.492Z\t170b1bc4-cc9c-451a-bfd4-67e60117a793\tINFO\tfaaster_1n87c: modeA f1 727 742 741 f2 762 776 764 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRAAEjYaGAIGR7GilwAAAAU+X3hWAAZPnhJQAAAAciABKOOS4ICnMTDbtuGApzE4XUCHygFIvkVQsjIYACABEDsYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:26.043Z\t2d893221-5b1c-4c66-a999-c3bf1c2f5767\tINFO\tfaaster_1n87c: modeB f1 768 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRAAEjYaGAIGR7GilwAAAAU+X3hWAAZPnhJQAAAAciABKOOS4ICnMTDbtuGApzE4XUCHygFIvkVQsjIYACABECMYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:25.243Z\t48761a26-4ba6-42fd-a34d-61eb36173db8\tINFO\tfaaster_1n87c: modeC f1 f2 803 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRAAEjYaGAIGR7GilwAAAAU+X3hWAAZPnhJQAAAAciABKOOS4ICnMTDbtuGApzE4XUCHygFIvkVQsjIYACABEBwYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:24.926Z\t30d90838-0e3e-44ca-9c60-6c3a90432b73\tINFO\tfaaster_1n87c: modeC f1 f2 720 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRACEjYaGAIGT1vuJAAAAAAPSgl7AAZPnhOAAAAEQiABKLKj4ICnMTDe6OCApzE4OEDUgAFIuTtQsSgYACABECoYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:24.407Z\t63196a59-cbc9-45a4-ae91-54d6d2d82b98\tINFO\tfaaster_1n87c: modeB f1 752 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRAAEjYaGAIGR7GilwAAAAU+X3hWAAZPnhJQAAAAciABKOOS4ICnMTDbtuGApzE4XUCHygFIvkVQsjIYACABEBUYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:24.130Z\tccc620c3-da9b-4831-b942-966a66cfbd02\tINFO\tfaaster_1n87c: modeB f1 700 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRACEjYaGAIGT1vuJAAAAAAPSgl7AAZPnhOAAAAEQiABKLKj4ICnMTDe6OCApzE4OEDUgAFIuTtQsSgYACABECMYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:23.622Z\tbcca32a3-b14c-4f10-b636-cc8c39c2d7fc\tINFO\tfaaster_1n87c: modeA f1 770 775 764 f2 804 820 816 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRAAEjYaGAIGR7GilwAAAAU+X3hWAAZPnhJQAAAAciABKOOS4ICnMTDbtuGApzE4XUCHygFIvkVQsjIYACABEA4YAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:23.109Z\tce9a3d24-ecad-4748-afba-3afe56095ae1\tINFO\tfaaster_1n87c: modeC f1 f2 694 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRACEjYaGAIGT1vuJAAAAAAPSgl7AAZPnhOAAAAEQiABKLKj4ICnMTDe6OCApzE4OEDUgAFIuTtQsSgYACABEBwYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:22.348Z\tbac2312f-3659-4ddf-93b5-b56884efaa93\tINFO\tfaaster_1n87c: modeB f1 665 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRACEjYaGAIGT1vuJAAAAAAPSgl7AAZPnhOAAAAEQiABKLKj4ICnMTDe6OCApzE4OEDUgAFIuTtQsSgYACABEBUYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:21.950Z\te57539e1-85c5-4cfe-b7d3-83fefd5511e3\tINFO\tfaaster_1n87c: modeC f1 f2 751 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRAAEjYaGAIGR7GilwAAAAU+X3hWAAZPnhJQAAAAciABKOOS4ICnMTDbtuGApzE4XUCHygFIvkVQsjIYACABEDQYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:21.647Z\t7782f5c9-75c9-44e4-a2ed-ce4e21789fbb\tINFO\tfaaster_1n87c: modeC f1 f2 703 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRACEjYaGAIGT1vuJAAAAAAPSgl7AAZPnhOAAAAEQiABKLKj4ICnMTDe6OCApzE4OEDUgAFIuTtQsSgYACABEA4YAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:21.167Z\td481f767-f9bf-4fbd-8bd4-b184e7bff9b5\tINFO\tfaaster_1n87c: modeB f1 734 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRAAEjYaGAIGR7GilwAAAAU+X3hWAAZPnhJQAAAAciABKOOS4ICnMTDbtuGApzE4XUCHygFIvkVQsjIYACABEC0YAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:20.972Z\ta130c45f-53f3-493c-97ba-93546e99b11b\tINFO\tfaaster_1n87c: modeC f1 f2 670 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRABEjcaGAIGT5YWsgAAAAAQRYtUAAZPnhMAAAACIiABKPua34CnMTDy3uCApzE4uQFAgK8DSKxfUK1LGAAgARCkARgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:20.912Z\t7f970dd3-04e3-4b1a-9ef2-215807ef269f\tINFO\tfaaster_1n87c: modeB f1 662 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRACEjYaGAIGT1vuJAAAAAAPSgl7AAZPnhOAAAAEQiABKLKj4ICnMTDe6OCApzE4OEDUgAFIuTtQsSgYACABEAcYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:20.271Z\tc8ce8457-8c11-4f50-bbfb-b93bd351d485\tINFO\tfaaster_1n87c: modeB f1 639 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRABEjcaGAIGT5YWsgAAAAAQRYtUAAZPnhMAAAACIiABKPua34CnMTDy3uCApzE4uQFAgK8DSKxfUK1LGAAgARCdARgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:20.210Z\tc3a0aff5-6563-444d-8530-602d0b2d6236\tINFO\tfaaster_1n87c: modeA f1 705 681 666 f2 703 719 718 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRACEjYaGAIGT1vuJAAAAAAPSgl7AAZPnhOAAAAEQiABKLKj4ICnMTDe6OCApzE4OEDUgAFIuTtQsSgYACABEAAYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:19.575Z\t292024fa-eb06-45de-bdfb-829f377f963f\tINFO\tfaaster_1n87c: modeC f1 f2 678 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRABEjcaGAIGT5YWsgAAAAAQRYtUAAZPnhMAAAACIiABKPua34CnMTDy3uCApzE4uQFAgK8DSKxfUK1LGAAgARCWARgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:18.864Z\t19d7a5cc-ff7d-41dc-b609-9d48276546aa\tINFO\tfaaster_1n87c: modeB f1 748 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRAAEjYaGAIGR7GilwAAAAU+X3hWAAZPnhJQAAAAciABKOOS4ICnMTDbtuGApzE4XUCHygFIvkVQsjIYACABEAcYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:18.835Z\tf0051b71-285c-4c16-a941-0bdd4aaaabfa\tINFO\tfaaster_1n87c: modeC f1 f2 671 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRABEjcaGAIGT5YWsgAAAAAQRYtUAAZPnhMAAAACIiABKPua34CnMTDy3uCApzE4uQFAgK8DSKxfUK1LGAAgARCPARgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:18.132Z\ta2dabeff-e573-4fd3-8190-bc9f507a0616\tINFO\tfaaster_1n87c: modeB f1 661 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRABEjcaGAIGT5YWsgAAAAAQRYtUAAZPnhMAAAACIiABKPua34CnMTDy3uCApzE4uQFAgK8DSKxfUK1LGAAgARCIARgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:18.083Z\t88adaabf-a267-4afc-8c9d-c9888a4f0a28\tINFO\tfaaster_1n87c: modeA f1 683 783 765 f2 722 817 816 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRAAEjYaGAIGR7GilwAAAAU+X3hWAAZPnhJQAAAAciABKOOS4ICnMTDbtuGApzE4XUCHygFIvkVQsjIYACABEAAYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:17.377Z\t0396bbb3-ac18-4c49-8c6c-573d3e44b02f\tINFO\tfaaster_1n87c: modeC f1 f2 673 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRABEjcaGAIGT5YWsgAAAAAQRYtUAAZPnhMAAAACIiABKPua34CnMTDy3uCApzE4uQFAgK8DSKxfUK1LGAAgARCBARgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:16.671Z\t4ccdd352-04df-4525-81b5-3a3dc222b845\tINFO\tfaaster_1n87c: modeB f1 643 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRABEjcaGAIGT5YWsgAAAAAQRYtUAAZPnhMAAAACIiABKPua34CnMTDy3uCApzE4uQFAgK8DSKxfUK1LGAAgARB6GAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:15.996Z\t7fb3b1d3-c112-43be-8caf-dc635a81cfd3\tINFO\tfaaster_1n87c: modeC f1 f2 685 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRABEjcaGAIGT5YWsgAAAAAQRYtUAAZPnhMAAAACIiABKPua34CnMTDy3uCApzE4uQFAgK8DSKxfUK1LGAAgARBzGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:15.959Z\te29ed461-9ffe-4487-b69e-9dfc5756e926\tINFO\tfaaster_1n87c: modeC f1 f2 792 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRABEjcaGAIGT5YWsgAAAAAQRYtUAAZPnhMAAAACIiABKPua34CnMTDy3uCApzE4uQFAgK8DSKxfUK1LGAAgARBQGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:15.277Z\tfa862bad-341f-4dd6-a6b5-08b4b7e60c8b\tINFO\tfaaster_1n87c: modeB f1 631 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRABEjcaGAIGT5YWsgAAAAAQRYtUAAZPnhMAAAACIiABKPua34CnMTDy3uCApzE4uQFAgK8DSKxfUK1LGAAgARBsGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:15.133Z\t74ad1393-d8fd-488b-a0b0-17f07ba68f34\tINFO\tfaaster_1n87c: modeB f1 664 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRABEjcaGAIGT5YWsgAAAAAQRYtUAAZPnhMAAAACIiABKPua34CnMTDy3uCApzE4uQFAgK8DSKxfUK1LGAAgARBJGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:15.033Z\tb2b67e2c-4758-444c-aef8-a9a70897a7d9\tINFO\tfaaster_1n87c: modeC f1 f2 711 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRAEEjYaGAIGK+/2PAAAAAJRtX0/AAZPnhBgAAAHwiABKIvk34CnMTDQleGApzE4WkDuxgFIgUVQ9jEYACABEBwYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:14.616Z\t7402eabd-1eb8-4da3-a37f-d1b361ae0166\tINFO\tfaaster_1n87c: modeA f1 660 675 659 f2 705 704 680 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRABEjcaGAIGT5YWsgAAAAAQRYtUAAZPnhMAAAACIiABKPua34CnMTDy3uCApzE4uQFAgK8DSKxfUK1LGAAgARBlGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:14.290Z\t448d9946-c1e4-4040-a3d5-477705e2fb5e\tINFO\tfaaster_1n87c: modeB f1 686 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRAEEjYaGAIGK+/2PAAAAAJRtX0/AAZPnhBgAAAHwiABKIvk34CnMTDQleGApzE4WkDuxgFIgUVQ9jEYACABEBUYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:13.572Z\tb1615446-29eb-4771-ada1-78701b4a5712\tINFO\tfaaster_1n87c: modeC f1 f2 711 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRAEEjYaGAIGK+/2PAAAAAJRtX0/AAZPnhBgAAAHwiABKIvk34CnMTDQleGApzE4WkDuxgFIgUVQ9jEYACABEA4YAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:13.461Z\t57960389-d520-40db-bc9b-a0177bac65d9\tINFO\tfaaster_1n87c: modeC f1 f2 725 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRADEjYaGAIGTl9jvAAAAAAfQbhCAAZPnhEAAAAEwiABKMjf34CnMTCcsOGApzE4QUCfnAFI+0BQgi0YACABEAwYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:12.827Z\tc697f13f-d990-4eac-9b65-bb040e355dd7\tINFO\tfaaster_1n87c: modeB f1 685 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRAEEjYaGAIGK+/2PAAAAAJRtX0/AAZPnhBgAAAHwiABKIvk34CnMTDQleGApzE4WkDuxgFIgUVQ9jEYACABEAcYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:12.701Z\t5cc1d126-4f7e-4570-a2f7-fb21da9718cc\tINFO\tfaaster_1n87c: modeB f1 719 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRADEjYaGAIGTl9jvAAAAAAfQbhCAAZPnhEAAAAEwiABKMjf34CnMTCcsOGApzE4QUCfnAFI+0BQgi0YACABEAUYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:12.107Z\td33b5021-a5b2-4042-8385-109420dc5a26\tINFO\tfaaster_1n87c: modeA f1 720 720 717 f2 742 742 739 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRAEEjYaGAIGK+/2PAAAAAJRtX0/AAZPnhBgAAAHwiABKIvk34CnMTDQleGApzE4WkDuxgFIgUVQ9jEYACABEAAYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:11.993Z\t470cdac2-5c39-47d0-8922-c72da1170b44\tINFO\tfaaster_1n87c: modeC f1 f2 690 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRABEjcaGAIGT5YWsgAAAAAQRYtUAAZPnhMAAAACIiABKPua34CnMTDy3uCApzE4uQFAgK8DSKxfUK1LGAAgARBCGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:11.267Z\t9bae8fed-67ad-482c-baad-a084dc25268e\tINFO\tfaaster_1n87c: modeB f1 675 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRABEjcaGAIGT5YWsgAAAAAQRYtUAAZPnhMAAAACIiABKPua34CnMTDy3uCApzE4uQFAgK8DSKxfUK1LGAAgARA7GAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:10.493Z\t53971a95-1f0a-4b3d-8280-5386c5f8dc60\tINFO\tfaaster_1n87c: modeC f1 f2 679 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRABEjcaGAIGT5YWsgAAAAAQRYtUAAZPnhMAAAACIiABKPua34CnMTDy3uCApzE4uQFAgK8DSKxfUK1LGAAgARBeGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:10.491Z\t9b942d34-5992-41ed-a76e-4e825f3c140d\tINFO\tfaaster_1n87c: modeC f1 f2 691 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRABEjcaGAIGT5YWsgAAAAAQRYtUAAZPnhMAAAACIiABKPua34CnMTDy3uCApzE4uQFAgK8DSKxfUK1LGAAgARA0GAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:09.768Z\te0bd0a10-bccf-4a11-95d3-d5d745eda158\tINFO\tfaaster_1n87c: modeB f1 660 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRABEjcaGAIGT5YWsgAAAAAQRYtUAAZPnhMAAAACIiABKPua34CnMTDy3uCApzE4uQFAgK8DSKxfUK1LGAAgARAtGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:09.757Z\t3d59ce86-ba3b-4672-8612-b125385c7bb3\tINFO\tfaaster_1n87c: modeB f1 687 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRABEjcaGAIGT5YWsgAAAAAQRYtUAAZPnhMAAAACIiABKPua34CnMTDy3uCApzE4uQFAgK8DSKxfUK1LGAAgARBXGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:09.067Z\t001db412-daf9-4077-8048-32d7b64e75f0\tINFO\tfaaster_1n87c: modeA f1 679 715 680 f2 724 720 719 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRABEjcaGAIGT5YWsgAAAAAQRYtUAAZPnhMAAAACIiABKPua34CnMTDy3uCApzE4uQFAgK8DSKxfUK1LGAAgARAmGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:07.687Z\tbfdd737f-c67f-490c-bcde-b5ae6788b654\tINFO\tfaaster_1n87c: modeC f1 f2 770 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRABEjcaGAIGT5YWsgAAAAAQRYtUAAZPnhMAAAACIiABKPua34CnMTDy3uCApzE4uQFAgK8DSKxfUK1LGAAgARAfGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:06.873Z\t168455db-3587-4e7c-92a4-d54e8911a0f5\tINFO\tfaaster_1n87c: modeB f1 731 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRABEjcaGAIGT5YWsgAAAAAQRYtUAAZPnhMAAAACIiABKPua34CnMTDy3uCApzE4uQFAgK8DSKxfUK1LGAAgARAYGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:04.773Z\t0b2c0122-3cbd-4509-be60-23f4b1444c29\tINFO\tfaaster_1n87c: modeC f1 f2 706 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRABEjcaGAIGT5YWsgAAAAAQRYtUAAZPnhMAAAACIiABKPua34CnMTDy3uCApzE4uQFAgK8DSKxfUK1LGAAgARAMGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:42:03.968Z\td9bfe844-3867-4571-912a-0dd510757730\tINFO\tfaaster_1n87c: modeB f1 712 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMRABEjcaGAIGT5YWsgAAAAAQRYtUAAZPnhMAAAACIiABKPua34CnMTDy3uCApzE4uQFAgK8DSKxfUK1LGAAgARAFGAE="
+            }
+        ]
+    ],
+    "statistics": {
+        "recordsMatched": 70.0,
+        "recordsScanned": 494.0,
+        "bytesScanned": 144814.0
+    },
+    "status": "Complete"
+}
+{
+    "results": [
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:40.351Z\t14011e4a-0987-47f7-9f19-57835960f484\tINFO\tfaaster_1n87c: modeC f1 f2 740 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhAFEjUaGAIGTpWDcAAAAABF4aAmAAZPnhOAAAACAiABKMbS5ICnMTDBleWApzE4N0C/dkjUOlDLJxgAIAEQNBgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:39.571Z\tf5e031aa-7eab-4313-af85-06f26ae002a1\tINFO\tfaaster_1n87c: modeB f1 693 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhAFEjUaGAIGTpWDcAAAAABF4aAmAAZPnhOAAAACAiABKMbS5ICnMTDBleWApzE4N0C/dkjUOlDLJxgAIAEQLRgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:38.837Z\t0dbb7903-eaf5-4951-b360-aed0bf55cfe8\tINFO\tfaaster_1n87c: modeC f1 f2 731 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhAFEjUaGAIGTpWDcAAAAABF4aAmAAZPnhOAAAACAiABKMbS5ICnMTDBleWApzE4N0C/dkjUOlDLJxgAIAEQJhgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:38.070Z\t81ec0d9e-38b4-40bf-9577-f0ae989893fd\tINFO\tfaaster_1n87c: modeB f1 722 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhAFEjUaGAIGTpWDcAAAAABF4aAmAAZPnhOAAAACAiABKMbS5ICnMTDBleWApzE4N0C/dkjUOlDLJxgAIAEQHxgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:37.443Z\t84953dea-c714-4657-8e20-47f20006abbf\tINFO\tfaaster_1n87c: modeC f1 f2 746 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhACEjUaGAIGS3ju2wAAAAPISFVFAAZPnhjQAAAAsiABKLy95ICnMTDz/uSApzE4LUC3Y0jEN1C8JBgAIAEQKhgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:37.311Z\t77d6f94a-48ac-407b-bfce-cd7242cd75d9\tINFO\tfaaster_1n87c: modeA f1 721 725 721 f2 738 758 758 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhAFEjUaGAIGTpWDcAAAAABF4aAmAAZPnhOAAAACAiABKMbS5ICnMTDBleWApzE4N0C/dkjUOlDLJxgAIAEQGBgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:36.658Z\t45239725-c2c4-4978-9f3e-c1ea5276aa98\tINFO\tfaaster_1n87c: modeB f1 721 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhACEjUaGAIGS3ju2wAAAAPISFVFAAZPnhjQAAAAsiABKLy95ICnMTDz/uSApzE4LUC3Y0jEN1C8JBgAIAEQIxgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:35.902Z\ta2b3da23-630e-42a9-8e44-9108c499d881\tINFO\tfaaster_1n87c: modeC f1 f2 767 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhACEjUaGAIGS3ju2wAAAAPISFVFAAZPnhjQAAAAsiABKLy95ICnMTDz/uSApzE4LUC3Y0jEN1C8JBgAIAEQHBgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:35.100Z\t6ae70b0d-511c-4f04-822c-6d2f70f8ea5f\tINFO\tfaaster_1n87c: modeB f1 704 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhACEjUaGAIGS3ju2wAAAAPISFVFAAZPnhjQAAAAsiABKLy95ICnMTDz/uSApzE4LUC3Y0jEN1C8JBgAIAEQFRgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:34.361Z\t236fc327-d3d8-419b-8881-5ad729c3a17b\tINFO\tfaaster_1n87c: modeA f1 718 720 723 f2 763 758 758 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhACEjUaGAIGS3ju2wAAAAPISFVFAAZPnhjQAAAAsiABKLy95ICnMTDz/uSApzE4LUC3Y0jEN1C8JBgAIAEQDhgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:34.058Z\t077e454c-dcbb-49c7-94ba-a1b41f27d4bc\tINFO\tfaaster_1n87c: modeC f1 f2 706 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhAFEjUaGAIGTpWDcAAAAABF4aAmAAZPnhOAAAACAiABKMbS5ICnMTDBleWApzE4N0C/dkjUOlDLJxgAIAEQFRgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:33.315Z\tc431cd0a-c5d9-4f3a-9dc5-48dd379ae86c\tINFO\tfaaster_1n87c: modeB f1 662 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhAFEjUaGAIGTpWDcAAAAABF4aAmAAZPnhOAAAACAiABKMbS5ICnMTDBleWApzE4N0C/dkjUOlDLJxgAIAEQDhgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:32.854Z\t8ce43d17-7ddd-473b-a8ea-9cbaf1772eff\tINFO\tfaaster_1n87c: modeC f1 f2 726 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhADEjYaGAIGPPacZgAAAAFbYe6nAAZPnhRwAAADYiABKPaG5ICnMTCa2+SApzE4d0CXkQJI6EtQ3DgYACABEHAYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:32.597Z\tb15fc8d6-a836-46f0-978e-8198c5ee44f3\tINFO\tfaaster_1n87c: modeC f1 f2 761 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhAFEjUaGAIGTpWDcAAAAABF4aAmAAZPnhOAAAACAiABKMbS5ICnMTDBleWApzE4N0C/dkjUOlDLJxgAIAEQBxgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:32.091Z\tfdfb5c66-3ac3-4051-902d-05c490f4067f\tINFO\tfaaster_1n87c: modeB f1 755 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhADEjYaGAIGPPacZgAAAAFbYe6nAAZPnhRwAAADYiABKPaG5ICnMTCa2+SApzE4d0CXkQJI6EtQ3DgYACABEGkYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:31.782Z\t068d5771-377d-47f2-b3cc-8aaf26c06cac\tINFO\tfaaster_1n87c: modeB f1 690 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhAFEjUaGAIGTpWDcAAAAABF4aAmAAZPnhOAAAACAiABKMbS5ICnMTDBleWApzE4N0C/dkjUOlDLJxgAIAEQABgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:31.056Z\tb25f00e4-cd43-417e-81ef-1f7a0c5320e0\tINFO\tfaaster_1n87c: modeA f1 679 698 681 f2 720 723 737 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhADEjYaGAIGPPacZgAAAAFbYe6nAAZPnhRwAAADYiABKPaG5ICnMTCa2+SApzE4d0CXkQJI6EtQ3DgYACABEDEYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:30.973Z\tf29e42f9-6d4a-4eca-a5f9-74d2e166a7f8\tINFO\tfaaster_1n87c: modeC f1 f2 749 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhADEjYaGAIGPPacZgAAAAFbYe6nAAZPnhRwAAADYiABKPaG5ICnMTCa2+SApzE4d0CXkQJI6EtQ3DgYACABEGIYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:30.172Z\t29e679b2-833c-47c4-ba0f-82060f033123\tINFO\tfaaster_1n87c: modeB f1 710 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhADEjYaGAIGPPacZgAAAAFbYe6nAAZPnhRwAAADYiABKPaG5ICnMTCa2+SApzE4d0CXkQJI6EtQ3DgYACABEFsYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:29.881Z\t4036f47a-3bc1-493e-a5d3-a5240cd2c14c\tINFO\tfaaster_1n87c: modeC f1 f2 755 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhACEjUaGAIGS3ju2wAAAAPISFVFAAZPnhjQAAAAsiABKLy95ICnMTDz/uSApzE4LUC3Y0jEN1C8JBgAIAEQBxgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:29.425Z\t601385b9-e52c-413e-ae44-b71e87aad04b\tINFO\tfaaster_1n87c: modeC f1 f2 706 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhAHEjYaGAIGSIOuiQAAAAHlS+w0AAZPnhWwAAABkiABKKD144CnMTC4wOSApzE4RkDeoAFIg0BQ+iwYACABEEMYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:29.084Z\t6e920495-0c32-4b0d-bb71-ee54b49fb825\tINFO\tfaaster_1n87c: modeB f1 716 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhACEjUaGAIGS3ju2wAAAAPISFVFAAZPnhjQAAAAsiABKLy95ICnMTDz/uSApzE4LUC3Y0jEN1C8JBgAIAEQABgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:28.688Z\tfd7c3f79-c5dc-4574-b775-bb9afbe29343\tINFO\tfaaster_1n87c: modeB f1 664 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhAHEjYaGAIGSIOuiQAAAAHlS+w0AAZPnhWwAAABkiABKKD144CnMTC4wOSApzE4RkDeoAFIg0BQ+iwYACABEDwYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:28.455Z\t4c97d52c-a8d0-477a-a327-cdc2a23a4952\tINFO\tfaaster_1n87c: modeC f1 f2 740 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhADEjYaGAIGPPacZgAAAAFbYe6nAAZPnhRwAAADYiABKPaG5ICnMTCa2+SApzE4d0CXkQJI6EtQ3DgYACABEFQYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:27.985Z\t59d6497d-7793-471d-a2cd-dab7ab148464\tINFO\tfaaster_1n87c: modeA f1 681 680 679 f2 706 716 720 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhAHEjYaGAIGSIOuiQAAAAHlS+w0AAZPnhWwAAABkiABKKD144CnMTC4wOSApzE4RkDeoAFIg0BQ+iwYACABEDUYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:27.673Z\t388130a9-23d3-4cdb-9a7a-2025cabd347b\tINFO\tfaaster_1n87c: modeB f1 725 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhADEjYaGAIGPPacZgAAAAFbYe6nAAZPnhRwAAADYiABKPaG5ICnMTCa2+SApzE4d0CXkQJI6EtQ3DgYACABEE0YAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:26.915Z\tfde52612-ebd2-43a4-89e6-2f4ae379bbc8\tINFO\tfaaster_1n87c: modeC f1 f2 749 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhADEjYaGAIGPPacZgAAAAFbYe6nAAZPnhRwAAADYiABKPaG5ICnMTCa2+SApzE4d0CXkQJI6EtQ3DgYACABEEYYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:26.780Z\tb2404615-9e50-4252-ae95-1d0617a44e0d\tINFO\tfaaster_1n87c: modeC f1 f2 712 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhADEjYaGAIGPPacZgAAAAFbYe6nAAZPnhRwAAADYiABKPaG5ICnMTCa2+SApzE4d0CXkQJI6EtQ3DgYACABECoYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:26.131Z\tac2092a9-291d-4958-ad1d-4f40d2c394e4\tINFO\tfaaster_1n87c: modeB f1 711 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhADEjYaGAIGPPacZgAAAAFbYe6nAAZPnhRwAAADYiABKPaG5ICnMTCa2+SApzE4d0CXkQJI6EtQ3DgYACABED8YAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:26.037Z\t99829043-31ba-4b7f-ae43-1d6dab1618c9\tINFO\tfaaster_1n87c: modeB f1 667 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhADEjYaGAIGPPacZgAAAAFbYe6nAAZPnhRwAAADYiABKPaG5ICnMTCa2+SApzE4d0CXkQJI6EtQ3DgYACABECMYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:25.391Z\t2e6a05c5-7cb6-4b5a-bf11-1edda8c49f72\tINFO\tfaaster_1n87c: modeA f1 720 722 740 f2 761 777 761 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhADEjYaGAIGPPacZgAAAAFbYe6nAAZPnhRwAAADYiABKPaG5ICnMTCa2+SApzE4d0CXkQJI6EtQ3DgYACABEDgYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:25.037Z\t57df0023-afb2-4aa2-a40c-d5b2bb3ef735\tINFO\tfaaster_1n87c: modeC f1 f2 718 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhADEjYaGAIGPPacZgAAAAFbYe6nAAZPnhRwAAADYiABKPaG5ICnMTCa2+SApzE4d0CXkQJI6EtQ3DgYACABEBwYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:24.276Z\t00b25ae6-8334-4ade-a78b-3c0349df6cce\tINFO\tfaaster_1n87c: modeB f1 683 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhADEjYaGAIGPPacZgAAAAFbYe6nAAZPnhRwAAADYiABKPaG5ICnMTCa2+SApzE4d0CXkQJI6EtQ3DgYACABEBUYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:23.766Z\t2d471a7d-bcb4-4a44-a434-8fb61aab121a\tINFO\tfaaster_1n87c: modeC f1 f2 705 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhAHEjYaGAIGSIOuiQAAAAHlS+w0AAZPnhWwAAABkiABKKD144CnMTC4wOSApzE4RkDeoAFIg0BQ+iwYACABEC4YAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:23.556Z\t1386fa62-dd30-4a2c-a997-fa1dfe101c9c\tINFO\tfaaster_1n87c: modeC f1 f2 713 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhADEjYaGAIGPPacZgAAAAFbYe6nAAZPnhRwAAADYiABKPaG5ICnMTCa2+SApzE4d0CXkQJI6EtQ3DgYACABEA4YAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:23.030Z\t9981a673-b145-421f-90bc-0d904b129e44\tINFO\tfaaster_1n87c: modeB f1 649 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhAHEjYaGAIGSIOuiQAAAAHlS+w0AAZPnhWwAAABkiABKKD144CnMTC4wOSApzE4RkDeoAFIg0BQ+iwYACABECcYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:22.882Z\t79beaa2c-7883-4e26-a19d-fda8f22c99fb\tINFO\tfaaster_1n87c: modeC f1 f2 801 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhAHEjYaGAIGSIOuiQAAAAHlS+w0AAZPnhWwAAABkiABKKD144CnMTC4wOSApzE4RkDeoAFIg0BQ+iwYACABEBwYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:22.799Z\te960df61-e07a-44c1-8eee-bcede7d08791\tINFO\tfaaster_1n87c: modeB f1 660 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhADEjYaGAIGPPacZgAAAAFbYe6nAAZPnhRwAAADYiABKPaG5ICnMTCa2+SApzE4d0CXkQJI6EtQ3DgYACABEAcYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:22.102Z\t84293369-12e9-432d-aac9-e6348a8a0ec1\tINFO\tfaaster_1n87c: modeA f1 680 687 680 f2 722 733 724 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhADEjYaGAIGPPacZgAAAAFbYe6nAAZPnhRwAAADYiABKPaG5ICnMTCa2+SApzE4d0CXkQJI6EtQ3DgYACABEAAYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:22.040Z\tec1bf457-5ef0-47bd-acb2-0bc1773d4acf\tINFO\tfaaster_1n87c: modeB f1 686 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhAHEjYaGAIGSIOuiQAAAAHlS+w0AAZPnhWwAAABkiABKKD144CnMTC4wOSApzE4RkDeoAFIg0BQ+iwYACABEBUYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:21.301Z\t5686e7a6-3594-4a87-8b53-bea75c1c62f4\tINFO\tfaaster_1n87c: modeC f1 f2 704 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhAHEjYaGAIGSIOuiQAAAAHlS+w0AAZPnhWwAAABkiABKKD144CnMTC4wOSApzE4RkDeoAFIg0BQ+iwYACABEA4YAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:20.870Z\tf230c352-6fab-4060-a7f1-1554fe472f72\tINFO\tfaaster_1n87c: modeC f1 f2 743 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhACEjYaGAIGS3ju2wAAAAPIRMGOAAZPnhGwAAAAsiABKJH/4oCnMTDO/eOApzE4XkCm3gFIjUlQkTUYACABEFcYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:20.559Z\t89f52873-dd66-4115-b7bf-255adb416400\tINFO\tfaaster_1n87c: modeB f1 681 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhAHEjYaGAIGSIOuiQAAAAHlS+w0AAZPnhWwAAABkiABKKD144CnMTC4wOSApzE4RkDeoAFIg0BQ+iwYACABEAcYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:20.091Z\t51cbcd96-a2b1-4388-822a-d25ba0bb2d37\tINFO\tfaaster_1n87c: modeB f1 716 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhACEjYaGAIGS3ju2wAAAAPIRMGOAAZPnhGwAAAAsiABKJH/4oCnMTDO/eOApzE4XkCm3gFIjUlQkTUYACABEFAYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:19.840Z\t4a4a181a-2cbf-475a-8896-78b8204d7a4a\tINFO\tfaaster_1n87c: modeA f1 646 700 720 f2 739 743 739 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhAHEjYaGAIGSIOuiQAAAAHlS+w0AAZPnhWwAAABkiABKKD144CnMTC4wOSApzE4RkDeoAFIg0BQ+iwYACABEAAYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:19.607Z\t52e945b3-e03b-4c25-8116-5ad923889f26\tINFO\tfaaster_1n87c: modeC f1 f2 701 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhAAEjYaGAIGT4SA2gAAAAE2R2NsAAZPnhOwAAAAoiABKLis44CnMTC58+OApzE4XEC00gFIokdQpjMYACABEFkYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:18.865Z\t1da81de0-4a77-43c2-9b6b-d3ed16da17cb\tINFO\tfaaster_1n87c: modeB f1 663 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhAAEjYaGAIGT4SA2gAAAAE2R2NsAAZPnhOwAAAAoiABKLis44CnMTC58+OApzE4XEC00gFIokdQpjMYACABEFIYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:18.165Z\t66390430-e6ee-41b0-8bcb-3022759b0993\tINFO\tfaaster_1n87c: modeC f1 f2 691 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhAAEjYaGAIGT4SA2gAAAAE2R2NsAAZPnhOwAAAAoiABKLis44CnMTC58+OApzE4XEC00gFIokdQpjMYACABEEsYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:17.838Z\t58a69fda-991b-4df5-bb40-00cf1928054a\tINFO\tfaaster_1n87c: modeC f1 f2 744 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhAAEjYaGAIGT4SA2gAAAAE2R2NsAAZPnhOwAAAAoiABKLis44CnMTC58+OApzE4XEC00gFIokdQpjMYACABECgYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:17.409Z\t66bfb1f6-e679-4baf-b4e8-acc3eb38ddff\tINFO\tfaaster_1n87c: modeB f1 662 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhAAEjYaGAIGT4SA2gAAAAE2R2NsAAZPnhOwAAAAoiABKLis44CnMTC58+OApzE4XEC00gFIokdQpjMYACABEEQYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:17.210Z\t4917532d-7036-448a-b3de-6ac3d0b9ed7b\tINFO\tfaaster_1n87c: modeC f1 f2 752 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhACEjYaGAIGS3ju2wAAAAPIRMGOAAZPnhGwAAAAsiABKJH/4oCnMTDO/eOApzE4XkCm3gFIjUlQkTUYACABEEkYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:17.057Z\tfa3563d4-3ad7-4b83-8dae-ee65a2f81857\tINFO\tfaaster_1n87c: modeB f1 684 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhAAEjYaGAIGT4SA2gAAAAE2R2NsAAZPnhOwAAAAoiABKLis44CnMTC58+OApzE4XEC00gFIokdQpjMYACABECEYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:16.707Z\t1f05ea80-8c96-44d6-a821-6b88be77ecc1\tINFO\tfaaster_1n87c: modeA f1 664 679 677 f2 720 725 721 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhAAEjYaGAIGT4SA2gAAAAE2R2NsAAZPnhOwAAAAoiABKLis44CnMTC58+OApzE4XEC00gFIokdQpjMYACABED0YAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:16.413Z\tb871c539-7cf6-4554-a9c0-f7fbae4e504c\tINFO\tfaaster_1n87c: modeB f1 716 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhACEjYaGAIGS3ju2wAAAAPIRMGOAAZPnhGwAAAAsiABKJH/4oCnMTDO/eOApzE4XkCm3gFIjUlQkTUYACABEEIYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:15.630Z\t06b08087-482b-4101-a342-ae297712292e\tINFO\tfaaster_1n87c: modeC f1 f2 753 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhACEjYaGAIGS3ju2wAAAAPIRMGOAAZPnhGwAAAAsiABKJH/4oCnMTDO/eOApzE4XkCm3gFIjUlQkTUYACABEDsYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:15.518Z\t97bd2a56-bfee-47ca-a26f-1c7de47596af\tINFO\tfaaster_1n87c: modeC f1 f2 707 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhACEjYaGAIGS3ju2wAAAAPIRMGOAAZPnhGwAAAAsiABKJH/4oCnMTDO/eOApzE4XkCm3gFIjUlQkTUYACABECYYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:14.833Z\tb0dc1d0c-50c8-48d9-97ff-9f60377412a3\tINFO\tfaaster_1n87c: modeB f1 719 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhACEjYaGAIGS3ju2wAAAAPIRMGOAAZPnhGwAAAAsiABKJH/4oCnMTDO/eOApzE4XkCm3gFIjUlQkTUYACABEDQYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:14.764Z\t32235d39-9dc9-45c8-bb15-b07a7fbb7025\tINFO\tfaaster_1n87c: modeB f1 728 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhACEjYaGAIGS3ju2wAAAAPIRMGOAAZPnhGwAAAAsiABKJH/4oCnMTDO/eOApzE4XkCm3gFIjUlQkTUYACABEB8YAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:14.073Z\t70f26fdb-467d-44ea-8bf0-48fc2d1b1a79\tINFO\tfaaster_1n87c: modeA f1 736 760 741 f2 801 779 742 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhACEjYaGAIGS3ju2wAAAAPIRMGOAAZPnhGwAAAAsiABKJH/4oCnMTDO/eOApzE4XkCm3gFIjUlQkTUYACABEC0YAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:13.916Z\t1bcefed3-011a-4544-b079-993b1bb5e3c3\tINFO\tfaaster_1n87c: modeC f1 f2 707 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhAAEjYaGAIGT4SA2gAAAAE2R2NsAAZPnhOwAAAAoiABKLis44CnMTC58+OApzE4XEC00gFIokdQpjMYACABEBoYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:13.176Z\t64c62597-3d8e-45c0-8dd7-6980eac976d2\tINFO\tfaaster_1n87c: modeB f1 684 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhAAEjYaGAIGT4SA2gAAAAE2R2NsAAZPnhOwAAAAoiABKLis44CnMTC58+OApzE4XEC00gFIokdQpjMYACABEBMYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:12.445Z\teb6cd070-1a73-4045-a4ac-fcf5eae13ec3\tINFO\tfaaster_1n87c: modeC f1 f2 692 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhAAEjYaGAIGT4SA2gAAAAE2R2NsAAZPnhOwAAAAoiABKLis44CnMTC58+OApzE4XEC00gFIokdQpjMYACABEDYYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:12.441Z\t7251170c-a0f0-4be6-be62-eb8d636e1f43\tINFO\tfaaster_1n87c: modeC f1 f2 715 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhAAEjYaGAIGT4SA2gAAAAE2R2NsAAZPnhOwAAAAoiABKLis44CnMTC58+OApzE4XEC00gFIokdQpjMYACABEAwYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:11.715Z\te769ce67-f9d7-4cb1-a585-53cb960a920a\tINFO\tfaaster_1n87c: modeB f1 714 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhAAEjYaGAIGT4SA2gAAAAE2R2NsAAZPnhOwAAAAoiABKLis44CnMTC58+OApzE4XEC00gFIokdQpjMYACABEAUYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:11.688Z\tf61885f0-c9cc-4843-a5b3-2f95e1294726\tINFO\tfaaster_1n87c: modeB f1 661 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhAAEjYaGAIGT4SA2gAAAAE2R2NsAAZPnhOwAAAAoiABKLis44CnMTC58+OApzE4XEC00gFIokdQpjMYACABEC8YAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:10.985Z\t19e00779-f5b9-4052-ad28-166c8f79a29a\tINFO\tfaaster_1n87c: modeA f1 674 696 665 f2 722 722 734 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhACEjYaGAIGS3ju2wAAAAPIRMGOAAZPnhGwAAAAsiABKJH/4oCnMTDO/eOApzE4XkCm3gFIjUlQkTUYACABEBMYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:09.470Z\tc7d00c55-3240-44f9-a811-01fc38f60e16\tINFO\tfaaster_1n87c: modeC f1 f2 774 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhAEEjUaGAIGOOYN5wAAAAF2XiqtAAZPnhCQAAADciABKP+U44CnMTDKpOOApzE4E0DpLkicMVDkHRgAIAEQDBgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:08.651Z\te0f3b7c0-885b-4f5a-acd5-90762bab117e\tINFO\tfaaster_1n87c: modeB f1 761 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhAEEjUaGAIGOOYN5wAAAAF2XiqtAAZPnhCQAAADciABKP+U44CnMTDKpOOApzE4E0DpLkicMVDkHRgAIAEQBRgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:06.730Z\t3f056cbe-c66f-43dc-bc41-3a309f061f55\tINFO\tfaaster_1n87c: modeC f1 f2 705 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhACEjYaGAIGS3ju2wAAAAPIRMGOAAZPnhGwAAAAsiABKJH/4oCnMTDO/eOApzE4XkCm3gFIjUlQkTUYACABEAwYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:43:05.927Z\t44292bf3-9e8a-42a8-98d9-96cc7e05bb9e\tINFO\tfaaster_1n87c: modeB f1 721 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMhACEjYaGAIGS3ju2wAAAAPIRMGOAAZPnhGwAAAAsiABKJH/4oCnMTDO/eOApzE4XkCm3gFIjUlQkTUYACABEAUYAQ=="
+            }
+        ]
+    ],
+    "statistics": {
+        "recordsMatched": 70.0,
+        "recordsScanned": 494.0,
+        "bytesScanned": 144814.0
+    },
+    "status": "Complete"
+}
+{
+    "results": [
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:40.711Z\t3300a45a-391f-4393-a423-9c1ec41f7fd2\tINFO\tfaaster_1n87c: modeC f1 f2 704 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxABEjUaGAIGSJtD1AAAAAGQuHlmAAZPnh1QAAAFQiABKMm/6ICnMTCJ7eiApzE4LUChY0iqOFChJRgAIAEQKhgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:39.977Z\t19793f05-3acb-439c-b6a7-07d366e54540\tINFO\tfaaster_1n87c: modeB f1 654 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxABEjUaGAIGSJtD1AAAAAGQuHlmAAZPnh1QAAAFQiABKMm/6ICnMTCJ7eiApzE4LUChY0iqOFChJRgAIAEQIxgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:39.291Z\t371effd4-4b0e-4ab6-940e-10d6e243e34b\tINFO\tfaaster_1n87c: modeC f1 f2 685 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxABEjUaGAIGSJtD1AAAAAGQuHlmAAZPnh1QAAAFQiABKMm/6ICnMTCJ7eiApzE4LUChY0iqOFChJRgAIAEQHBgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:38.575Z\t3770e615-29a1-4e46-80e1-d8d7ad411ce3\tINFO\tfaaster_1n87c: modeB f1 665 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxAAEjYaGAIGSrIVNAAAAADgFbiXAAZPnhuQAAAEQiABKPXh54CnMTDO3OiApzE4bECQ9AFI2klQzjYYACABEGUYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:37.858Z\t351af8f3-f8de-4e20-97a8-584547c44970\tINFO\tfaaster_1n87c: modeA f1 700 696 681 f2 725 705 720 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxAAEjYaGAIGSrIVNAAAAADgFbiXAAZPnhuQAAAEQiABKPXh54CnMTDO3OiApzE4bECQ9AFI2klQzjYYACABEF4YAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:37.798Z\t90b9ac40-67c3-427e-abf9-628942cb10ec\tINFO\tfaaster_1n87c: modeC f1 f2 761 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxABEjUaGAIGSJtD1AAAAAGQuHlmAAZPnh1QAAAFQiABKMm/6ICnMTCJ7eiApzE4LUChY0iqOFChJRgAIAEQGRgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:37.000Z\t471d161c-9b11-487b-9429-a7aed79eeb88\tINFO\tfaaster_1n87c: modeB f1 683 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxABEjUaGAIGSJtD1AAAAAGQuHlmAAZPnh1QAAAFQiABKMm/6ICnMTCJ7eiApzE4LUChY0iqOFChJRgAIAEQEhgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:36.281Z\tda84deea-c209-479e-977d-4b0e3e8e917d\tINFO\tfaaster_1n87c: modeC f1 f2 706 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxABEjUaGAIGSJtD1AAAAAGQuHlmAAZPnh1QAAAFQiABKMm/6ICnMTCJ7eiApzE4LUChY0iqOFChJRgAIAEQCxgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:35.543Z\tfe30c325-7ef9-4c6d-aea2-feb61315afcb\tINFO\tfaaster_1n87c: modeB f1 653 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxABEjUaGAIGSJtD1AAAAAGQuHlmAAZPnh1QAAAFQiABKMm/6ICnMTCJ7eiApzE4LUChY0iqOFChJRgAIAEQBBgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:34.858Z\tffa2dd5e-6cf6-48de-a617-99aec27c0231\tINFO\tfaaster_1n87c: modeA f1 658 679 696 f2 735 724 720 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxAHEjcaGAIGT5tunQAAAAABWu2NAAZPnhhAAAAA0iABKMaK54CnMTCsv+iApzE4gQFAn6QCSI5PUIA8GAAgARBiGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:34.847Z\tc9f2e658-436d-4cdf-8a0b-c6bed1147ead\tINFO\tfaaster_1n87c: modeC f1 f2 727 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxAHEjcaGAIGT5tunQAAAAABWu2NAAZPnhhAAAAA0iABKMaK54CnMTCsv+iApzE4gQFAn6QCSI5PUIA8GAAgARB+GAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:34.048Z\t1c90bbfe-e12b-48bd-bbe6-3760e7387c79\tINFO\tfaaster_1n87c: modeB f1 689 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxAHEjcaGAIGT5tunQAAAAABWu2NAAZPnhhAAAAA0iABKMaK54CnMTCsv+iApzE4gQFAn6QCSI5PUIA8GAAgARB3GAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:33.597Z\t77ac4861-4654-44ec-a56b-0de101c0ccb3\tINFO\tfaaster_1n87c: modeC f1 f2 694 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxAAEjYaGAIGSrIVNAAAAADgFbiXAAZPnhuQAAAEQiABKPXh54CnMTDO3OiApzE4bECQ9AFI2klQzjYYACABEFcYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:33.314Z\t99d42195-fa16-45e4-bb28-96c91cb9862c\tINFO\tfaaster_1n87c: modeC f1 f2 730 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxAHEjcaGAIGT5tunQAAAAABWu2NAAZPnhhAAAAA0iABKMaK54CnMTCsv+iApzE4gQFAn6QCSI5PUIA8GAAgARBwGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:32.856Z\t1f8baf63-7fae-4485-b70d-67c3d3660869\tINFO\tfaaster_1n87c: modeB f1 656 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxAAEjYaGAIGSrIVNAAAAADgFbiXAAZPnhuQAAAEQiABKPXh54CnMTDO3OiApzE4bECQ9AFI2klQzjYYACABEFAYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:32.544Z\t1c422d6e-28b0-47c3-abe1-e7c9a9d1bd83\tINFO\tfaaster_1n87c: modeB f1 688 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxAHEjcaGAIGT5tunQAAAAABWu2NAAZPnhhAAAAA0iABKMaK54CnMTCsv+iApzE4gQFAn6QCSI5PUIA8GAAgARBpGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:32.014Z\t6fe37ef1-b438-46a0-8b77-a30409c6e891\tINFO\tfaaster_1n87c: modeC f1 f2 741 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxAAEjYaGAIGSrIVNAAAAADgFbiXAAZPnhuQAAAEQiABKPXh54CnMTDO3OiApzE4bECQ9AFI2klQzjYYACABEEkYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:31.825Z\t1fedd0b7-a8ac-4224-b9b3-325b7743ff31\tINFO\tfaaster_1n87c: modeA f1 686 678 665 f2 702 700 702 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxAAEjYaGAIGSrIVNAAAAADgFbiXAAZPnhuQAAAEQiABKPXh54CnMTDO3OiApzE4bECQ9AFI2klQzjYYACABEDEYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:31.195Z\t67b9eb40-e9e3-4472-af71-67386250b564\tINFO\tfaaster_1n87c: modeB f1 692 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxAAEjYaGAIGSrIVNAAAAADgFbiXAAZPnhuQAAAEQiABKPXh54CnMTDO3OiApzE4bECQ9AFI2klQzjYYACABEEIYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:30.603Z\t2925bc42-e2d6-4fb3-8236-3d0232215217\tINFO\tfaaster_1n87c: modeC f1 f2 700 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxAHEjcaGAIGT5tunQAAAAABWu2NAAZPnhhAAAAA0iABKMaK54CnMTCsv+iApzE4gQFAn6QCSI5PUIA8GAAgARBbGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:30.473Z\tf214a588-604a-4ff1-a6d1-37bab6d2bda7\tINFO\tfaaster_1n87c: modeC f1 f2 708 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxAAEjYaGAIGSrIVNAAAAADgFbiXAAZPnhuQAAAEQiABKPXh54CnMTDO3OiApzE4bECQ9AFI2klQzjYYACABEDsYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:29.864Z\tfee8d043-4217-427e-85f9-5879b310ba03\tINFO\tfaaster_1n87c: modeB f1 652 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxAHEjcaGAIGT5tunQAAAAABWu2NAAZPnhhAAAAA0iABKMaK54CnMTCsv+iApzE4gQFAn6QCSI5PUIA8GAAgARBUGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:29.732Z\t1170297e-6db3-43e5-812c-8b7260b1876f\tINFO\tfaaster_1n87c: modeB f1 691 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxAAEjYaGAIGSrIVNAAAAADgFbiXAAZPnhuQAAAEQiABKPXh54CnMTDO3OiApzE4bECQ9AFI2klQzjYYACABEDQYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:29.011Z\t7e2b18a6-8ff2-422a-bb47-46e247371c0f\tINFO\tfaaster_1n87c: modeA f1 666 699 700 f2 741 742 737 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxACEjYaGAIGMwRH6gAAAAdgsuTpAAZPnhoQAAADoiABKNer54CnMTDxkeiApzE4UUDlvQFI60JQ4i8YACABEEoYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:28.742Z\t6027f099-45d3-4791-836f-0f3921f36505\tINFO\tfaaster_1n87c: modeC f1 f2 690 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxAHEjcaGAIGT5tunQAAAAABWu2NAAZPnhhAAAAA0iABKMaK54CnMTCsv+iApzE4gQFAn6QCSI5PUIA8GAAgARBNGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:28.019Z\t12dae047-12b5-41fd-bcc6-6c6384a94271\tINFO\tfaaster_1n87c: modeB f1 686 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxAHEjcaGAIGT5tunQAAAAABWu2NAAZPnhhAAAAA0iABKMaK54CnMTCsv+iApzE4gQFAn6QCSI5PUIA8GAAgARBGGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:27.639Z\t2b451aeb-abff-4c82-8564-0bcb2f70e606\tINFO\tfaaster_1n87c: modeC f1 f2 708 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxAAEjYaGAIGSrIVNAAAAADgFbiXAAZPnhuQAAAEQiABKPXh54CnMTDO3OiApzE4bECQ9AFI2klQzjYYACABECoYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:27.300Z\tfb6fb91b-0c80-4a90-94e0-62e8db516c55\tINFO\tfaaster_1n87c: modeC f1 f2 706 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxAHEjcaGAIGT5tunQAAAAABWu2NAAZPnhhAAAAA0iABKMaK54CnMTCsv+iApzE4gQFAn6QCSI5PUIA8GAAgARA/GAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:26.884Z\t95f764f7-8645-44f8-abd0-5ef4a4fb553f\tINFO\tfaaster_1n87c: modeB f1 667 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxAAEjYaGAIGSrIVNAAAAADgFbiXAAZPnhuQAAAEQiABKPXh54CnMTDO3OiApzE4bECQ9AFI2klQzjYYACABECMYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:26.564Z\t059146a2-1ea0-44f0-80f4-64d75747e069\tINFO\tfaaster_1n87c: modeB f1 651 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxAHEjcaGAIGT5tunQAAAAABWu2NAAZPnhhAAAAA0iABKMaK54CnMTCsv+iApzE4gQFAn6QCSI5PUIA8GAAgARA4GAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:25.881Z\t9d73d41f-20e3-40e2-b733-cdcf59616285\tINFO\tfaaster_1n87c: modeA f1 669 683 681 f2 719 716 722 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxAHEjcaGAIGT5tunQAAAAABWu2NAAZPnhhAAAAA0iABKMaK54CnMTCsv+iApzE4gQFAn6QCSI5PUIA8GAAgARAxGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:25.760Z\t2b268b67-991c-46c9-9f5d-18f721002b57\tINFO\tfaaster_1n87c: modeC f1 f2 704 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxAAEjYaGAIGSrIVNAAAAADgFbiXAAZPnhuQAAAEQiABKPXh54CnMTDO3OiApzE4bECQ9AFI2klQzjYYACABEBwYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:25.024Z\tbeac3fbb-a9b9-43fc-8cd8-b83e89b84ea7\tINFO\tfaaster_1n87c: modeB f1 668 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxAAEjYaGAIGSrIVNAAAAADgFbiXAAZPnhuQAAAEQiABKPXh54CnMTDO3OiApzE4bECQ9AFI2klQzjYYACABEBUYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:24.692Z\t57ff9c35-93c5-4dcd-b2b3-14974e998acc\tINFO\tfaaster_1n87c: modeC f1 f2 726 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxACEjYaGAIGMwRH6gAAAAdgsuTpAAZPnhoQAAADoiABKNer54CnMTDxkeiApzE4UUDlvQFI60JQ4i8YACABEEMYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:24.324Z\tc9322db1-0e6e-4662-969e-e1f29ba57d5d\tINFO\tfaaster_1n87c: modeC f1 f2 693 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxAAEjYaGAIGSrIVNAAAAADgFbiXAAZPnhuQAAAEQiABKPXh54CnMTDO3OiApzE4bECQ9AFI2klQzjYYACABEA4YAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:23.936Z\t2d573f23-3eda-4eb6-b672-4c16d1bc5059\tINFO\tfaaster_1n87c: modeB f1 705 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxACEjYaGAIGMwRH6gAAAAdgsuTpAAZPnhoQAAADoiABKNer54CnMTDxkeiApzE4UUDlvQFI60JQ4i8YACABEDwYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:23.600Z\tda5bd3dd-ff0a-4c98-8405-36371f08d152\tINFO\tfaaster_1n87c: modeB f1 667 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxAAEjYaGAIGSrIVNAAAAADgFbiXAAZPnhuQAAAEQiABKPXh54CnMTDO3OiApzE4bECQ9AFI2klQzjYYACABEAcYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:23.132Z\t053d4ba8-23bf-42f9-873a-7bd43b4efa68\tINFO\tfaaster_1n87c: modeC f1 f2 708 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxACEjYaGAIGMwRH6gAAAAdgsuTpAAZPnhoQAAADoiABKNer54CnMTDxkeiApzE4UUDlvQFI60JQ4i8YACABEDUYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:22.901Z\t8b76510b-0bb9-4d96-bf00-0c181de82ae1\tINFO\tfaaster_1n87c: modeA f1 665 681 683 f2 719 719 720 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxAAEjYaGAIGSrIVNAAAAADgFbiXAAZPnhuQAAAEQiABKPXh54CnMTDO3OiApzE4bECQ9AFI2klQzjYYACABEAAYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:22.393Z\t17dcc77c-b5e9-4a32-bc43-26f42f717f64\tINFO\tfaaster_1n87c: modeB f1 667 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxACEjYaGAIGMwRH6gAAAAdgsuTpAAZPnhoQAAADoiABKNer54CnMTDxkeiApzE4UUDlvQFI60JQ4i8YACABEC4YAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:21.692Z\t107ae9b9-6aa7-45c8-a67d-b58a2587f43e\tINFO\tfaaster_1n87c: modeC f1 f2 722 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxACEjYaGAIGMwRH6gAAAAdgsuTpAAZPnhoQAAADoiABKNer54CnMTDxkeiApzE4UUDlvQFI60JQ4i8YACABECcYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:21.660Z\t85bda30c-1de6-4dc7-a26c-e9773bfedc4a\tINFO\tfaaster_1n87c: modeC f1 f2 694 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxACEjYaGAIGMwRH6gAAAAdgsuTpAAZPnhoQAAADoiABKNer54CnMTDxkeiApzE4UUDlvQFI60JQ4i8YACABEBUYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:20.934Z\tf7e5c515-ea3e-4d6a-95c2-ae324efff020\tINFO\tfaaster_1n87c: modeB f1 686 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxACEjYaGAIGMwRH6gAAAAdgsuTpAAZPnhoQAAADoiABKNer54CnMTDxkeiApzE4UUDlvQFI60JQ4i8YACABECAYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:20.925Z\t97da4e8f-6390-4629-870e-1db54d90ef21\tINFO\tfaaster_1n87c: modeB f1 655 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxACEjYaGAIGMwRH6gAAAAdgsuTpAAZPnhoQAAADoiABKNer54CnMTDxkeiApzE4UUDlvQFI60JQ4i8YACABEA4YAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:20.607Z\td861a165-728a-45df-9948-5e7684cdc789\tINFO\tfaaster_1n87c: modeC f1 f2 700 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxABEjYaGAIGSJtD1AAAAAGQtpdRAAZPnhbgAAAFQiABKKSI54CnMTCP0OeApzE4PkD6kAFI10BQ3SwYACABEDsYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:20.240Z\te1f50549-469d-4ea4-b13c-9f3cc8ee393e\tINFO\tfaaster_1n87c: modeA f1 696 698 680 f2 722 722 721 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxACEjYaGAIGMwRH6gAAAAdgsuTpAAZPnhoQAAADoiABKNer54CnMTDxkeiApzE4UUDlvQFI60JQ4i8YACABEAcYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:19.866Z\t542d30a9-e748-48bb-932e-c41fd31e92a4\tINFO\tfaaster_1n87c: modeB f1 664 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxABEjYaGAIGSJtD1AAAAAGQtpdRAAZPnhbgAAAFQiABKKSI54CnMTCP0OeApzE4PkD6kAFI10BQ3SwYACABEDQYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:19.168Z\t17cb4269-0864-4ccb-bd73-7c3f4feced83\tINFO\tfaaster_1n87c: modeC f1 f2 691 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxABEjYaGAIGSJtD1AAAAAGQtpdRAAZPnhbgAAAFQiABKKSI54CnMTCP0OeApzE4PkD6kAFI10BQ3SwYACABEC0YAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:18.681Z\t75a87556-7748-4626-8a4e-cb205acb1101\tINFO\tfaaster_1n87c: modeC f1 f2 707 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxAHEjcaGAIGT5tunQAAAAABWu2NAAZPnhhAAAAA0iABKMaK54CnMTCsv+iApzE4gQFAn6QCSI5PUIA8GAAgARAqGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:18.443Z\t94a5f568-fcb7-49f0-8a3f-5fcf98a84a45\tINFO\tfaaster_1n87c: modeB f1 683 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxABEjYaGAIGSJtD1AAAAAGQtpdRAAZPnhbgAAAFQiABKKSI54CnMTCP0OeApzE4PkD6kAFI10BQ3SwYACABECYYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:17.925Z\t6c71269d-b01e-47f4-85c5-fe14cc9e597a\tINFO\tfaaster_1n87c: modeB f1 661 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxAHEjcaGAIGT5tunQAAAAABWu2NAAZPnhhAAAAA0iABKMaK54CnMTCsv+iApzE4gQFAn6QCSI5PUIA8GAAgARAjGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:17.837Z\tfd591371-93a2-450b-a606-d08c60fb270f\tINFO\tfaaster_1n87c: modeC f1 f2 730 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxAFEjUaGAIGTS1hoAAAAAGqKuM5AAZPnhjQAAABAiABKPD65oCnMTC8uueApzE4LUDQY0itOVC8JRgAIAEQKhgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:17.724Z\t22f0b651-5d9d-4be7-b7bb-da49e6e34fc7\tINFO\tfaaster_1n87c: modeA f1 684 686 681 f2 719 735 718 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxABEjYaGAIGSJtD1AAAAAGQtpdRAAZPnhbgAAAFQiABKKSI54CnMTCP0OeApzE4PkD6kAFI10BQ3SwYACABEB8YAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:17.072Z\t5deb2f1d-8ef2-4a60-8ef7-8b60682de38d\tINFO\tfaaster_1n87c: modeB f1 679 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxAFEjUaGAIGTS1hoAAAAAGqKuM5AAZPnhjQAAABAiABKPD65oCnMTC8uueApzE4LUDQY0itOVC8JRgAIAEQIxgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:16.352Z\td287dd9c-bba7-4376-96a9-a44438bba2de\tINFO\tfaaster_1n87c: modeC f1 f2 723 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxAFEjUaGAIGTS1hoAAAAAGqKuM5AAZPnhjQAAABAiABKPD65oCnMTC8uueApzE4LUDQY0itOVC8JRgAIAEQHBgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:15.959Z\tfcc34e70-ebdd-42a9-bf11-fed7b125bcd5\tINFO\tfaaster_1n87c: modeC f1 f2 705 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxACEjYaGAIGMwRH6gAAAAdgsuTpAAZPnhoQAAADoiABKNer54CnMTDxkeiApzE4UUDlvQFI60JQ4i8YACABEAAYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:15.593Z\tf2b6c08e-94e0-4b73-a23c-7c064a22355f\tINFO\tfaaster_1n87c: modeB f1 702 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxAFEjUaGAIGTS1hoAAAAAGqKuM5AAZPnhjQAAABAiABKPD65oCnMTC8uueApzE4LUDQY0itOVC8JRgAIAEQFRgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:15.217Z\tfe13c86b-e030-4887-ba5e-8b4e8b9ac70d\tINFO\tfaaster_1n87c: modeB f1 718 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxABEjYaGAIGSJtD1AAAAAGQtpdRAAZPnhbgAAAFQiABKKSI54CnMTCP0OeApzE4PkD6kAFI10BQ3SwYACABEBEYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:14.854Z\t67c7d662-7f72-495d-aa15-36eb4f196ef4\tINFO\tfaaster_1n87c: modeA f1 702 717 687 f2 743 740 736 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxAFEjUaGAIGTS1hoAAAAAGqKuM5AAZPnhjQAAABAiABKPD65oCnMTC8uueApzE4LUDQY0itOVC8JRgAIAEQDhgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:14.641Z\te65c82da-3419-40cc-b22f-a4c808343b82\tINFO\tfaaster_1n87c: modeC f1 f2 703 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxAHEjcaGAIGT5tunQAAAAABWu2NAAZPnhhAAAAA0iABKMaK54CnMTCsv+iApzE4gQFAn6QCSI5PUIA8GAAgARAcGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:13.879Z\te00f42d0-7c8f-49b9-b569-99ba199c6124\tINFO\tfaaster_1n87c: modeB f1 681 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxAHEjcaGAIGT5tunQAAAAABWu2NAAZPnhhAAAAA0iABKMaK54CnMTCsv+iApzE4gQFAn6QCSI5PUIA8GAAgARAVGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:13.463Z\t3c67c116-da0a-4f3a-ba4e-120f3a8695c4\tINFO\tfaaster_1n87c: modeC f1 f2 741 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxABEjYaGAIGSJtD1AAAAAGQtpdRAAZPnhbgAAAFQiABKKSI54CnMTCP0OeApzE4PkD6kAFI10BQ3SwYACABEBgYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:13.144Z\t758c0c3d-d663-42e9-bcc4-c727f2502404\tINFO\tfaaster_1n87c: modeC f1 f2 686 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxAHEjcaGAIGT5tunQAAAAABWu2NAAZPnhhAAAAA0iABKMaK54CnMTCsv+iApzE4gQFAn6QCSI5PUIA8GAAgARAOGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:12.669Z\t29c23535-204e-4035-b806-fe3399169165\tINFO\tfaaster_1n87c: modeB f1 707 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxABEjYaGAIGSJtD1AAAAAGQtpdRAAZPnhbgAAAFQiABKKSI54CnMTCP0OeApzE4PkD6kAFI10BQ3SwYACABEAUYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:12.419Z\tee43c5ae-d101-4066-aa77-ef4e7707bb7b\tINFO\tfaaster_1n87c: modeB f1 667 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxAHEjcaGAIGT5tunQAAAAABWu2NAAZPnhhAAAAA0iABKMaK54CnMTCsv+iApzE4gQFAn6QCSI5PUIA8GAAgARAHGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:11.718Z\t090b295e-ea6c-49c1-b20c-1497081e8d8a\tINFO\tfaaster_1n87c: modeA f1 675 682 679 f2 735 739 720 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxAHEjcaGAIGT5tunQAAAAABWu2NAAZPnhhAAAAA0iABKMaK54CnMTCsv+iApzE4gQFAn6QCSI5PUIA8GAAgARAAGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:10.492Z\tda67b2e4-7ba0-44c4-8803-3333a14940b7\tINFO\tfaaster_1n87c: modeC f1 f2 735 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxAFEjUaGAIGTS1hoAAAAAGqKuM5AAZPnhjQAAABAiABKPD65oCnMTC8uueApzE4LUDQY0itOVC8JRgAIAEQBxgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:09.712Z\t04325a1f-fcb0-44b3-9ede-08c904db5049\tINFO\tfaaster_1n87c: modeB f1 727 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxAFEjUaGAIGTS1hoAAAAAGqKuM5AAZPnhjQAAABAiABKPD65oCnMTC8uueApzE4LUDQY0itOVC8JRgAIAEQABgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:07.441Z\t01494c32-1f1e-4703-a955-b5d93146fd24\tINFO\tfaaster_1n87c: modeC f1 f2 726 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxAGEjUaGAIGPAGcjwAAAAM99uBOAAZPnhjgAAAD8iABKNLZ5oCnMTDA6eaApzE4E0DpLki+MVCGHhgAIAEQDBgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:44:06.620Z\t0bbf5af0-5411-46c7-8de1-2f740eed2798\tINFO\tfaaster_1n87c: modeB f1 707 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyMxAGEjUaGAIGPAGcjwAAAAM99uBOAAZPnhjgAAAD8iABKNLZ5oCnMTDA6eaApzE4E0DpLki+MVCGHhgAIAEQBRgB"
+            }
+        ]
+    ],
+    "statistics": {
+        "recordsMatched": 70.0,
+        "recordsScanned": 494.0,
+        "bytesScanned": 144814.0
+    },
+    "status": "Complete"
+}
+{
+    "results": [
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:40.114Z\tb63b08be-2bea-4fdf-9d68-9095ccdae85c\tINFO\tfaaster_1n87c: modeC f1 f2 712 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAFEjUaGAIGTjHYfgAAAAJLcnRIAAZPnh9gAAAF4iABKK6E7ICnMTCfveyApzE4I0CvUEi5NFCzIRgAIAEQIBgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:39.369Z\t67b57264-0970-4def-ab56-b1fa26e13b1c\tINFO\tfaaster_1n87c: modeB f1 688 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAFEjUaGAIGTjHYfgAAAAJLcnRIAAZPnh9gAAAF4iABKK6E7ICnMTCfveyApzE4I0CvUEi5NFCzIRgAIAEQGRgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:38.634Z\t0e70b4e9-1ca8-4c53-b310-bea35c61ff65\tINFO\tfaaster_1n87c: modeC f1 f2 711 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAFEjUaGAIGTjHYfgAAAAJLcnRIAAZPnh9gAAAF4iABKK6E7ICnMTCfveyApzE4I0CvUEi5NFCzIRgAIAEQEhgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:37.891Z\tfe65c394-376d-4538-aebd-0713c223092c\tINFO\tfaaster_1n87c: modeB f1 688 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAFEjUaGAIGTjHYfgAAAAJLcnRIAAZPnh9gAAAF4iABKK6E7ICnMTCfveyApzE4I0CvUEi5NFCzIRgAIAEQCxgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:37.167Z\t81af9422-f52d-4632-b600-bb9ea0e6be4f\tINFO\tfaaster_1n87c: modeA f1 701 698 700 f2 741 726 754 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmkKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAFEjUaGAIGTjHYfgAAAAJLcnRIAAZPnh9gAAAF4iABKK6E7ICnMTCfveyApzE4I0CvUEi5NFCzIRgAIAEQBBgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:37.045Z\tffc7d3e0-c596-4110-9454-cbd778ce49f5\tINFO\tfaaster_1n87c: modeC f1 f2 676 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAAEjYaGAIGS0axIQAAAAGb9ZckAAZPnh1QAAABEiABKM+n6oCnMTCkpeyApzE4akDU8gFIk0tQlzcYACABEGcYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:36.341Z\tf64b04e1-89b8-42c8-81da-a677b03be375\tINFO\tfaaster_1n87c: modeB f1 704 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAAEjYaGAIGS0axIQAAAAGb9ZckAAZPnh1QAAABEiABKM+n6oCnMTCkpeyApzE4akDU8gFIk0tQlzcYACABEGAYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:35.601Z\tb651d8df-a74a-44ec-b78f-3fe894dc851d\tINFO\tfaaster_1n87c: modeC f1 f2 716 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAAEjYaGAIGS0axIQAAAAGb9ZckAAZPnh1QAAABEiABKM+n6oCnMTCkpeyApzE4akDU8gFIk0tQlzcYACABEFkYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:34.841Z\t402ac5f1-9f31-42bf-adf4-2004bb652ecb\tINFO\tfaaster_1n87c: modeB f1 670 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAAEjYaGAIGS0axIQAAAAGb9ZckAAZPnh1QAAABEiABKM+n6oCnMTCkpeyApzE4akDU8gFIk0tQlzcYACABEFIYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:34.139Z\tb82c1530-6fec-433f-8a6d-c0d246484368\tINFO\tfaaster_1n87c: modeA f1 706 685 683 f2 737 736 723 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAHEjcaGAIGTl9jvAAAAAAfQq3BAAZPnhnAAAAEwiABKOnt6oCnMTCFj+yApzE4hgFAlLMCSItTUIw/GAAgARCDARgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:33.902Z\te53f1462-ca8f-485d-9dd5-c30112ce00be\tINFO\tfaaster_1n87c: modeC f1 f2 693 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAAEjYaGAIGS0axIQAAAAGb9ZckAAZPnh1QAAABEiABKM+n6oCnMTCkpeyApzE4akDU8gFIk0tQlzcYACABEEsYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:33.181Z\ta00409da-c0b2-4c82-8686-bb6a0a2bd05f\tINFO\tfaaster_1n87c: modeB f1 683 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAAEjYaGAIGS0axIQAAAAGb9ZckAAZPnh1QAAABEiABKM+n6oCnMTCkpeyApzE4akDU8gFIk0tQlzcYACABEEQYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:32.816Z\t9f8ff252-3087-418f-ac80-333804d8b2c6\tINFO\tfaaster_1n87c: modeC f1 f2 724 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBACEjcaGAIGS+oYPgAAAADpS5bkAAZPnhpAAAAF4iABKLfW6oCnMTDKhOyApzE4mwFA9+ICSItXUIxDGAAgARCYARgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:32.463Z\t0cd89dc2-a2d1-43c8-9d00-69a58b911fdb\tINFO\tfaaster_1n87c: modeC f1 f2 728 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAAEjYaGAIGS0axIQAAAAGb9ZckAAZPnh1QAAABEiABKM+n6oCnMTCkpeyApzE4akDU8gFIk0tQlzcYACABED0YAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:32.037Z\t4faba1ad-f690-4c62-8da6-f5441322d37a\tINFO\tfaaster_1n87c: modeB f1 653 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBACEjcaGAIGS+oYPgAAAADpS5bkAAZPnhpAAAAF4iABKLfW6oCnMTDKhOyApzE4mwFA9+ICSItXUIxDGAAgARCRARgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:31.704Z\t8718bdfc-8424-404e-a8bc-8c3379370f1b\tINFO\tfaaster_1n87c: modeB f1 665 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAAEjYaGAIGS0axIQAAAAGb9ZckAAZPnh1QAAABEiABKM+n6oCnMTCkpeyApzE4akDU8gFIk0tQlzcYACABEDYYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:30.987Z\tce79fc0d-4c11-4d71-846d-922c537aa883\tINFO\tfaaster_1n87c: modeA f1 663 679 680 f2 719 702 704 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAAEjYaGAIGS0axIQAAAAGb9ZckAAZPnh1QAAABEiABKM+n6oCnMTCkpeyApzE4akDU8gFIk0tQlzcYACABEC8YAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:30.856Z\t0464abd0-4e95-4dd8-a5f4-de2c75a5f9a8\tINFO\tfaaster_1n87c: modeC f1 f2 703 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBACEjcaGAIGS+oYPgAAAADpS5bkAAZPnhpAAAAF4iABKLfW6oCnMTDKhOyApzE4mwFA9+ICSItXUIxDGAAgARCKARgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:30.116Z\t672aaae8-6437-444a-bdb9-723971db7b98\tINFO\tfaaster_1n87c: modeB f1 653 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBACEjcaGAIGS+oYPgAAAADpS5bkAAZPnhpAAAAF4iABKLfW6oCnMTDKhOyApzE4mwFA9+ICSItXUIxDGAAgARCDARgB"
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:29.836Z\t8d0604f8-087a-4e4a-8094-f36ddac10070\tINFO\tfaaster_1n87c: modeC f1 f2 710 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAHEjcaGAIGTl9jvAAAAAAfQq3BAAZPnhnAAAAEwiABKOnt6oCnMTCFj+yApzE4hgFAlLMCSItTUIw/GAAgARB8GAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:29.435Z\tdd6bcd46-a3cb-4cc5-993b-35ce23e5da97\tINFO\tfaaster_1n87c: modeC f1 f2 692 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBACEjcaGAIGS+oYPgAAAADpS5bkAAZPnhpAAAAF4iABKLfW6oCnMTDKhOyApzE4mwFA9+ICSItXUIxDGAAgARB8GAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:29.077Z\t90f85865-4ebc-413d-8d17-3ddcd274975b\tINFO\tfaaster_1n87c: modeB f1 684 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAHEjcaGAIGTl9jvAAAAAAfQq3BAAZPnhnAAAAEwiABKOnt6oCnMTCFj+yApzE4hgFAlLMCSItTUIw/GAAgARB1GAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:28.714Z\t2d611d51-0957-407a-9bae-88858ee9cf4e\tINFO\tfaaster_1n87c: modeB f1 665 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBACEjcaGAIGS+oYPgAAAADpS5bkAAZPnhpAAAAF4iABKLfW6oCnMTDKhOyApzE4mwFA9+ICSItXUIxDGAAgARB1GAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:28.195Z\tc228931c-a3c3-4b4d-a807-985b308bf264\tINFO\tfaaster_1n87c: modeC f1 f2 724 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAHEjcaGAIGTl9jvAAAAAAfQq3BAAZPnhnAAAAEwiABKOnt6oCnMTCFj+yApzE4hgFAlLMCSItTUIw/GAAgARBuGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:28.015Z\t0e4927fb-485a-4f7d-a286-1286f1ed2f12\tINFO\tfaaster_1n87c: modeA f1 660 678 665 f2 722 718 717 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBACEjcaGAIGS+oYPgAAAADpS5bkAAZPnhpAAAAF4iABKLfW6oCnMTDKhOyApzE4mwFA9+ICSItXUIxDGAAgARBuGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:27.417Z\t77f53581-0455-4432-aa18-6ddceb349bbb\tINFO\tfaaster_1n87c: modeB f1 686 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAHEjcaGAIGTl9jvAAAAAAfQq3BAAZPnhnAAAAEwiABKOnt6oCnMTCFj+yApzE4hgFAlLMCSItTUIw/GAAgARBnGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:26.809Z\t0005ff8f-c27c-45a0-8cef-cee2b2d7ab2d\tINFO\tfaaster_1n87c: modeC f1 f2 711 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAGEjYaGAIGSmijdQAAAACV8QJXAAZPnhkwAAAEUiABKIK/6oCnMTDS1euApzE4QECgkgFI6UBQ7ywYACABED0YAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:26.699Z\t0b916be6-8019-44a0-8044-7e18f2cab7f0\tINFO\tfaaster_1n87c: modeC f1 f2 726 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAHEjcaGAIGTl9jvAAAAAAfQq3BAAZPnhnAAAAEwiABKOnt6oCnMTCFj+yApzE4hgFAlLMCSItTUIw/GAAgARBgGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:26.070Z\t3bb40f6c-8916-4e5e-bffa-0b14f99e3a49\tINFO\tfaaster_1n87c: modeB f1 670 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAGEjYaGAIGSmijdQAAAACV8QJXAAZPnhkwAAAEUiABKIK/6oCnMTDS1euApzE4QECgkgFI6UBQ7ywYACABEDYYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:25.938Z\tab058bdc-a272-4205-b554-2a404142977b\tINFO\tfaaster_1n87c: modeB f1 678 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAHEjcaGAIGTl9jvAAAAAAfQq3BAAZPnhnAAAAEwiABKOnt6oCnMTCFj+yApzE4hgFAlLMCSItTUIw/GAAgARBZGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:25.219Z\te2238913-422c-4589-bbe2-bff6a272e938\tINFO\tfaaster_1n87c: modeA f1 698 701 699 f2 738 747 740 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAHEjcaGAIGTl9jvAAAAAAfQq3BAAZPnhnAAAAEwiABKOnt6oCnMTCFj+yApzE4hgFAlLMCSItTUIw/GAAgARBSGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:24.970Z\t50588d70-d25f-4f51-942c-cf032db9a225\tINFO\tfaaster_1n87c: modeC f1 f2 707 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAGEjYaGAIGSmijdQAAAACV8QJXAAZPnhkwAAAEUiABKIK/6oCnMTDS1euApzE4QECgkgFI6UBQ7ywYACABEC8YAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:24.229Z\t67014cec-2d43-405c-9b1a-3a0463329ad2\tINFO\tfaaster_1n87c: modeB f1 664 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAGEjYaGAIGSmijdQAAAACV8QJXAAZPnhkwAAAEUiABKIK/6oCnMTDS1euApzE4QECgkgFI6UBQ7ywYACABECgYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:23.820Z\tc0939d11-10d4-41a7-98c9-82a0540f8929\tINFO\tfaaster_1n87c: modeC f1 f2 693 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBACEjcaGAIGS+oYPgAAAADpS5bkAAZPnhpAAAAF4iABKLfW6oCnMTDKhOyApzE4mwFA9+ICSItXUIxDGAAgARBnGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:23.528Z\tf1bfc6d6-3435-4a8c-818e-eeb67211398f\tINFO\tfaaster_1n87c: modeC f1 f2 709 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAGEjYaGAIGSmijdQAAAACV8QJXAAZPnhkwAAAEUiABKIK/6oCnMTDS1euApzE4QECgkgFI6UBQ7ywYACABECEYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:23.096Z\t7bacd9db-677e-4160-a920-aedbb6b0b069\tINFO\tfaaster_1n87c: modeB f1 659 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBACEjcaGAIGS+oYPgAAAADpS5bkAAZPnhpAAAAF4iABKLfW6oCnMTDKhOyApzE4mwFA9+ICSItXUIxDGAAgARBgGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:22.768Z\te937f391-60b8-40dc-84ca-be07c748ade9\tINFO\tfaaster_1n87c: modeB f1 659 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAGEjYaGAIGSmijdQAAAACV8QJXAAZPnhkwAAAEUiABKIK/6oCnMTDS1euApzE4QECgkgFI6UBQ7ywYACABEBoYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:22.664Z\t1c98f871-fb40-46c7-a55a-1728b30dff76\tINFO\tfaaster_1n87c: modeC f1 f2 704 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAAEjYaGAIGS0axIQAAAAGb9ZckAAZPnh1QAAABEiABKM+n6oCnMTCkpeyApzE4akDU8gFIk0tQlzcYACABECgYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:22.067Z\tff604483-267d-4bd3-b5d1-418a94cb1ea3\tINFO\tfaaster_1n87c: modeA f1 668 677 678 f2 720 722 720 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAGEjYaGAIGSmijdQAAAACV8QJXAAZPnhkwAAAEUiABKIK/6oCnMTDS1euApzE4QECgkgFI6UBQ7ywYACABEBMYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:21.923Z\te7f3a088-d5b9-4dcc-85d9-391200e74abe\tINFO\tfaaster_1n87c: modeB f1 689 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAAEjYaGAIGS0axIQAAAAGb9ZckAAZPnh1QAAABEiABKM+n6oCnMTCkpeyApzE4akDU8gFIk0tQlzcYACABECEYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:21.201Z\t8b46a212-2a70-4c6e-af12-1e85a17bc58b\tINFO\tfaaster_1n87c: modeC f1 f2 690 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAAEjYaGAIGS0axIQAAAAGb9ZckAAZPnh1QAAABEiABKM+n6oCnMTCkpeyApzE4akDU8gFIk0tQlzcYACABEBoYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:20.855Z\t3cec135b-2dca-41fe-aebb-0c3d3aa1aa51\tINFO\tfaaster_1n87c: modeC f1 f2 730 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAHEjcaGAIGTl9jvAAAAAAfQq3BAAZPnhnAAAAEwiABKOnt6oCnMTCFj+yApzE4hgFAlLMCSItTUIw/GAAgARBLGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:20.480Z\t586ca729-701b-4c8a-ab03-2d7ce80e552a\tINFO\tfaaster_1n87c: modeB f1 669 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAHEjcaGAIGTl9jvAAAAAAfQq3BAAZPnhnAAAAEwiABKOnt6oCnMTCFj+yApzE4hgFAlLMCSItTUIw/GAAgARAaGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:20.097Z\t7ad05e39-f0ba-4306-ad5f-cc2cb70e28d6\tINFO\tfaaster_1n87c: modeB f1 672 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAHEjcaGAIGTl9jvAAAAAAfQq3BAAZPnhnAAAAEwiABKOnt6oCnMTCFj+yApzE4hgFAlLMCSItTUIw/GAAgARBEGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:20.078Z\ta41b11c3-46d9-4b46-811f-c4d70064b8df\tINFO\tfaaster_1n87c: modeC f1 f2 690 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBACEjcaGAIGS+oYPgAAAADpS5bkAAZPnhpAAAAF4iABKLfW6oCnMTDKhOyApzE4mwFA9+ICSItXUIxDGAAgARBZGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:19.763Z\tb17b9388-3508-46a3-8dfe-d82eee9815c6\tINFO\tfaaster_1n87c: modeA f1 674 697 679 f2 724 719 703 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAHEjcaGAIGTl9jvAAAAAAfQq3BAAZPnhnAAAAEwiABKOnt6oCnMTCFj+yApzE4hgFAlLMCSItTUIw/GAAgARATGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:19.359Z\t79141af2-5833-43b3-acfe-7c646f8b9636\tINFO\tfaaster_1n87c: modeB f1 665 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBACEjcaGAIGS+oYPgAAAADpS5bkAAZPnhpAAAAF4iABKLfW6oCnMTDKhOyApzE4mwFA9+ICSItXUIxDGAAgARBSGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:18.656Z\ta5531bc4-23b2-4d64-ae07-0e71336211a9\tINFO\tfaaster_1n87c: modeC f1 f2 724 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBACEjcaGAIGS+oYPgAAAADpS5bkAAZPnhpAAAAF4iABKLfW6oCnMTDKhOyApzE4mwFA9+ICSItXUIxDGAAgARBLGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:17.880Z\tbf5d4473-f696-4b6b-ae78-468086148647\tINFO\tfaaster_1n87c: modeB f1 654 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBACEjcaGAIGS+oYPgAAAADpS5bkAAZPnhpAAAAF4iABKLfW6oCnMTDKhOyApzE4mwFA9+ICSItXUIxDGAAgARBEGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:17.848Z\t5d5fb1e9-f038-410f-ac25-13cc0ffdd424\tINFO\tfaaster_1n87c: modeC f1 f2 691 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBACEjcaGAIGS+oYPgAAAADpS5bkAAZPnhpAAAAF4iABKLfW6oCnMTDKhOyApzE4mwFA9+ICSItXUIxDGAAgARA2GAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:17.194Z\tfd3871c6-bcac-4fe7-8d13-159e8de589ce\tINFO\tfaaster_1n87c: modeA f1 758 680 718 f2 820 724 718 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBACEjcaGAIGS+oYPgAAAADpS5bkAAZPnhpAAAAF4iABKLfW6oCnMTDKhOyApzE4mwFA9+ICSItXUIxDGAAgARA9GAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:17.106Z\t2e821723-d847-4afb-ab0d-94b5a3ad8e30\tINFO\tfaaster_1n87c: modeB f1 669 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBACEjcaGAIGS+oYPgAAAADpS5bkAAZPnhpAAAAF4iABKLfW6oCnMTDKhOyApzE4mwFA9+ICSItXUIxDGAAgARAvGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:16.979Z\t508a8ddf-920d-42fd-b8ce-4ff706b7e243\tINFO\tfaaster_1n87c: modeC f1 f2 708 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAHEjcaGAIGTl9jvAAAAAAfQq3BAAZPnhnAAAAEwiABKOnt6oCnMTCFj+yApzE4hgFAlLMCSItTUIw/GAAgARA9GAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:16.234Z\t14149f8a-d7bd-4bce-b71b-928dbe9face3\tINFO\tfaaster_1n87c: modeB f1 689 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAHEjcaGAIGTl9jvAAAAAAfQq3BAAZPnhnAAAAEwiABKOnt6oCnMTCFj+yApzE4hgFAlLMCSItTUIw/GAAgARA2GAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:15.535Z\t347ad43a-21a3-40b6-8550-bf2b84f7d854\tINFO\tfaaster_1n87c: modeC f1 f2 752 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAHEjcaGAIGTl9jvAAAAAAfQq3BAAZPnhnAAAAEwiABKOnt6oCnMTCFj+yApzE4hgFAlLMCSItTUIw/GAAgARAvGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:15.505Z\t7fe98801-ce9e-40f5-8377-4c2d614231a8\tINFO\tfaaster_1n87c: modeC f1 f2 691 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAHEjcaGAIGTl9jvAAAAAAfQq3BAAZPnhnAAAAEwiABKOnt6oCnMTCFj+yApzE4hgFAlLMCSItTUIw/GAAgARAMGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:14.773Z\tab52f384-4a84-4bad-ad48-0d369174bf40\tINFO\tfaaster_1n87c: modeB f1 696 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAHEjcaGAIGTl9jvAAAAAAfQq3BAAZPnhnAAAAEwiABKOnt6oCnMTCFj+yApzE4hgFAlLMCSItTUIw/GAAgARAoGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:14.742Z\tfbeb6899-10bc-4a10-bcc9-6562b5fe28fe\tINFO\tfaaster_1n87c: modeB f1 718 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAHEjcaGAIGTl9jvAAAAAAfQq3BAAZPnhnAAAAEwiABKOnt6oCnMTCFj+yApzE4hgFAlLMCSItTUIw/GAAgARAFGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:14.033Z\t4dd72e5f-30b6-4ee4-a440-c0a3ea71ba9a\tINFO\tfaaster_1n87c: modeA f1 717 730 701 f2 741 751 757 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAHEjcaGAIGTl9jvAAAAAAfQq3BAAZPnhnAAAAEwiABKOnt6oCnMTCFj+yApzE4hgFAlLMCSItTUIw/GAAgARAhGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:13.668Z\t8ab97cb7-90ab-49cf-b36d-1ac473aace75\tINFO\tfaaster_1n87c: modeC f1 f2 705 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBACEjcaGAIGS+oYPgAAAADpS5bkAAZPnhpAAAAF4iABKLfW6oCnMTDKhOyApzE4mwFA9+ICSItXUIxDGAAgARAoGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:12.928Z\t7f64c691-bae5-4fc0-a69e-2041fbeb195c\tINFO\tfaaster_1n87c: modeB f1 649 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBACEjcaGAIGS+oYPgAAAADpS5bkAAZPnhpAAAAF4iABKLfW6oCnMTDKhOyApzE4mwFA9+ICSItXUIxDGAAgARAhGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:12.736Z\tada4c565-fcc0-4058-986f-a4a7e82f7319\tINFO\tfaaster_1n87c: modeC f1 f2 812 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBACEjcaGAIGS+oYPgAAAADpS5bkAAZPnhpAAAAF4iABKLfW6oCnMTDKhOyApzE4mwFA9+ICSItXUIxDGAAgARAMGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:12.230Z\t3b0d6575-eacb-46dc-aec0-04673d9a2ce3\tINFO\tfaaster_1n87c: modeC f1 f2 703 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBACEjcaGAIGS+oYPgAAAADpS5bkAAZPnhpAAAAF4iABKLfW6oCnMTDKhOyApzE4mwFA9+ICSItXUIxDGAAgARAaGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:11.880Z\t494904c5-35dd-419a-92d8-59abcb22ad24\tINFO\tfaaster_1n87c: modeB f1 783 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBACEjcaGAIGS+oYPgAAAADpS5bkAAZPnhpAAAAF4iABKLfW6oCnMTDKhOyApzE4mwFA9+ICSItXUIxDGAAgARAFGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:11.488Z\tf8204bc5-07bd-4882-aa18-780afa0c208e\tINFO\tfaaster_1n87c: modeB f1 654 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmsKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBACEjcaGAIGS+oYPgAAAADpS5bkAAZPnhpAAAAF4iABKLfW6oCnMTDKhOyApzE4mwFA9+ICSItXUIxDGAAgARATGAE="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:10.793Z\tf34647be-17c8-406b-b819-bbccdb7662cc\tINFO\tfaaster_1n87c: modeA f1 670 695 680 f2 722 723 703 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAAEjYaGAIGS0axIQAAAAGb9ZckAAZPnh1QAAABEiABKM+n6oCnMTCkpeyApzE4akDU8gFIk0tQlzcYACABEBMYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:09.576Z\t0e0956b7-92fd-4ea0-bbae-3fb63a4792e4\tINFO\tfaaster_1n87c: modeC f1 f2 715 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAGEjYaGAIGSmijdQAAAACV8QJXAAZPnhkwAAAEUiABKIK/6oCnMTDS1euApzE4QECgkgFI6UBQ7ywYACABEAwYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:08.814Z\t7ed2d454-3f8a-472c-92f1-77c68ce24249\tINFO\tfaaster_1n87c: modeB f1 730 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAGEjYaGAIGSmijdQAAAACV8QJXAAZPnhkwAAAEUiABKIK/6oCnMTDS1euApzE4QECgkgFI6UBQ7ywYACABEAUYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:06.553Z\t5d6d283d-395c-4308-8ff6-d01f0242817c\tINFO\tfaaster_1n87c: modeC f1 f2 697 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAAEjYaGAIGS0axIQAAAAGb9ZckAAZPnh1QAAABEiABKM+n6oCnMTCkpeyApzE4akDU8gFIk0tQlzcYACABEAwYAQ=="
+            }
+        ],
+        [
+            {
+                "field": "@message",
+                "value": "2023-09-07T14:45:05.749Z\t139364bf-1e4d-4ea8-9a5d-7083808e5761\tINFO\tfaaster_1n87c: modeB f1 718 f2 \n"
+            },
+            {
+                "field": "@ptr",
+                "value": "CmoKLAooODA3OTgwMjUzNjQ0Oi9hd3MvbGFtYmRhL2xhbWJkYS13cmFwcGVyNBAAEjYaGAIGS0axIQAAAAGb9ZckAAZPnh1QAAABEiABKM+n6oCnMTCkpeyApzE4akDU8gFIk0tQlzcYACABEAUYAQ=="
+            }
+        ]
+    ],
+    "statistics": {
+        "recordsMatched": 70.0,
+        "recordsScanned": 494.0,
+        "bytesScanned": 144814.0
+    },
+    "status": "Complete"
+}
