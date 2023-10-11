@@ -16,9 +16,12 @@ while (i < trials) {
 }
 var pi = 4.0 * ( inVar / trials);
 var end = Date.now();
+//extstart
 
-//console.log("in is " + inVar);
-//console.log("out is " + out);
-//console.log("faaster_" + experimentID + ": Pi is " + pi);
-//console.log("faaster_" + experimentID + ": f1 " + (end-start) + "ms");
-return pi;
+
+
+
+//extstop
+
+return extTime;
+

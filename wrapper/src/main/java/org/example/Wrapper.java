@@ -2,7 +2,11 @@ package org.example;
 import org.apache.commons.io.FileUtils;
 
 import java.io.*;
+import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 
 public class Wrapper {
 
@@ -79,6 +83,21 @@ public class Wrapper {
     public boolean addFunction(String cloudFunction, String templateFunction, String lang) throws IOException {
         switch(lang){
             case "js":
+                //externalTime
+                File mFile = new File(cloudFunction);
+                FileInputStream fis = new FileInputStream(mFile);
+                BufferedReader br = new BufferedReader(new InputStreamReader(fis));
+                String result = "";
+                String line = "";
+                while( (line = br.readLine()) != null){
+                result = result + line + "\n"; 
+                }
+
+                result = "var extTime = 0;\nvar extStart = 0;\nvar extStop = 0;\n" + result;
+                var cloudFunction_mod = cloudFunction.substring(0,cloudFunction.length()-3) +"_mod.js";
+                FileOutputStream fos = new FileOutputStream(cloudFunction_mod);
+                fos.write(result.getBytes());
+                fos.flush();
                 //Google
                 File file = new File("output/google/index.js");
                 BufferedWriter writer = new BufferedWriter(new FileWriter(file, true));
@@ -98,7 +117,7 @@ public class Wrapper {
                 file= new File("output/aws/index.js");
                 writer = new BufferedWriter(new FileWriter(file, true));
                 writer.append("\r\nfunction "+templateFunction+"() {");
-                reader = new BufferedReader(new FileReader(cloudFunction));
+                reader = new BufferedReader(new FileReader(cloudFunction_mod));
                 currentLine = reader.readLine();
                 while(currentLine != null){
                     writer.newLine();
@@ -108,8 +127,23 @@ public class Wrapper {
                 reader.close();
                 writer.append("\r\n}");
                 writer.close();
-                break;
+                Path path = Paths.get("output/aws/index.js");
+                Charset charset = StandardCharsets.UTF_8;
+                String content = new String(Files.readAllBytes(path), charset);
+                content = content.replaceAll("//extstart","extStart = Date.now();");
+                content = content.replaceAll("//extstop","extStop = Date.now(); extTime += extStop - extStart;");
+                content = content.replaceAll(".*return.*;(\r?\n|\r)?","return extTime;");
+                Files.write(path, content.getBytes(charset));
 
+                path = Paths.get("output/google/index.js");
+                content = new String(Files.readAllBytes(path), charset);
+                content = content.replaceAll("//extstart","extStart = Date.now();");
+                content = content.replaceAll("//extstop","extStop = Date.now(); extTime += extStop - extStart;");
+                content = content.replaceAll(".*return.*;(\r?\n|\r)?","return extTime;");
+                Files.write(path, content.getBytes(charset));
+                File delFile = new File(cloudFunction_mod);
+                delFile.delete();
+                break;
             case "py":
                 break;
             default:
