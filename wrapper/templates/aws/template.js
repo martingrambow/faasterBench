@@ -22,24 +22,26 @@ exports.handler = async (event) => {
     var start2;
     var end1;
     var end2;
+    var extTime1;
+    var extTime2;
     for (let i = 0; i < iterations; i++) {
         switch (mode) {
             case "A":
                 if (getRandomBool) {
                     start1 = Date.now();
-                    function1();
+                    extTime1 = function1();
                     end1 = Date.now();
 
                     start2 = Date.now();
-                    function2();
+                    extTime2 = function2();
                     end2 = Date.now();
                 } else {
                     start2 = Date.now();
-                    function2();
+                    extTime2 = function2();
                     end2 = Date.now();
 
                     start1 = Date.now();
-                    function1();
+                    extTime1 = function1();
                     end1 = Date.now();
                 }
 
@@ -48,14 +50,14 @@ exports.handler = async (event) => {
                 break;
             case "B":
                 start1 = Date.now();
-                function1();
+                extTime1 = function1();
                 end1 = Date.now();
 
                 fun1.push((end1 - start1));
                 break;
             case "C":
                 start2 = Date.now();
-                function2();
+                extTime2 = function2();
                 end2 = Date.now();
 
                 fun2.push((end2 - start2));
@@ -67,19 +69,19 @@ exports.handler = async (event) => {
             default:
                 if (getRandomBool) {
                     start1 = Date.now();
-                    function1();
+                    extTime1 = function1();
                     end1 = Date.now();
 
                     start2 = Date.now();
-                    function2();
+                    extTime2 = function2();
                     end2 = Date.now();
                 } else {
                     start2 = Date.now();
-                    function2();
+                    extTime2 = function2();
                     end2 = Date.now();
 
                     start1 = Date.now();
-                    function1();
+                    extTime1 = function1();
                     end1 = Date.now();
                 }
 

@@ -84,7 +84,24 @@ public class Wrapper {
         switch(lang){
             case "js":
                 //externalTime
-                File mFile = new File(cloudFunction);
+                var cloudFunction_mod = cloudFunction.substring(0,cloudFunction.length()-3) +"_mod.js";
+                Path path = Paths.get(cloudFunction);
+                Path path2 = Paths.get(cloudFunction_mod);
+                Charset charset = StandardCharsets.UTF_8;
+                String content = new String(Files.readAllBytes(path), charset);
+                int count = 0;
+                while(content.contains("//extstart")){
+                    content = content.replaceFirst("//extstart","extStart"+Integer.toString(count)+" = Date.now();");
+                    count++;
+                }
+                count = 0;
+                while(content.contains("//extstop")){
+                    content = content.replaceFirst("//extstop","extStop"+Integer.toString(count)+" = Date.now(); extTime["+Integer.toString(count)+"] = extStop"+Integer.toString(count)+" - extStart"+Integer.toString(count)+";");
+                    count++;
+                }
+                content = content.replaceAll(".*return.*;(\r?\n|\r)?","return extTime;");
+                Files.write(path2, content.getBytes(charset));
+                File mFile = new File(cloudFunction_mod);
                 FileInputStream fis = new FileInputStream(mFile);
                 BufferedReader br = new BufferedReader(new InputStreamReader(fis));
                 String result = "";
@@ -92,17 +109,20 @@ public class Wrapper {
                 while( (line = br.readLine()) != null){
                 result = result + line + "\n"; 
                 }
-
-                result = "var extTime = 0;\nvar extStart = 0;\nvar extStop = 0;\n" + result;
-                var cloudFunction_mod = cloudFunction.substring(0,cloudFunction.length()-3) +"_mod.js";
-                FileOutputStream fos = new FileOutputStream(cloudFunction_mod);
+                String extVariables = "const extTime = [];\n";
+                for(int i = 0; i < count; i++){
+                    extVariables += "var extStart"+Integer.toString(i)+" = 0;\n" + "var extStop"+Integer.toString(i)+" = 0;\n";
+                }
+                result = extVariables + result;
+                var cloudFunction_mod2 = cloudFunction.substring(0,cloudFunction.length()-3) +"_mod2.js";
+                FileOutputStream fos = new FileOutputStream(cloudFunction_mod2);
                 fos.write(result.getBytes());
                 fos.flush();
                 //Google
                 File file = new File("output/google/index.js");
                 BufferedWriter writer = new BufferedWriter(new FileWriter(file, true));
                 writer.append("\r\nfunction "+templateFunction+"() {");
-                BufferedReader reader = new BufferedReader(new FileReader(cloudFunction));
+                BufferedReader reader = new BufferedReader(new FileReader(cloudFunction_mod2));
                 String currentLine = reader.readLine();
                 while(currentLine != null){
                     writer.newLine();
@@ -117,7 +137,7 @@ public class Wrapper {
                 file= new File("output/aws/index.js");
                 writer = new BufferedWriter(new FileWriter(file, true));
                 writer.append("\r\nfunction "+templateFunction+"() {");
-                reader = new BufferedReader(new FileReader(cloudFunction_mod));
+                reader = new BufferedReader(new FileReader(cloudFunction_mod2));
                 currentLine = reader.readLine();
                 while(currentLine != null){
                     writer.newLine();
@@ -127,21 +147,9 @@ public class Wrapper {
                 reader.close();
                 writer.append("\r\n}");
                 writer.close();
-                Path path = Paths.get("output/aws/index.js");
-                Charset charset = StandardCharsets.UTF_8;
-                String content = new String(Files.readAllBytes(path), charset);
-                content = content.replaceAll("//extstart","extStart = Date.now();");
-                content = content.replaceAll("//extstop","extStop = Date.now(); extTime += extStop - extStart;");
-                content = content.replaceAll(".*return.*;(\r?\n|\r)?","return extTime;");
-                Files.write(path, content.getBytes(charset));
-
-                path = Paths.get("output/google/index.js");
-                content = new String(Files.readAllBytes(path), charset);
-                content = content.replaceAll("//extstart","extStart = Date.now();");
-                content = content.replaceAll("//extstop","extStop = Date.now(); extTime += extStop - extStart;");
-                content = content.replaceAll(".*return.*;(\r?\n|\r)?","return extTime;");
-                Files.write(path, content.getBytes(charset));
                 File delFile = new File(cloudFunction_mod);
+                delFile.delete();
+                delFile = new File(cloudFunction_mod2);
                 delFile.delete();
                 break;
             case "py":

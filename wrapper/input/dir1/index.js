@@ -18,10 +18,6 @@ var pi = 4.0 * ( inVar / trials);
 var end = Date.now();
 //extstart
 
-
-
-
 //extstop
 
 return extTime;
-
