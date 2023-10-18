@@ -1,3 +1,4 @@
+//split inVar
 var trials = process.env.TRIALS1;
 var inVar = 0;
 var out = 0;

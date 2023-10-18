@@ -6,6 +6,7 @@ function getRandomBool() {
 }
 
 functions.http('wrapperTest', (req, res) => {
+    //comment for split to replace
     var mode = escapeHtml(req.query.mode || req.body.mode || 'default (A)');
     var iterations = escapeHtml(req.query.iterations || req.body.iterations || 5);
     var experimentID = process.env.EXPERIMENTID;

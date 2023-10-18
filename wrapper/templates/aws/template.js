@@ -5,6 +5,7 @@ function getRandomBool() {
 }
 
 exports.handler = async (event) => {
+    //comment for split to replace
     console.log('Event: ', event);
     let mode = "A";
     let iterations = 1;
