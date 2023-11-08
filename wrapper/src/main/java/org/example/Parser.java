@@ -40,6 +40,7 @@ public class Parser {
     }
     public String checkValidity(String folder){
         File file = new File(folder);
+        System.out.println(folder);
         String userdir = System.getProperty("user.dir");
         File file2 = new File(userdir +"/input/"+folder);
         if (!file.isDirectory() && !file2.isDirectory()){

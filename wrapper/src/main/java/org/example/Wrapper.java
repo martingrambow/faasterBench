@@ -100,6 +100,8 @@ public class Wrapper {
                 String splitVariablesAmazon = "";
                 String splitVarDef = "";
                 String splitVariable = "";
+                String splitVariables1 = "";
+                String splitVariables2 = "";
                 while(content.contains("//split")){
                     Pattern pattern = Pattern.compile("//split (.*)");
                     Matcher matcher = pattern.matcher(content);
@@ -107,6 +109,8 @@ public class Wrapper {
                         {
                             splitVariable = matcher.group(0);
                             splitVariable = splitVariable.substring(8);
+                            splitVariables1 += splitVariable +"1, ";
+                            splitVariables2 += splitVariable +"2, ";
                             String replacerVariable = splitVariable+Integer.toString(split);
                             content = content.replaceAll(splitVariable, replacerVariable);
                             System.out.println("Replaced "+splitVariable+ " with split option "+ replacerVariable);
@@ -114,10 +118,11 @@ public class Wrapper {
                             splitVariablesGoogle += replacerVariable+" = escapeHtml(req.query."+replacerVariable+" || req.body."+replacerVariable+");\n    ";
                             splitVariablesAmazon += replacerVariable+" = event.queryStringParameters."+replacerVariable+";\n        ";
                         }
-                    content = content.replaceAll("//split", "//var");
+                    content = content.replaceFirst("//split", "//var");
                 }
-
-
+                splitVariables1 = splitVariables1.substring(0, splitVariables1.length()-2);
+                splitVariables2 = splitVariables2.substring(0, splitVariables2.length()-2);
+                
 
                 //check if external call functionality was used
                 while(content.contains("//extstart")){
@@ -180,11 +185,10 @@ public class Wrapper {
                 replacerText = "//comment for split to replace";
                 content = content.replaceAll("//comment for split to replace", splitVarDef+replacerText);
                 if(splitVarDef.length() > 0){
-                    content = content.replaceAll("function1\\(\\);", "function1("+splitVariable+"1);");
-                    content = content.replaceAll("function2\\(\\);", "function2("+splitVariable+"2);");
-                    content = content.replaceAll("function1\\(\\)", "function1("+splitVariable+"1)");
-                    content = content.replaceAll("function2\\(\\)", "function2("+splitVariable+"2)");
-                    System.out.println(content);
+                    content = content.replaceAll("function1\\(\\);", "function1("+splitVariables1+");");
+                    content = content.replaceAll("function2\\(\\);", "function2("+splitVariables2+");");
+                    content = content.replaceAll("function1\\(\\)", "function1("+splitVariables1+")");
+                    content = content.replaceAll("function2\\(\\)", "function2("+splitVariables2+")");
                 }
                 Files.write(path, content.getBytes(charset));
 
@@ -217,11 +221,10 @@ public class Wrapper {
                 replacerText = "//comment for split to replace";
                 content = content.replaceAll(replacerText, splitVarDef+replacerText);
                 if(splitVarDef.length() > 0){
-                    content = content.replaceAll("function1\\(\\);", "function1("+splitVariable+"1);");
-                    content = content.replaceAll("function2\\(\\);", "function2("+splitVariable+"2);");
-                    content = content.replaceAll("function1\\(\\)", "function1("+splitVariable+"1)");
-                    content = content.replaceAll("function2\\(\\)", "function2("+splitVariable+"2)");
-                    System.out.println(content);
+                    content = content.replaceAll("function1\\(\\);", "function1("+splitVariables1+");");
+                    content = content.replaceAll("function2\\(\\);", "function2("+splitVariables2+");");
+                    content = content.replaceAll("function1\\(\\)", "function1("+splitVariables1+")");
+                    content = content.replaceAll("function2\\(\\)", "function2("+splitVariables2+")");
                 }
                 Files.write(path, content.getBytes(charset));
 

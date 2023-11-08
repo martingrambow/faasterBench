@@ -56,10 +56,6 @@ functions.http('wrapperTest', (req, res) => {
 
                 fun2.push((end2 - start2 - extTime2));
                 break;
-            case "D":
-                //threaded
-                //web worker approach? needs separate files to work then, which would maybe be possible?
-                break;
             default:
                 if (getRandomBool) {
                     start1 = Date.now();

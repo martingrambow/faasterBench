@@ -130,6 +130,16 @@ Once this step is complete, a utility called `package-json-merge` can be used to
 	//extstop
 	```
 	This can be done multiple times throughout the function. faasterBench provides different benchmark values, both including and excluding external calls. 
+2. (c) **Split input variables**
+If you need to test functions that for example delete an object, you will likely need to split the variables in the code and pass two different parameters to the HTTP-trigger. 
+	By inserting:  
+	```
+	//split variableNameHere  
+	//split secondVariableHere  
+	...  
+	//split nthVariableHere
+	```
+	it's possible to add the variables as input parameters for faasterBench, which will then respectively named. For the first function, the variable `test` would then be named `test1` and in the other function it would be called test2, along with the function gaining them as input parameters which need to be passed to the function.
 3. **Wrap functions code** and create deployment artifact 
 	```
 	./wrapper.sh
@@ -138,14 +148,15 @@ Once this step is complete, a utility called `package-json-merge` can be used to
 ## Run experiment
 
 1. **Move to respective experiment folder**
+You will need to choose the respective folder depending on which project you want to run the experiments on. For the baseline case pi:
 	```
-	cd ../experiment/google
+	cd ../experiment/pi/google
 	<-OR->
-	cd ../experiment/aws
+	cd ../experiment/pi/aws
 	```
 2. **Run experiment**
 	```
-	./experiment.sh
+	./runExperiment.sh
 	```
 
 # Evaluation

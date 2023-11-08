@@ -30,8 +30,8 @@ public class Main {
         //setup options
         //String firstFolder = "input/dir1";
         //String secondFolder = "input/dir2";
-        String firstFolder = "wrapper/input/dir1";
-        String secondFolder = "wrapper/input/dir2";
+        String firstFolder = "input/default/dir1";
+        String secondFolder = "input/default/dir2";
 
         String cloudProvider = "gcp";
         boolean addComplexity= false;

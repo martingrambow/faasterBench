@@ -19,7 +19,7 @@ resource "random_string" "experiment_id" {
 resource "google_cloudfunctions_function" "function" {
     count                 = var.WRAPPERCOUNT
     name                  = "wrapper${count.index}"
-    runtime               = var.runtime  # of course changeable
+    runtime               = var.RUNTIME  # of course changeable
     available_memory_mb   = 512
 
     # Get the source code of the cloud function as a Zip compression

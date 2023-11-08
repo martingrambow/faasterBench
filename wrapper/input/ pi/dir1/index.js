@@ -1,4 +1,3 @@
-//split inVar
 var trials = process.env.TRIALS1;
 var inVar = 0;
 var out = 0;
@@ -17,8 +16,4 @@ while (i < trials) {
 }
 var pi = 4.0 * ( inVar / trials);
 var end = Date.now();
-//extstart
-
-//extstop
-
 return extTime;
