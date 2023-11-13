@@ -1,3 +1,15 @@
+## BibTeX
+
+```
+@inproceedings{grambow_efficiently_2023,
+	title = {{Efficiently Detecting Performance Changes in FaaS Application Releases}},
+	booktitle = {{Proc. of 9th International Workshop on Serverless Computing (WoSC \textquotesingle 23)}},
+	author = {Grambow, Martin and Dockenfuß, Tim and Schirmer, Trever and Japke, Nils and Bermbach, David},
+	year = {2023}
+}
+```
+
+
 # Initial Provider Setup
 
 To run benchmarks, faasterBench requires programmatic access to the respective platforms. Below are short descriptions of how to enable this acces for the currently supported FaaS platforms:
@@ -160,3 +172,4 @@ You will need to choose the respective folder depending on which project you wan
 	```
 
 # Evaluation
+See folder analysis
