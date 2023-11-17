@@ -14,7 +14,6 @@ public class Main {
         Options options = new Options();
         options.addOption("f",true,"Absolute or relative path to your first folder (default : input/dir1)");
         options.addOption("s",true,"Absolute or relative path to your second folder (default : input/dir2)");
-        options.addOption("c",false,"Stub-> Flag used if complexity should be added (default : false");
         options.addOption("h",false,"Provide flag if help is wanted");
         CommandLineParser parser = new BasicParser();
         CommandLine cmd = parser.parse(options, args);
@@ -28,8 +27,6 @@ public class Main {
         System.out.println("----------------------");
         System.out.println("Working Directory = " + System.getProperty("user.dir"));
         //setup options
-        //String firstFolder = "input/dir1";
-        //String secondFolder = "input/dir2";
         String firstFolder = "input/default/dir1";
         String secondFolder = "input/default/dir2";
 
