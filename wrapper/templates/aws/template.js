@@ -25,6 +25,8 @@ exports.handler = async (event) => {
     var end2;
     var extTime1;
     var extTime2;
+    var extTime1Sum;
+    var extTime2Sum;
     for (let i = 0; i < iterations; i++) {
         switch (mode) {
             case "A":
@@ -45,27 +47,24 @@ exports.handler = async (event) => {
                     extTime1 = function1();
                     end1 = Date.now();
                 }
-
-                fun1.push((end1 - start1));
-                fun2.push((end2 - start2));
+                extTime1Sum = extTime1.reduce((a, b) => a + b, 0);
+                extTime2Sum = extTime2.reduce((a, b) => a + b, 0);
+                fun1.push((end1 - start1 - extTime1Sum));
+                fun2.push((end2 - start2 - extTime2Sum));
                 break;
             case "B":
                 start1 = Date.now();
                 extTime1 = function1();
                 end1 = Date.now();
-
-                fun1.push((end1 - start1));
+                extTime1Sum = extTime1.reduce((a, b) => a + b, 0);
+                fun1.push((end1 - start1 - extTime1Sum));
                 break;
             case "C":
                 start2 = Date.now();
                 extTime2 = function2();
                 end2 = Date.now();
-
-                fun2.push((end2 - start2));
-                break;
-            case "D":
-                //threaded
-                //web worker approach? needs separate files to work then, which would maybe be possible?
+                extTime2Sum = extTime2.reduce((a, b) => a + b, 0);
+                fun2.push((end2 - start2 - extTime2Sum));
                 break;
             default:
                 if (getRandomBool) {
@@ -85,9 +84,10 @@ exports.handler = async (event) => {
                     extTime1 = function1();
                     end1 = Date.now();
                 }
-
-                fun1.push((end1 - start1));
-                fun2.push((end2 - start2));
+                extTime1Sum = extTime1.reduce((a, b) => a + b, 0);
+                extTime2Sum = extTime2.reduce((a, b) => a + b, 0);
+                fun1.push((end1 - start1 - extTime1Sum));
+                fun2.push((end2 - start2 - extTime2Sum));
                 break;
                 
         }

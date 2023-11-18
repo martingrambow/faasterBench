@@ -18,6 +18,8 @@ functions.http('wrapperTest', (req, res) => {
     var end2;
     var extTime1;
     var extTime2;
+    var extTime1Sum;
+    var extTime2Sum;
     for (let i = 0; i < iterations; i++) {
         switch (mode) {
             case "A":
@@ -38,23 +40,24 @@ functions.http('wrapperTest', (req, res) => {
                     extTime1 = function1();
                     end1 = Date.now();
                 }
-
-                fun1.push((end1 - start1 - extTime1));
-                fun2.push((end2 - start2 - extTime2));
+                extTime1Sum = extTime1.reduce((a, b) => a + b, 0);
+                extTime2Sum = extTime2.reduce((a, b) => a + b, 0);
+                fun1.push((end1 - start1 - extTime1Sum));
+                fun2.push((end2 - start2 - extTime2Sum));
                 break;
             case "B":
                 start1 = Date.now();
                 extTime1 = function1();
                 end1 = Date.now();
-
-                fun1.push((end1 - start1 - extTime1));
+                extTime1Sum = extTime1.reduce((a, b) => a + b, 0);
+                fun1.push((end1 - start1 - extTime1Sum));
                 break;
             case "C":
                 start2 = Date.now();
                 extTime2 = function2();
                 end2 = Date.now();
-
-                fun2.push((end2 - start2 - extTime2));
+                extTime2Sum = extTime2.reduce((a, b) => a + b, 0);
+                fun2.push((end2 - start2 - extTime2Sum));
                 break;
             default:
                 if (getRandomBool) {
@@ -74,9 +77,10 @@ functions.http('wrapperTest', (req, res) => {
                     extTime1 = function1();
                     end1 = Date.now();
                 }
-
-                fun1.push((end1 - start1-extTime1));
-                fun2.push((end2 - start2-extTime2));
+                extTime1Sum = extTime1.reduce((a, b) => a + b, 0);
+                extTime2Sum = extTime2.reduce((a, b) => a + b, 0);
+                fun1.push((end1 - start1-extTime1Sum));
+                fun2.push((end2 - start2-extTime2Sum));
                 break;
                 
         }

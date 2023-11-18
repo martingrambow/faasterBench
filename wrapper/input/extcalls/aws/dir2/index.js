@@ -97,7 +97,7 @@ for(entry in languages){
     const text = content;
     const target = entry;
 
-    let translations = await translate.translate(text, target);
+    let translations = translate.translate(text, target);
     content = translations;
     //extstop
   }

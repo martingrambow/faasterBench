@@ -30,8 +30,6 @@ public class Main {
         String firstFolder = "input/default/dir1";
         String secondFolder = "input/default/dir2";
 
-        String cloudProvider = "gcp";
-        boolean addComplexity= false;
         if(cmd.hasOption("f")){
             firstFolder = cmd.getOptionValue("f");
         }else{
@@ -42,40 +40,40 @@ public class Main {
         }else{
             System.out.println("No value provided for second folder, using default location : "+secondFolder);
         }
-        if(cmd.hasOption("c")){
-            addComplexity = true;
-        }
 
 
         Parser parseTool = new Parser();
         Wrapper wrapTool = new Wrapper();
 
-        //ask for cloud
-        if(!(cloudProvider.equals("gcp") || cloudProvider.equals("aws"))){
-            System.out.println("Invalid value provided for cloud provider: "+ cloudProvider+ ", exiting..");
-            exit(1);
-        }
-
-
-        //ask for first folder
-        String cloudFunction1 = parseTool.checkValidity(firstFolder);
-        if(cloudFunction1.equals("NF")) {
-            System.out.println("Invalid value provided for first folder: "+ firstFolder+ ", exiting..");
-            exit(1);
-        }
-        String cloudFunction2 = parseTool.checkValidity(secondFolder);
-        if(cloudFunction2.equals("NF")) {
-            System.out.println("Invalid value provided for second folder: "+ secondFolder+ ", exiting..");
-            exit(1);
-        }
-        //ask for second folder
-        if(cloudFunction1.substring(cloudFunction1.indexOf(".")).equals(cloudFunction2.substring(cloudFunction2.indexOf(".")))){
-            System.out.println("Proceeding with building of wrapper function using "+ cloudFunction1 + " and "+ cloudFunction2);
-            wrapTool.buildWrapper(cloudFunction1, cloudFunction2);
+        //check if simple wrapper build or advanced is required 
+        if(firstFolder.endsWith("aws") || firstFolder.endsWith("google")){
+            System.out.println("Advanced setup required due to different configurations for aws/google");
+            if(firstFolder.endsWith("google")){
+                wrapTool.buildWrapper(firstFolder, secondFolder);
+            }else{
+                wrapTool.buildWrapper(secondFolder, firstFolder);
+            }
         }else{
-            //function type mismatch, abort
-            System.out.println("Functions are of different types "+ cloudFunction1.substring(cloudFunction1.indexOf(".")) + " and "+ cloudFunction2.substring(cloudFunction2.indexOf(".")) + ", aborting Cloudwrap.");
-            exit(1);
-        }
+            //ask for first folder
+            String cloudFunction1 = parseTool.checkValidity(firstFolder);
+            if(cloudFunction1.equals("NF")) {
+                System.out.println("Invalid value provided for first folder: "+ firstFolder+ ", exiting..");
+                exit(1);
+            }
+            String cloudFunction2 = parseTool.checkValidity(secondFolder);
+            if(cloudFunction2.equals("NF")) {
+                System.out.println("Invalid value provided for second folder: "+ secondFolder+ ", exiting..");
+                exit(1);
+            }
+            //ask for second folder
+            if(cloudFunction1.substring(cloudFunction1.indexOf(".")).equals(cloudFunction2.substring(cloudFunction2.indexOf(".")))){
+                System.out.println("Proceeding with building of wrapper function using "+ cloudFunction1 + " and "+ cloudFunction2);
+                wrapTool.buildWrapper(cloudFunction1, cloudFunction2);
+            }else{
+                //function type mismatch, abort
+                System.out.println("Functions are of different types "+ cloudFunction1.substring(cloudFunction1.indexOf(".")) + " and "+ cloudFunction2.substring(cloudFunction2.indexOf(".")) + ", aborting Cloudwrap.");
+                exit(1);
+            }
+        }  
     }
 }

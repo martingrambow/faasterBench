@@ -31,7 +31,7 @@ for(entry in languages){
       const text = content;
       const target = entry;
 
-      let translations = await translate.translate(text, target);
+      let translations = translate.translate(text, target);
       content = translations;
       //extstop
     }
@@ -45,10 +45,10 @@ for(entry in languages){
     };
 
     // Performs the text-to-speech request
-    const [response] = await client.synthesizeSpeech(request);
+    const [response] = client.synthesizeSpeech(request);
     // Write the binary audio content to a local file
     const writeFile = util.promisify(fs.writeFile);
-    await writeFile('output.mp3', response.audioContent, 'binary'); //write this to bucket
+    writeFile('output.mp3', response.audioContent, 'binary'); //write this to bucket
     console.log('Audio content written to file: output.mp3');
 }
 
