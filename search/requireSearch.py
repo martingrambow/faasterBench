@@ -1,5 +1,6 @@
 import http.client
 import json
+import base64
 conn = http.client.HTTPSConnection("api.github.com")
 
 headersList = {
@@ -15,23 +16,25 @@ response = conn.getresponse()
 result = response.read()
 repoList = []
 urlDict = {}
-starFunctionDict = {}
-print(result.decode("utf-8"))
+requireCountDict = {}
 jsonfile = json.loads(result.decode("utf-8"))
 for entry in jsonfile['items']:
+    apiURL = entry['url'][22:]
+    print(apiURL)
     repositoryURL = entry['repository']['full_name']
     functionURL = entry['html_url']
     urlDict[repositoryURL] = functionURL
-    repoList.append(repositoryURL)
-for entry in repoList:
-    print(entry)
-    conn.request("GET", "/repos/"+entry, payload, headersList)
+    repoList.append(repositoryURL)   
+    conn.request("GET", apiURL, payload, headersList)
     response = conn.getresponse()
     result = response.read()
-    #print(result.decode("utf-8"))
-    jsonresult = json.loads(result.decode("utf-8"))
-    stars = jsonresult['stargazers_count']
-    starFunctionDict[urlDict[entry]] = stars 
-sortedDict = list(reversed(sorted(starFunctionDict.items(), key=lambda x:x[1])))
+    jsonfile1 = json.loads(result.decode("utf-8"))
+    b64Bytes = jsonfile1['content'].encode("utf-8")
+    print(b64Bytes)
+    stringBytes = base64.b64decode(b64Bytes) 
+    decodedString = stringBytes.decode("utf-8") 
+    requires =decodedString.count("require")
+    requireCountDict[functionURL] = requires
+sortedDict = list(reversed(sorted(requireCountDict.items(), key=lambda x:x[1])))
 for entry in sortedDict:
     print(entry)
