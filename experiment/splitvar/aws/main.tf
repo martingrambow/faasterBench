@@ -22,23 +22,23 @@ resource "null_resource" "main" {
 
 }
 
-resource "aws_s3_bucket" "extcallbucket" {
-  bucket = "extCallBucket"
+resource "aws_s3_bucket" "splitvarbucket" {
+  bucket = "splitVarBucket"
 
   tags = {
-    Name        = "extCallBucket"
+    Name        = "splitVarBucket"
   }
 }
 
-resource "aws_s3_bucket_object" "object" {
-  bucket = "extCallBucket"
+resource "aws_s3_bucket_object" "config1" {
+  bucket = "splitVarBucket"
   key    = "text"
-  source = "../../wrapper/input/extcalls/text.txt"
+  source = "../../wrapper/input/splitvar/config1.txt"
 
   # The filemd5() function is available in Terraform 0.11.12 and later
   # For Terraform 0.11.11 and earlier, use the md5() function and the file() function:
   # etag = "${md5(file("path/to/file"))}"
-  etag = filemd5("../../wrapper/input/extcalls/text.txt")
+  etag = filemd5("../../wrapper/input/splitvar/config1.txt")
 }
 
 resource "random_string" "experiment_id" {

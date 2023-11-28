@@ -5,12 +5,12 @@ conn = http.client.HTTPSConnection("api.github.com")
 headersList = {
  "Accept": "*/*",
  "User-Agent": "Thunder Client (https://www.thunderclient.com)",
- "Authorization": "Bearer <YOUR PAT HERE>" 
+ "Authorization": "Bearer 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" 
 }
 
 payload = ""
 
-conn.request("GET", "/search/code?q=require('aws-sdk');+machine+learning+language:js&per_page=100", payload, headersList)
+conn.request("GET", "/search/code?q=require('nodemailer');+functions-framework:js&per_page=100", payload, headersList)
 response = conn.getresponse()
 result = response.read()
 repoList = []

@@ -22,25 +22,6 @@ resource "null_resource" "main" {
 
 }
 
-resource "aws_s3_bucket" "extcallbucket" {
-  bucket = "extCallBucket"
-
-  tags = {
-    Name        = "extCallBucket"
-  }
-}
-
-resource "aws_s3_bucket_object" "object" {
-  bucket = "extCallBucket"
-  key    = "text"
-  source = "../../wrapper/input/extcalls/text.txt"
-
-  # The filemd5() function is available in Terraform 0.11.12 and later
-  # For Terraform 0.11.11 and earlier, use the md5() function and the file() function:
-  # etag = "${md5(file("path/to/file"))}"
-  etag = filemd5("../../wrapper/input/extcalls/text.txt")
-}
-
 resource "random_string" "experiment_id" {
   length  = 5
   special = false
@@ -70,8 +51,8 @@ resource "aws_lambda_function" "wrapper" {
   environment {
     variables = {
       EXPERIMENTID = "${random_string.experiment_id.result}"
-      LANGUAGES1 = var.LANGUAGES1
-      LANGUAGES2 = var.LANGUAGES2
+      TRIALS1 = var.TRIALS1
+      TRIALS2 = var.TRIALS2
     }
   }
 }
