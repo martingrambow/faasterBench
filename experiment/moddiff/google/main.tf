@@ -31,8 +31,8 @@ resource "google_cloudfunctions_function" "function" {
 
     environment_variables = {
         EXPERIMENTID = "${random_string.experiment_id.result}"
-        TRIALS1 = var.TRIALS1
-        TRIALS2 = var.TRIALS2
+        user = var.user
+        password = var.password
     }
 
     #

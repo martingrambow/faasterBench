@@ -11,7 +11,7 @@ variable "RUNTIME" {
 
 variable "user" {
   type    = string
-  default = "gov23@brevo.com"
+  default = "timheldt@gmail.com"
 }
 
 variable "password" {

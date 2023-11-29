@@ -51,8 +51,8 @@ resource "aws_lambda_function" "wrapper" {
   environment {
     variables = {
       EXPERIMENTID = "${random_string.experiment_id.result}"
-      TRIALS1 = var.TRIALS1
-      TRIALS2 = var.TRIALS2
+      user = var.user
+      password = var.password
     }
   }
 }
