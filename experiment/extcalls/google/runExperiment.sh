@@ -15,7 +15,7 @@ echo "endpoints are $FUNCTION_ENDPOINTS"
 for (( i = 0; i < $count; i++ ))
 do
     FUNCTION_ENDPOINT="$(echo $FUNCTION_ENDPOINTS | jq -r .[$i])"
-    echo "endpoint is $FUNCTION_ENDPOITN"
+    echo "endpoint is $FUNCTION_ENDPOINT"
     artillery run -t $FUNCTION_ENDPOINT basicLoad_${CALLS}_${ITERATIONS}.yml
 done
 
