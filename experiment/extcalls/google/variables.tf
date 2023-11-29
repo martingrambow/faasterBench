@@ -9,16 +9,6 @@ variable "RUNTIME" {
   default     = "nodejs16"
 }
 
-variable "LANGUAGES1" {
-  type    = string
-  default = "en"
-}
-
-variable "LANGUAGES2" {
-  type    = number
-  default = "de"
-}
-
 variable "handler"{
   type    = string
   default = "wrapperTest"

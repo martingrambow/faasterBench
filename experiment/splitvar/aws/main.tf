@@ -7,7 +7,7 @@ provider "aws" {
 # Archive lambda function
 data "archive_file" "main" {
   type        = "zip"
-  source_dir  = "../../wrapper/output/aws"
+  source_dir  = "../../../wrapper/output/aws"
   output_path = "/tmp/wrapper.zip"
 
   depends_on = [null_resource.main]
@@ -33,12 +33,12 @@ resource "aws_s3_bucket" "splitvarbucket" {
 resource "aws_s3_bucket_object" "config1" {
   bucket = "splitVarBucket"
   key    = "text"
-  source = "../../wrapper/input/splitvar/config1.txt"
+  source = "../../../wrapper/input/splitvar/config1.txt"
 
   # The filemd5() function is available in Terraform 0.11.12 and later
   # For Terraform 0.11.11 and earlier, use the md5() function and the file() function:
   # etag = "${md5(file("path/to/file"))}"
-  etag = filemd5("../../wrapper/input/splitvar/config1.txt")
+  etag = filemd5("../../../wrapper/input/splitvar/config1.txt")
 }
 
 resource "random_string" "experiment_id" {
@@ -70,8 +70,6 @@ resource "aws_lambda_function" "wrapper" {
   environment {
     variables = {
       EXPERIMENTID = "${random_string.experiment_id.result}"
-      LANGUAGES1 = var.LANGUAGES1
-      LANGUAGES2 = var.LANGUAGES2
     }
   }
 }

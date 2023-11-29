@@ -7,7 +7,7 @@ provider "aws" {
 # Archive lambda function
 data "archive_file" "main" {
   type        = "zip"
-  source_dir  = "../../wrapper/output/aws"
+  source_dir  = "../../../wrapper/output/aws"
   output_path = "/tmp/wrapper.zip"
 
   depends_on = [null_resource.main]

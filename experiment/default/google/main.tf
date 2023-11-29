@@ -64,7 +64,7 @@ resource "google_storage_bucket" "input_bucket" {
 
 data "archive_file" "sourcewrapper" {
     type        = "zip"
-    source_dir  = "../../wrapper/output/google/"
+    source_dir  = "../../../wrapper/output/google/"
     output_path = "./tmp/wrapper.zip"
 }
 

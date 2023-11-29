@@ -9,16 +9,6 @@ variable "runtime" {
   default     = "nodejs16.x"
 }
 
-variable "LANGUAGES1" {
-  type    = string
-  default = "en"
-}
-
-variable "LANGUAGES2" {
-  type    = number
-  default = "de"
-}
-
 variable "handler"{
   type    = string
   default = "wrapperTest"

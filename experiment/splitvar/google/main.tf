@@ -31,8 +31,6 @@ resource "google_cloudfunctions_function" "function" {
 
     environment_variables = {
         EXPERIMENTID = "${random_string.experiment_id.result}"
-        LANGUAGES1 = var.LANGUAGES1
-        LANGUAGES2 = var.LANGUAGES2
     }
 
     #
@@ -68,7 +66,7 @@ resource "google_storage_bucket" "splitVar_bucket" {
 }
 
 resource "google_storage_bucket_object" "config1" {
-    source       = "../../wrapper/input/splitvar/config1.txt"
+    source       = "../../../wrapper/input/splitvar/config1.txt"
     content_type = "text/html"
 
     # Append to the MD5 checksum of the files's content
@@ -77,7 +75,7 @@ resource "google_storage_bucket_object" "config1" {
     bucket       = google_storage_bucket.splitVar_bucket.name
 }
 resource "google_storage_bucket_object" "config2" {
-    source       = "../../wrapper/input/splitvar/config2.txt"
+    source       = "../../../wrapper/input/splitvar/config2.txt"
     content_type = "text/html"
 
     # Append to the MD5 checksum of the files's content
@@ -89,7 +87,7 @@ resource "google_storage_bucket_object" "config2" {
 
 data "archive_file" "sourcewrapper" {
     type        = "zip"
-    source_dir  = "../../wrapper/output/google/"
+    source_dir  = "../../../wrapper/output/google/"
     output_path = "./tmp/wrapper.zip"
 }
 

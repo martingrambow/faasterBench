@@ -31,8 +31,6 @@ resource "google_cloudfunctions_function" "function" {
 
     environment_variables = {
         EXPERIMENTID = "${random_string.experiment_id.result}"
-        LANGUAGES1 = var.LANGUAGES1
-        LANGUAGES2 = var.LANGUAGES2
     }
 
     #
@@ -68,7 +66,7 @@ resource "google_storage_bucket" "extCall_bucket" {
 }
 
 resource "google_storage_bucket_object" "text" {
-    source       = "../../wrapper/input/extcalls/text.txt"
+    source       = "../../../wrapper/input/extcalls/text.txt"
     content_type = "text/html"
 
     # Append to the MD5 checksum of the files's content
@@ -79,7 +77,7 @@ resource "google_storage_bucket_object" "text" {
 
 data "archive_file" "sourcewrapper" {
     type        = "zip"
-    source_dir  = "../../wrapper/output/google/"
+    source_dir  = "../../../wrapper/output/google/"
     output_path = "./tmp/wrapper.zip"
 }
 

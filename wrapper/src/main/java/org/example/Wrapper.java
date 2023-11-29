@@ -86,8 +86,12 @@ public class Wrapper {
         
         //externalTime
         var cloudFunction_mod = cloudFunction.substring(0,cloudFunction.length()-3) +"_mod.js";
-        Path path = Paths.get(cloudFunction);
-        Path path2 = Paths.get(cloudFunction_mod);
+        var cloudFunction_mod2 = cloudFunction.substring(0,cloudFunction.length()-3) +"_mod2.js";
+        Path defaultPath = Paths.get(".");
+        System.out.println(defaultPath);
+        Path path = Paths.get(defaultPath.toString(),cloudFunction);
+        Path path1 = Paths.get(defaultPath.toString(),cloudFunction_mod);
+        Path path2 = Paths.get(defaultPath.toString(),cloudFunction_mod2);
         Charset charset = StandardCharsets.UTF_8;
         String content = new String(Files.readAllBytes(path), charset);
         int count = 0;
@@ -132,9 +136,9 @@ public class Wrapper {
             content = content.replaceFirst("//extstop","extStop"+Integer.toString(count)+" = Date.now(); extTime["+Integer.toString(count)+"] = extTime["+Integer.toString(count)+"] + (extStop"+Integer.toString(count)+" - extStart"+Integer.toString(count)+");");
             count++;
         }
-        content = content.replaceAll(".*return.*;(\r?\n|\r)?","return extTime;");
-        Files.write(path2, content.getBytes(charset));
-        File mFile = new File(cloudFunction_mod);
+        //content = content.replaceAll(".*return.*;(\r?\n|\r)?","return extTime;");
+        Files.write(path1, content.getBytes(charset));
+        File mFile = new File(path1.toString());
         FileInputStream fis = new FileInputStream(mFile);
         BufferedReader br = new BufferedReader(new InputStreamReader(fis));
         String result = "";
@@ -142,15 +146,15 @@ public class Wrapper {
         while( (line = br.readLine()) != null){
         result = result + line + "\n"; 
         }
-        String extVariables = "const extTime = [];\n";
+        String extVariables = "var extTime = [0];\n";
         for(int i = 0; i < count; i++){
             extVariables += "var extStart"+Integer.toString(i)+" = 0;\n" + "var extStop"+Integer.toString(i)+" = 0;\n";
         }
         
         
         result = extVariables + result;
-        var cloudFunction_mod2 = cloudFunction.substring(0,cloudFunction.length()-3) +"_mod2.js";
-        FileOutputStream fos = new FileOutputStream(cloudFunction_mod2);
+        
+        FileOutputStream fos = new FileOutputStream(path2.toString());
         fos.write(result.getBytes());
         fos.flush();
 
@@ -159,7 +163,7 @@ public class Wrapper {
         File file= new File("output/aws/index.js");
         BufferedWriter writer = new BufferedWriter(new FileWriter(file, true));
         writer.append("\r\nfunction "+templateFunction+"() {");
-        BufferedReader reader = new BufferedReader(new FileReader(cloudFunction_mod2));
+        BufferedReader reader = new BufferedReader(new FileReader(path2.toString()));
         String currentLine = reader.readLine();
         while(currentLine != null){
             writer.newLine();
@@ -169,9 +173,9 @@ public class Wrapper {
         reader.close();
         writer.append("\r\n}");
         writer.close();
-        File delFile = new File(cloudFunction_mod);
+        File delFile = new File(path1.toString());
         delFile.delete();
-        delFile = new File(cloudFunction_mod2);
+        delFile = new File(path2.toString());
         delFile.delete();
 
         //split var in AWS
@@ -198,8 +202,11 @@ public class Wrapper {
     public boolean addGoogleFunction(String cloudFunction, String templateFunction, String lang, Integer split) throws IOException {
         //externalTime
         var cloudFunction_mod = cloudFunction.substring(0,cloudFunction.length()-3) +"_mod.js";
-        Path path = Paths.get(cloudFunction);
-        Path path2 = Paths.get(cloudFunction_mod);
+        var cloudFunction_mod2 = cloudFunction.substring(0,cloudFunction.length()-3) +"_mod2.js";
+        Path defaultPath = Paths.get(".");
+        Path path = Paths.get(defaultPath.toString(),cloudFunction);
+        Path path1 = Paths.get(defaultPath.toString(),cloudFunction_mod);
+        Path path2 = Paths.get(defaultPath.toString(),cloudFunction_mod2);
         Charset charset = StandardCharsets.UTF_8;
         String content = new String(Files.readAllBytes(path), charset);
         int count = 0;
@@ -245,9 +252,9 @@ public class Wrapper {
             content = content.replaceFirst("//extstop","extStop"+Integer.toString(count)+" = Date.now(); extTime["+Integer.toString(count)+"] = extTime["+Integer.toString(count)+"] + (extStop"+Integer.toString(count)+" - extStart"+Integer.toString(count)+");");
             count++;
         }
-        content = content.replaceAll(".*return.*;(\r?\n|\r)?","return extTime;");
-        Files.write(path2, content.getBytes(charset));
-        File mFile = new File(cloudFunction_mod);
+        //content = content.replaceAll(".*return.*;(\r?\n|\r)?","return extTime;");
+        Files.write(path1, content.getBytes(charset));
+        File mFile = new File(path1.toString());
         FileInputStream fis = new FileInputStream(mFile);
         BufferedReader br = new BufferedReader(new InputStreamReader(fis));
         String result = "";
@@ -255,15 +262,15 @@ public class Wrapper {
         while( (line = br.readLine()) != null){
         result = result + line + "\n"; 
         }
-        String extVariables = "const extTime = [];\n";
+        String extVariables = "var extTime = [0];\n";
         for(int i = 0; i < count; i++){
             extVariables += "var extStart"+Integer.toString(i)+" = 0;\n" + "var extStop"+Integer.toString(i)+" = 0;\n";
         }
         
         
         result = extVariables + result;
-        var cloudFunction_mod2 = cloudFunction.substring(0,cloudFunction.length()-3) +"_mod2.js";
-        FileOutputStream fos = new FileOutputStream(cloudFunction_mod2);
+        
+        FileOutputStream fos = new FileOutputStream(path2.toString());
         fos.write(result.getBytes());
         fos.flush();
 
@@ -271,7 +278,7 @@ public class Wrapper {
         File file = new File("output/google/index.js");
         BufferedWriter writer = new BufferedWriter(new FileWriter(file, true));
         writer.append("\r\nfunction "+templateFunction+"() {");
-        BufferedReader reader = new BufferedReader(new FileReader(cloudFunction_mod2));
+        BufferedReader reader = new BufferedReader(new FileReader(path2.toString()));
         String currentLine = reader.readLine();
         while(currentLine != null){
             writer.newLine();
@@ -299,9 +306,9 @@ public class Wrapper {
             content = content.replaceAll("function2\\(\\)", "function2("+splitVariables2+")");
         }
         Files.write(path, content.getBytes(charset));
-        File delFile = new File(cloudFunction_mod);
+        File delFile = new File(path1.toString());
         delFile.delete();
-        delFile = new File(cloudFunction_mod2);
+        delFile = new File(path2.toString());
         delFile.delete();
         return true;
     }
