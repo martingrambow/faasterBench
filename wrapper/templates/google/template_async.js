@@ -1,12 +1,18 @@
 const functions = require('@google-cloud/functions-framework');
 const escapeHtml = require('escape-html');
-
+var coldStart = true;
 function getRandomBool() {
     return Math.floor(Math.random() * 2) !== 0;
 }
 
 functions.http('wrapperTest', async (req, res) => {
     //comment for split to replace
+    var markColdStart = false;
+    if(coldStart){
+        console.log("cold start");
+        coldStart = false;
+        markColdStart = true;
+    }
     var mode = escapeHtml(req.query.mode || req.body.mode || 'default (A)');
     var iterations = escapeHtml(req.query.iterations || req.body.iterations || 5);
     var experimentID = process.env.EXPERIMENTID;
@@ -87,7 +93,9 @@ functions.http('wrapperTest', async (req, res) => {
     }
 
     var logText = "faaster_" + experimentID + ": mode" + mode + " ";
-
+    if(markColdStart){
+        logText = "cold start "+logText
+    }
     logText += "f1 ";
     fun1.forEach(function (value, i) {
         logText += value + " ";

@@ -1,5 +1,5 @@
 const AWS = require('aws-sdk');
-
+var coldStart = true;
 function getRandomBool() {
     return Math.floor(Math.random() * 2) !== 0;
 }
@@ -7,6 +7,12 @@ function getRandomBool() {
 exports.handler = async (event) => {
     //comment for split to replace
     console.log('Event: ', event);
+    var markColdStart = false;
+    if(coldStart){
+        console.log("cold start");
+        coldStart = false;
+        markColdStart = true;
+    }
     let mode = "A";
     let iterations = 1;
     if(event.hasOwnProperty("queryStringParameters")){
@@ -98,7 +104,9 @@ exports.handler = async (event) => {
     }
 
     var logText = "faaster_" + experimentID + ": mode" + mode + " ";
-
+    if(markColdStart){
+        logText = "cold start "+logText
+    }
     logText += "f1 ";
     fun1.forEach(function (value, i) {
         logText += value + " ";
