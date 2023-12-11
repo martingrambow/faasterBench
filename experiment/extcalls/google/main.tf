@@ -53,16 +53,19 @@ resource "google_cloudfunctions_function_iam_member" "invoker" {
 resource "google_storage_bucket" "function_bucket" {
     name     = "${local.project_name}-function"
     location = "EU"
+    force_destroy = true
 }
 
 resource "google_storage_bucket" "input_bucket" {
     name     = "${local.project_name}-input"
     location = "EU"
+    force_destroy = true
 }
 
 resource "google_storage_bucket" "extCall_bucket" {
-    name     = "extCallBucket"
+    name     = "extcallbucket-faasterbench"
     location = "EU"
+    force_destroy = true
 }
 
 resource "google_storage_bucket_object" "text" {

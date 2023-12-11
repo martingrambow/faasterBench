@@ -7,17 +7,17 @@ config:
 scenarios:
   - flow:
     - get:
-        url: "/?mode=B&iterations=1"
+        url: "/?mode=B&iterations=1&subject=benchmark$20mail&to=dockenfuss%40campus%2Etu%2Ede&textInput=Hello"
     - get:
-        url: "/?mode=C&iterations=1"
+        url: "/?mode=C&iterations=1&subject=benchmark$20mail&to=dockenfuss%40campus%2Etu%2Ede&textInput=Hello"
     - get:
-        url: "/?mode=A&iterations=3"
+        url: "/?mode=A&iterations=3&subject=benchmark$20mail&to=dockenfuss%40campus%2Etu%2Ede&textInput=Hello"
     - get:
-        url: "/?mode=B&iterations=1"
+        url: "/?mode=B&iterations=1&subject=benchmark$20mail&to=dockenfuss%40campus%2Etu%2Ede&textInput=Hello"
     - get:
-        url: "/?mode=C&iterations=1"
+        url: "/?mode=C&iterations=1&subject=benchmark$20mail&to=dockenfuss%40campus%2Etu%2Ede&textInput=Hello"
     - get:
-        url: "/?mode=B&iterations=1"
+        url: "/?mode=B&iterations=1&subject=benchmark$20mail&to=dockenfuss%40campus%2Etu%2Ede&textInput=Hello"
     - get:
-        url: "/?mode=C&iterations=1"
+        url: "/?mode=C&iterations=1&subject=benchmark$20mail&to=dockenfuss%40campus%2Etu%2Ede&textInput=Hello"
     name: 'basic calls'

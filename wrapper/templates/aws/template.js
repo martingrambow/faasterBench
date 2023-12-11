@@ -1,4 +1,4 @@
-const AWS = require('aws-sdk')
+const AWS = require('aws-sdk');
 
 function getRandomBool() {
     return Math.floor(Math.random() * 2) !== 0;
@@ -10,10 +10,14 @@ exports.handler = async (event) => {
     let mode = "A";
     let iterations = 1;
     if(event.hasOwnProperty("queryStringParameters")){
-        mode = event.queryStringParameters.mode;
-        console.log("Set mode to "+mode);
-        iterations = parseInt(event.queryStringParameters.iterations);
-        console.log("Set iterations to "+iterations);
+        if(event.queryStringParameters.mode){
+            mode = event.queryStringParameters.mode;
+            console.log("Set mode to "+mode);
+        }
+        if(event.queryStringParameters.iterations){
+            iterations = parseInt(event.queryStringParameters.iterations);
+            console.log("Set iterations to "+iterations);
+        } 
     }
     let responseMessage = 'Ran mode ' + mode + ' according to passed variable';
 	var experimentID = process.env.EXPERIMENTID;
@@ -30,7 +34,7 @@ exports.handler = async (event) => {
     for (let i = 0; i < iterations; i++) {
         switch (mode) {
             case "A":
-                if (getRandomBool) {
+                if (getRandomBool()) {
                     start1 = Date.now();
                     extTime1 = function1();
                     end1 = Date.now();
@@ -67,7 +71,7 @@ exports.handler = async (event) => {
                 fun2.push((end2 - start2 - extTime2Sum));
                 break;
             default:
-                if (getRandomBool) {
+                if (getRandomBool()) {
                     start1 = Date.now();
                     extTime1 = function1();
                     end1 = Date.now();

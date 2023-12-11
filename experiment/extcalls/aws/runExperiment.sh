@@ -1,9 +1,7 @@
-export TF_VAR_TRIALS1=$1
-export TF_VAR_TRIALS2=$2
-export REGRESSION=$3
-export TF_VAR_WRAPPERCOUNT=$4
-export CALLS=$5
-export ITERATIONS=$6
+export REGRESSION=$1
+export TF_VAR_WRAPPERCOUNT=$2
+export CALLS=$3
+export ITERATIONS=$4
 
 
 terraform init
@@ -37,7 +35,9 @@ for ((i = 0 ; i < $count ; i++)); do
    aws logs start-query --log-group-names "/aws/lambda/lambda-wrapper$i"  --query-string 'fields @message | filter @message like "faaster_"' --start-time 0 --end-time 2000000000 --region eu-central-1 >> logs/$queryIDs
 done
 file="logs/$queryIDs"
-  
+echo "wait for queries to finish running" 
+sleep 60
+   
 i=1  
 while read line; do  
 #Reading each line  

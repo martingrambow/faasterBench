@@ -37,7 +37,8 @@ for ((i = 0 ; i < $count ; i++)); do
    aws logs start-query --log-group-names "/aws/lambda/lambda-wrapper$i"  --query-string 'fields @message | filter @message like "faaster_"' --start-time 0 --end-time 2000000000 --region eu-central-1 >> logs/$queryIDs
 done
 file="logs/$queryIDs"
-  
+sleep 30
+echo "Wait 30 seconds to let queries finish running"
 i=1  
 while read line; do  
 #Reading each line  

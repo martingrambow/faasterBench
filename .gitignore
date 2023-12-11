@@ -1,1 +1,6 @@
 /wrapper/output
+/wrapper/input/*/*/*/node_modules
+/wrapper/input/*/*/node_modules
+/search/requireSearch_key.py
+/search/search_key.py
+/wrapper/input/splitvar/numbergenerator.py

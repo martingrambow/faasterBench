@@ -1,9 +1,7 @@
-export TF_VAR_TRIALS1=$1
-export TF_VAR_TRIALS2=$2
-export REGRESSION=$3
-export TF_VAR_WRAPPERCOUNT=$4
-export CALLS=$5
-export ITERATIONS=$6
+export REGRESSION=$1
+export TF_VAR_WRAPPERCOUNT=$2
+export CALLS=$3
+export ITERATIONS=$4
 
 terraform init
 terraform apply -auto-approve

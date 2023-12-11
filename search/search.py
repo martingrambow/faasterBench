@@ -5,7 +5,7 @@ conn = http.client.HTTPSConnection("api.github.com")
 headersList = {
  "Accept": "*/*",
  "User-Agent": "Thunder Client (https://www.thunderclient.com)",
- "Authorization": "Bearer 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" 
+ "Authorization": "Bearer <GH PAT HERE>" 
 }
 
 payload = ""

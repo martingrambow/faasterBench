@@ -1,0 +1,23 @@
+config:
+  target: use-t-flag
+  phases:
+    - duration: 30
+      arrivalCount: 5
+      name: basic load phase
+scenarios:
+  - flow:
+    - get:
+        url: "/?mode=B&iterations=1&inputLanguage1=en&inputLanguage2=de&textInput=hallo%20this%20is%20a%20test"
+    - get:
+        url: "/?mode=C&iterations=1&inputLanguage1=en&inputLanguage2=de&textInput=hallo%20this%20is%20a%20test"
+    - get:
+        url: "/?mode=A&iterations=3&inputLanguage1=en&inputLanguage2=de&textInput=hallo%20this%20is%20a%20test"
+    - get:
+        url: "/?mode=B&iterations=1&inputLanguage1=en&inputLanguage2=de&textInput=hallo%20this%20is%20a%20test"
+    - get:
+        url: "/?mode=C&iterations=1&inputLanguage1=en&inputLanguage2=de&textInput=hallo%20this%20is%20a%20test"
+    - get:
+        url: "/?mode=B&iterations=1&inputLanguage1=en&inputLanguage2=de&textInput=hallo%20this%20is%20a%20test"
+    - get:
+        url: "/?mode=C&iterations=1&inputLanguage1=en&inputLanguage2=de&textInput=hallo%20this%20is%20a%20test"
+    name: 'basic calls'

@@ -1,9 +1,8 @@
-export TF_VAR_user=$1
-export TF_VAR_password=$2
-export REGRESSION=$3
-export TF_VAR_WRAPPERCOUNT=$4
-export CALLS=$5
-export ITERATIONS=$6
+
+export REGRESSION=$1
+export TF_VAR_WRAPPERCOUNT=$2
+export CALLS=$3
+export ITERATIONS=$4
 
 terraform init
 terraform apply -auto-approve
@@ -20,7 +19,7 @@ do
 done
 
 gcloud logging read --project $GOOGLE_PROJECT 'resource.type="cloud_function" AND textPayload:'$EXPERIMENTID --format json > google.log
-mv google.log google_${REGRESSION}_${count}_${CALLS}_${ITERATIONS}.log
+mv google.log google_${REGRESSION}_${count}_${CALLS}_${ITERATIONS}${MODE}.log
 
 echo "got results, will destroy setup..."
 terraform destroy -auto-approve

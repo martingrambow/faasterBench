@@ -23,7 +23,7 @@ functions.http('wrapperTest', (req, res) => {
     for (let i = 0; i < iterations; i++) {
         switch (mode) {
             case "A":
-                if (getRandomBool) {
+                if (getRandomBool()) {
                     start1 = Date.now();
                     extTime1 = function1();
                     end1 = Date.now();
@@ -60,7 +60,7 @@ functions.http('wrapperTest', (req, res) => {
                 fun2.push((end2 - start2 - extTime2Sum));
                 break;
             default:
-                if (getRandomBool) {
+                if (getRandomBool()) {
                     start1 = Date.now();
                     extTime1 = function1();
                     end1 = Date.now();

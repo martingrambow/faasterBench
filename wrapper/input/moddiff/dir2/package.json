@@ -1,7 +1,5 @@
 {
   "dependencies": {
-    "nodemailer": "^6.9.7",
-    "nodemailer5": "npm:nodemailer@^5.1.1",
-    "nodemailer6": "npm:nodemailer@^6.9.7"
+    "nodemailer5": "npm:nodemailer@^5.1.1"
   }
 }

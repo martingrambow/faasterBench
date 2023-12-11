@@ -1,51 +1,41 @@
-
 // Imports the Google Cloud client library
-const {Translate} = require('@google-cloud/translate').v2;
-
+const {Translate} = require('@google-cloud/translate');
+const textToSpeech = require('@google-cloud/text-to-speech');
+const fs = require('fs');
 // Creates a client
 var AWS=require('aws-sdk');
-var polly=new AWS.Polly({region: 'europe-west-1'});
 
-var content;
-var words;
-//get file from bucket 
-var s3 = new AWS.S3();
-var params = {Bucket: 'extCallBucket', Key: 'test'} //,Key:Key.csv;
-var s3file = s3.getObject(params);
-s3.getObject(params, function(err, data) {
-  if (err) console.log(err, err.stack); // an error occurred
-  else     content = data.Body.toString('ascii'); // successful response
-});
+//entry textInput
+//split inputLanguage
 
-var voice = "Marlene";
-//var voice ="Joanna";
-if(voice!= "Joanna"){
-  const translate = new Translate();
-  const text = content;
-  const target = entry;
-
-  let translations = translate.translate(text, target);
-  words = translations;
+var language = inputLanguage;
+var content = textInput;
+console.log(content)
+var apiKey = fs.readFileSync("apikey.txt","utf-8");
+//translate if necessary
+if(language != "en"){
+  const translate = new Translate({
+   projectId: 'csbws2223',
+   key: apiKey
+  });
+  const target = language;
+  const [translation] = await translate.translate(content, target);
+  content = translation;
 }
-
-
-
-params = {
-OutputFormat: "mp3", 
-SampleRate: "8000", 
-Text: words, 
-TextType: "text", 
-VoiceId: voice
+//Construct the request for TTS
+const request = {
+  input: {text: content},
+  // Select the language and SSML voice gender (optional)
+  voice: {languageCode: language, ssmlGender: 'NEUTRAL'},
+  // select the type of audio encoding
+  audioConfig: {audioEncoding: 'MP3'},
 };
-polly.synthesizeSpeech(params, function(err, data) {
-if (err) console.log(err, err.stack); // an error occurred
-else  {
-  var fs=require('fs');
-  var output= path.join(app.getPath('appData'), "speech_"+entry+".mp3");
-  var wstream = fs.createWriteStream(output);
-  wstream.write(data.AudioStream);
-  wstream.end();
-  shell.openPath(output);	
-}   
+
+// Performs the text-to-speech request
+const client = new textToSpeech.TextToSpeechClient({
+ projectId: 'csbws2223',
+ key: apiKey
 });
 
+const [response] = await client.synthesizeSpeech(request);
+return extTime;

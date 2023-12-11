@@ -113,27 +113,33 @@ Follow the next steps to (re-) run faasterBench experiments:
 	```
 	./buildWrapper.sh	
 	```
-2. (a) **Combine packacke.json files and install different versions of the same packet, if required** 
+2. (a) **Combine packacke.json files and install different versions of the same packet* 
 If your two functions rely on different versions or different dependencies alltogether, there are minute details to consider:  
-If requiring the same package in two different versions, import one or both utilizing an alias, shown with the example  of jquery here
+If requiring the same package in two different versions, import one or both utilizing an alias, shown with the example  of jquery here  
 	```
 	npm install jquery2@npm:jquery@2
 	npm install jquery3@npm:jquery@3	
-	```
-	This will cause your dependencies to include 
+	```  
+	This will cause your dependencies to include  
 	```
 	"dependencies": {  
 		"jquery2": "npm:jquery@^2.2.4",  
 		"jquery3": "npm:jquery@^3.4.1"  
 	}  
 	(from https://stackoverflow.com/questions/26414587/how-to-install-multiple-versions-of-package-using-npm)
-	```
-Once this step is complete, a utility called `package-json-merge` can be used to merge your two package.json files for your two functions.
+	```  
+Once this step is complete, a utility called `package-json-merge` needs to be used to merge your two package.json files for your two functions. Then, you need to run: 
 	```
 	npm install -g package-json-merge
-	package-json-merge package1.json package2.json .... packageN.json > package.json
-	```
-	(from https://stackoverflow.com/questions/37734638/how-to-merge-multiple-npm-package-json-files-into-one-with-gulp)
+	package-json-merge /templates/google/package.json /path/to/first/package.json /path/to/second/package.json > output/google/package.json  
+	package-json-merge /templates/aws/package.json /path/to/first/package.json /path/to/second/package.json > output/aws/package.json  
+	cd output/aws  
+	npm install
+	cd ../google  
+	npm install  
+	```  
+	(from https://stackoverflow.com/questions/37734638/how-to-merge-multiple-npm-package-json-files-into-one-with-gulp)  
+	Afterwards, go to the newly created package.json files in the respective output folders and add th
 2. (b) **Exclude external calls made by your function** 
 	faasterBench can exclude time spent in external function calls. To do so, please wrap every external call like so:
 	```

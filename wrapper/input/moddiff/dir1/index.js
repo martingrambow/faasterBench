@@ -1,33 +1,20 @@
-import url from 'url';
-import nodemailer from 'nodemailer';
-import wellKnow from 'nodemailer/lib/well-known';
+const nodemailer5 = require("nodemailer5");
 
-export const Email = {};
-export const EmailTest = {};
-
-export const EmailInternals = {
-  NpmModules: {
-    mailcomposer: {
-      version: Npm.require('nodemailer/package.json').version,
-      module: Npm.require('nodemailer/lib/mail-composer'),
-    },
-    nodemailer: {
-      version: Npm.require('nodemailer/package.json').version,
-      module: Npm.require('nodemailer'),
-    },
-  },
-};
+//entry subject
+//entry to
+//entry textInput
 
 let options = 
 {
-    smtpServer:"smtp-relay.brevo.com", 
-    username: process.env.user, 
-    password: process.env.password, 
-    from: "gov23@brevo.com",
-    to: "gov23receiver@brevo.com",
-    subject: "Benchmark",
-    text: "Benchmark text, you will receive this mail multiple times"
+    smtpServer:"smtp.ethereal.email", 
+    from: "geraldine.simonis67@ethereal.email",
+    to: to,
+    subject: subject,
+    text: textInput
 };
+
+
+
 /**
  * @summary Send an email. Throws an `Error` on failure to contact mail server
  * or if mail server returns an error. All fields should match
@@ -40,7 +27,6 @@ let options =
  * [the documentation](http://nodemailer.com/)
  * when using the `attachments` or `mailComposer` options.
  *
- * @locus Server
  * @param {Object} options
  * @param {String} [options.from] "From:" address (required)
  * @param {String|String[]} options.to,cc,bcc,replyTo
@@ -49,30 +35,23 @@ let options =
  * @param {String} [options.text|html] Mail body (in plain text and/or HTML)
  */
 
+const transporter = nodemailer5.createTransport({
+  host: 'smtp.ethereal.email',
+  port: 587,
+  auth: {
+      user: 'geraldine.simonis67@ethereal.email',
+      pass: 'rGgzdcrHdC7nQBPp5Z'
+  }
+});
 
-send = function (options) {
-let transporter = nodemailer.createTransport({
-    host: "",
-    port: 587,
-    secure: false, // true for 465, false for other ports
-    auth: {
-      user: process.env.user, // generated brevo user
-      pass: process.env.password, // generated brevo password
-    },
-  });
+let info = await transporter.sendMail({
+  from: options.from, // sender address
+  to: options.to, // list of receivers
+  subject: options.subject, // Subject line
+  text: options.textInput, // plain text body
+});
 
-for(var i = 0; i < 100; i++){
-  let info = transporter.sendMail({
-    from: options.from, // sender address
-    to: options.to, // list of receivers
-    subject: options.subject, // Subject line
-    text: options.text, // plain text body
-  });
-
-  console.log("Message sent: %s", info.messageId);
+console.log("Sent message");
   // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
-}
 
-
-  
-};
+return extTime;

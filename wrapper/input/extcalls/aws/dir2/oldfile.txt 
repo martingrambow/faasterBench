@@ -1,0 +1,74 @@
+// Imports the Google Cloud client library
+const {Translate} = require('@google-cloud/translate').v2;
+const textToSpeech = require('@google-cloud/text-to-speech');
+const fs = require('fs');
+// Creates a client
+var AWS=require('aws-sdk');
+
+var content;
+var words;
+//get files from bucket 
+//split inputLanguage
+
+var language = inputLanguage;
+var s3 = new AWS.S3();
+var content;
+let s3Object = await s3.getObject({
+Bucket: "extcallbucket-faasterbench",
+Key: 'text.txt'
+}).promise();
+content = s3Object.Body.toString("utf-8");
+let s3ObjectKeyFile = await s3.getObject({
+  Bucket: "extcallbucket-faasterbench",
+  Key: 'keyfile'
+  }).promise();
+//const file = s3.Body.toString("utf8")
+fs.writeFileSync('/tmp/keyfile.json', s3ObjectKeyFile.Body.toString("utf-8"));
+let s3ObjectAPIKey = await s3.getObject({
+ Bucket: "extcallbucket-faasterbench",
+ Key: 'apikey'
+ }).promise();
+var apiKey = s3ObjectAPIKey.Body.toString("utf-8");
+//translate if necessary
+console.log("Language is "+language);
+//extstart
+if(language != "en"){
+  const translate = new Translate({
+   projectId: 'csbws2223',
+   key: apiKey
+  });
+  const text = content;
+  const target = language;
+  const [translation] = await translate.translate(text, target);
+  content = translation;
+}
+//extstop
+//Construct the request for TTS
+const request = {
+  input: {text: content},
+  // Select the language and SSML voice gender (optional)
+  voice: {languageCode: language, ssmlGender: 'NEUTRAL'},
+  // select the type of audio encoding
+  audioConfig: {audioEncoding: 'MP3'},
+};
+
+// Performs the text-to-speech request
+const client = new textToSpeech.TextToSpeechClient({
+ projectId: 'csbws2223',
+ key: apiKey
+});
+const [response] = await client.synthesizeSpeech(request);
+// Write the binary audio content to a local file
+var params = {
+ Body: response.audioContent, 
+ Bucket: "extcallbucket-faasterbench", 
+ Key: "output_"+language+".mp3"
+};
+
+await s3.putObject(params, function(err, data) {
+ if (err) console.log(err, err.stack); // an error occurred
+}).promise();
+
+//const writeFile = util.promisify(fs.writeFile);
+//await writeFile('/tmp/output.mp3', response.audioContent, 'binary');
+return extTime;

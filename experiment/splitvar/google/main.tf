@@ -55,36 +55,6 @@ resource "google_storage_bucket" "function_bucket" {
     location = "EU"
 }
 
-resource "google_storage_bucket" "input_bucket" {
-    name     = "${local.project_name}-input"
-    location = "EU"
-}
-
-resource "google_storage_bucket" "splitVar_bucket" {
-    name     = "splitVarBucket"
-    location = "EU"
-}
-
-resource "google_storage_bucket_object" "config1" {
-    source       = "../../../wrapper/input/splitvar/config1.txt"
-    content_type = "text/html"
-
-    # Append to the MD5 checksum of the files's content
-    # to force the zip to be updated as soon as a change occurs
-    name         = "config1.txt"
-    bucket       = google_storage_bucket.splitVar_bucket.name
-}
-resource "google_storage_bucket_object" "config2" {
-    source       = "../../../wrapper/input/splitvar/config2.txt"
-    content_type = "text/html"
-
-    # Append to the MD5 checksum of the files's content
-    # to force the zip to be updated as soon as a change occurs
-    name         = "config2.txt"
-    bucket       = google_storage_bucket.splitVar_bucket.name
-}
-
-
 data "archive_file" "sourcewrapper" {
     type        = "zip"
     source_dir  = "../../../wrapper/output/google/"

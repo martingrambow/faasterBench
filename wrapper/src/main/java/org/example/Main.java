@@ -14,14 +14,17 @@ public class Main {
         Options options = new Options();
         options.addOption("f",true,"Absolute or relative path to your first folder (default : input/dir1)");
         options.addOption("s",true,"Absolute or relative path to your second folder (default : input/dir2)");
+        options.addOption("a", false,"Async FaaS function?");
         options.addOption("h",false,"Provide flag if help is wanted");
         CommandLineParser parser = new BasicParser();
         CommandLine cmd = parser.parse(options, args);
+        Boolean aSyncReq = false;
         if(cmd.hasOption("h")){
             System.out.print("Usage:\r\n" +
                     "Stub" +
                     "Stub");
         }
+        
         System.out.println("----------------------");
         System.out.println("Welcome to faasterBench!");
         System.out.println("----------------------");
@@ -29,7 +32,12 @@ public class Main {
         //setup options
         String firstFolder = "input/default/dir1";
         String secondFolder = "input/default/dir2";
-
+        if(cmd.hasOption("a")){
+            aSyncReq = true;
+            System.out.println("Async function required");
+        }else{
+            System.out.println("no option -a detected");
+        }
         if(cmd.hasOption("f")){
             firstFolder = cmd.getOptionValue("f");
         }else{
@@ -49,9 +57,9 @@ public class Main {
         if(firstFolder.endsWith("aws") || firstFolder.endsWith("google")){
             System.out.println("Advanced setup required due to different configurations for aws/google");
             if(firstFolder.endsWith("google")){
-                wrapTool.buildWrapper(firstFolder, secondFolder);
+                wrapTool.buildWrapper(firstFolder, secondFolder, aSyncReq);
             }else{
-                wrapTool.buildWrapper(secondFolder, firstFolder);
+                wrapTool.buildWrapper(secondFolder, firstFolder, aSyncReq);
             }
         }else{
             //ask for first folder
@@ -68,7 +76,7 @@ public class Main {
             //ask for second folder
             if(cloudFunction1.substring(cloudFunction1.indexOf(".")).equals(cloudFunction2.substring(cloudFunction2.indexOf(".")))){
                 System.out.println("Proceeding with building of wrapper function using "+ cloudFunction1 + " and "+ cloudFunction2);
-                wrapTool.buildWrapper(cloudFunction1, cloudFunction2);
+                wrapTool.buildWrapper(cloudFunction1, cloudFunction2, aSyncReq);
             }else{
                 //function type mismatch, abort
                 System.out.println("Functions are of different types "+ cloudFunction1.substring(cloudFunction1.indexOf(".")) + " and "+ cloudFunction2.substring(cloudFunction2.indexOf(".")) + ", aborting Cloudwrap.");
