@@ -62,21 +62,6 @@ resource "google_storage_bucket" "input_bucket" {
     force_destroy = true
 }
 
-resource "google_storage_bucket" "extCall_bucket" {
-    name     = "extcallbucket-faasterbench"
-    location = "EU"
-    force_destroy = true
-}
-
-resource "google_storage_bucket_object" "text" {
-    source       = "../../../wrapper/input/extcalls/text.txt"
-    content_type = "text/html"
-
-    # Append to the MD5 checksum of the files's content
-    # to force the zip to be updated as soon as a change occurs
-    name         = "text.txt"
-    bucket       = google_storage_bucket.extCall_bucket.name
-}
 
 data "archive_file" "sourcewrapper" {
     type        = "zip"

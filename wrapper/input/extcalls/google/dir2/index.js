@@ -1,25 +1,26 @@
 const textToSpeech = require('@google-cloud/text-to-speech');
+
 // Imports the Google Cloud client library
 const {Translate} = require('@google-cloud/translate').v2;
+const translate = new Translate();
+
 
 // Creates a client and sets up some required variables
-const fs = require('fs')
-const util =require('util')
 
-const projectId = "csbws2223"
+const projectId = "csbws2223";
 //entry textInput
 //split inputLanguage
 const language = inputLanguage;
 //download the text from the cloud
 var content = textInput;
 //translate the text if required
+//extstart
 if(language != "en"){
-  const translate = new Translate({projectId});
   const target = language;
-
   const [translation] = await translate.translate(content, target);
   content = translation;
 }
+//extstop
 //Construct the request for TTS
 const request = {
   input: {text: content},
@@ -32,4 +33,5 @@ const request = {
 // Performs the text-to-speech request
 const client = new textToSpeech.TextToSpeechClient();
 const [response] = await client.synthesizeSpeech(request);
+console.log("Got an audio response");
 return extTime;

@@ -30,39 +30,6 @@ resource "aws_s3_bucket" "extcallbucket" {
   }
 }
 
-resource "aws_s3_object" "apikey" {
-  bucket = aws_s3_bucket.extcallbucket.id
-  key    = "apikey"
-  source = "../../key/google_services_api.txt"
-
-  # The filemd5() function is available in Terraform 0.11.12 and later
-  # For Terraform 0.11.11 and earlier, use the md5() function and the file() function:
-  # etag = "${md5(file("path/to/file"))}"
-  etag = filemd5("../../key/google_services_api.txt")
-}
-
-resource "aws_s3_object" "keyfile" {
-  bucket = aws_s3_bucket.extcallbucket.id
-  key    = "keyfile"
-  source = "../../key/csbws2223-032c7c47bc2e.json"
-
-  # The filemd5() function is available in Terraform 0.11.12 and later
-  # For Terraform 0.11.11 and earlier, use the md5() function and the file() function:
-  # etag = "${md5(file("path/to/file"))}"
-  etag = filemd5("../../key/csbws2223-032c7c47bc2e.json")
-}
-
-resource "aws_s3_object" "text" {
-  bucket = aws_s3_bucket.extcallbucket.id
-  key    = "text.txt"
-  source = "../../../wrapper/input/extcalls/text.txt"
-
-  # The filemd5() function is available in Terraform 0.11.12 and later
-  # For Terraform 0.11.11 and earlier, use the md5() function and the file() function:
-  # etag = "${md5(file("path/to/file"))}"
-  etag = filemd5("../../../wrapper/input/extcalls/text.txt")
-}
-
 resource "random_string" "experiment_id" {
   length  = 5
   special = false
