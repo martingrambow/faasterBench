@@ -167,8 +167,8 @@ public class Wrapper {
                     variables1 += splitVariable +"1, ";
                     variables2 += splitVariable +"2, ";
                     String replacerVariable = splitVariable+Integer.toString(split);
-                    content = content.replaceAll(splitVariable, replacerVariable);
-                    System.out.println("Replaced "+splitVariable+ " with split option "+ replacerVariable);
+                    //content = content.replaceAll(splitVariable, replacerVariable);
+                    //System.out.println("Replaced "+splitVariable+ " with split option "+ replacerVariable);
                     varDef += "var "+ replacerVariable+";\n    ";
                     VariablesAmazon += replacerVariable+" = event.queryStringParameters."+replacerVariable+";\n        ";
                 }
@@ -323,8 +323,8 @@ public class Wrapper {
                     variables1 += splitVariable +"1, ";
                     variables2 += splitVariable +"2, ";
                     String replacerVariable = splitVariable+Integer.toString(split);
-                    content = content.replaceAll(splitVariable, replacerVariable);
-                    System.out.println("Replaced "+splitVariable+ " with split option "+ replacerVariable);
+                    //content = content.replaceAll(splitVariable, replacerVariable);
+                    //System.out.println("Replaced "+splitVariable+ " with split option "+ replacerVariable);
                     varDef += "var "+ replacerVariable+";\n    ";
                     variablesGoogle += replacerVariable+" = escapeHtml(req.query."+replacerVariable+" || req.body."+replacerVariable+");\n    ";
                 }
