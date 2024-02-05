@@ -48,7 +48,9 @@ Follow the next steps to (re-) run faasterBench experiments:
 		sudo apt-get install -y software-properties-common
 		sudo apt-get install -y git
 		sudo apt-get install -y maven
-		sudo apt-get install -y awscli
+		curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+		unzip awscliv2.zip
+		sudo ./aws/install
 		sudo apt-get install -y npm
 		sudo apt-get install -y jq
 		
@@ -65,7 +67,29 @@ Follow the next steps to (re-) run faasterBench experiments:
 		curl -SLO https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-427.0.0-linux-x86_64.tar.gz && tar zxvf google-cloud-sdk-427.0.0-linux-x86_64.tar.gz google-cloud-sdk && ./google-cloud-sdk/install.sh
 		export PATH="/google-cloud-sdk/bin:${PATH}"
 		```
-	3. (Opt.) **Copy provider keys**: For experiments using Google Cloud, Check that the Google key (.json file) is available on the manager instance.
+		For Mac, do the following:  
+		```
+		brew install gnupg
+		brew install git
+		brew install maven
+		curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
+		sudo installer -pkg AWSCLIV2.pkg -target /
+		brew install npm
+		brew install jq
+
+		brew tap hashicorp/tap
+		brew install hashicorp/tap/terraform
+
+		sudo npm install -g n
+		sudo n lts
+		sudo n prune
+		sudo npm install -g artillery@latest
+		
+		curl -SLO https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-427.0.0-linux-x86_64.tar.gz && tar zxvf google-cloud-sdk-427.0.0-linux-x86_64.tar.gz google-cloud-sdk && ./google-cloud-sdk/install.sh
+		export PATH="/google-cloud-sdk/bin:${PATH}"
+
+		```
+	2. (Opt.) **Copy provider keys**: For experiments using Google Cloud, Check that the Google key (.json file) is available on the manager instance.
 	4. (Opt.) **Authorize gcloud**
 		```
 		gcloud auth login --cred-file=key.json

@@ -136,6 +136,7 @@ public class Wrapper {
         String variables1 = "";
         String variables2 = "";
         String entryVariable = "";
+        String functionName = "";
 
         while(content.contains("//entry")){
             Pattern pattern = Pattern.compile("//entry (.*)");
@@ -154,7 +155,18 @@ public class Wrapper {
             content = content.replaceFirst("//entry", "//var");
         }
 
-
+        //functionName detection
+        while(content.contains("//functionName")){
+            Pattern pattern = Pattern.compile("//functionName (.*)");
+            Matcher matcher = pattern.matcher(content);
+                if (matcher.find())
+                {
+                    functionName = matcher.group(0);
+                    functionName = entryVariable.substring(15);
+                    
+                }
+            content = content.replaceFirst("//functionName", "//function name ");
+        }
 
 
         while(content.contains("//split")){
@@ -252,6 +264,10 @@ public class Wrapper {
         delFile = new File(path2.toString());
         delFile.delete();
 
+        //function name replacement 
+        if(functionName.length() > 0){
+            content = content.replaceAll(functionName, "function"+split.toString());
+        }
         //split var in AWS
         path = Paths.get("output/aws/index.js");
         charset = StandardCharsets.UTF_8;
@@ -296,6 +312,7 @@ public class Wrapper {
         String variables1 = "";
         String variables2 = "";
         String entryVariable = "";
+        String functionName = "";
         while(content.contains("//entry")){
             Pattern pattern = Pattern.compile("//entry (.*)");
             Matcher matcher = pattern.matcher(content);
@@ -311,6 +328,19 @@ public class Wrapper {
                     variables2+=entryVariable+", ";
                 }
             content = content.replaceFirst("//entry", "//var");
+        }
+        
+        //functionName detection
+        while(content.contains("//functionName")){
+            Pattern pattern = Pattern.compile("//functionName (.*)");
+            Matcher matcher = pattern.matcher(content);
+                if (matcher.find())
+                {
+                    functionName = matcher.group(0);
+                    functionName = entryVariable.substring(15);
+                    
+                }
+            content = content.replaceFirst("//functionName", "//function name ");
         }
 
         while(content.contains("//split")){
@@ -412,6 +442,11 @@ public class Wrapper {
         
         replacerText = "//comment for split to replace";
         content = content.replaceAll("//comment for split to replace", varDef+replacerText);
+
+        if(functionName.length() > 0){
+            content = content.replaceAll(functionName, "function"+split.toString());
+        }
+
         if(importVariables.length() > 0){
             content = content.replaceAll(importReplacerText, importVariables+importReplacerText);
         }
