@@ -29,9 +29,8 @@ public class Wrapper {
         
         File outputGoogle = new File("output/google/index.js");
         File outputAWS = new File("output/aws/index.js");
-
-        File outputAWSFolder = new File("output/google");
-        File outputGoogleFolder = new File("output/aws");
+        File outputAWSFolder = new File("output/aws");
+        File outputGoogleFolder = new File("output/google");
         for(File file : outputAWSFolder.listFiles()){
             if(!file.isDirectory()){
                 file.delete();
@@ -168,7 +167,8 @@ public class Wrapper {
             content = content.replaceFirst("//functionName", "//function name ");
         }
 
-
+        String variables1Split = variables1;
+        String variables2Split = variables2;
         while(content.contains("//split")){
             Pattern pattern = Pattern.compile("//split (.*)");
             Matcher matcher = pattern.matcher(content);
@@ -176,11 +176,13 @@ public class Wrapper {
                 {
                     splitVariable = matcher.group(0);
                     splitVariable = splitVariable.substring(8);
-                    variables1 += splitVariable +"1, ";
-                    variables2 += splitVariable +"2, ";
+                    variables1 += splitVariable+", ";
+                    variables2 += splitVariable+", ";
+                    variables1Split += splitVariable +"1, ";
+                    variables2Split += splitVariable +"2, ";
                     String replacerVariable = splitVariable+Integer.toString(split);
-                    //content = content.replaceAll(splitVariable, replacerVariable);
-                    //System.out.println("Replaced "+splitVariable+ " with split option "+ replacerVariable);
+                    content = content.replaceAll(splitVariable, replacerVariable);
+                    System.out.println("Replaced "+splitVariable+ " with split option "+ replacerVariable);
                     varDef += "var "+ replacerVariable+";\n    ";
                     VariablesAmazon += replacerVariable+" = event.queryStringParameters."+replacerVariable+";\n        ";
                 }
@@ -189,6 +191,8 @@ public class Wrapper {
         if(variables1.length() >0){
             variables1 = variables1.substring(0, variables1.length()-2);
             variables2 = variables2.substring(0, variables2.length()-2);
+            variables1Split = variables1Split.substring(0, variables1Split.length()-2);
+            variables2Split = variables2Split.substring(0, variables2Split.length()-2);
         }
         String importVariable;
         String importVariables="";
@@ -343,6 +347,9 @@ public class Wrapper {
             content = content.replaceFirst("//functionName", "//function name ");
         }
 
+        String variables1Split = variables1;
+        String variables2Split = variables2;
+
         while(content.contains("//split")){
             Pattern pattern = Pattern.compile("//split (.*)");
             Matcher matcher = pattern.matcher(content);
@@ -350,8 +357,10 @@ public class Wrapper {
                 {
                     splitVariable = matcher.group(0);
                     splitVariable = splitVariable.substring(8);
-                    variables1 += splitVariable +"1, ";
-                    variables2 += splitVariable +"2, ";
+                    variables1 += splitVariable+", ";
+                    variables2 += splitVariable+", ";
+                    variables1Split += splitVariable +"1, ";
+                    variables2Split += splitVariable +"2, ";
                     String replacerVariable = splitVariable+Integer.toString(split);
                     //content = content.replaceAll(splitVariable, replacerVariable);
                     //System.out.println("Replaced "+splitVariable+ " with split option "+ replacerVariable);
@@ -363,6 +372,8 @@ public class Wrapper {
         if(variables1.length() >0){
             variables1 = variables1.substring(0, variables1.length()-2);
             variables2 = variables2.substring(0, variables2.length()-2);
+            variables1Split = variables1Split.substring(0, variables1Split.length()-2);
+            variables2Split = variables2Split.substring(0, variables2Split.length()-2);
         }
         String importVariable;
         String importVariables="";
@@ -451,8 +462,8 @@ public class Wrapper {
             content = content.replaceAll(importReplacerText, importVariables+importReplacerText);
         }
         if(varDef.length() > 0 || variables1.length() > 0 || variables2.length() > 0){
-            content = content.replaceAll("function1\\(\\);", "function1("+variables1+");");
-            content = content.replaceAll("function2\\(\\);", "function2("+variables2+");");
+            content = content.replaceAll("function1\\(\\);", "function1("+variables1Split+");");
+            content = content.replaceAll("function2\\(\\);", "function2("+variables2Split+");");
             content = content.replaceAll("function1\\(\\)", "function1("+variables1+")");
             content = content.replaceAll("function2\\(\\)", "function2("+variables2+")");
         }
