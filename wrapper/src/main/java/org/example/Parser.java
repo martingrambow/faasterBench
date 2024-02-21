@@ -40,7 +40,6 @@ public class Parser {
     }
     public String checkValidity(String folder){
         File file = new File(folder);
-        System.out.println(folder);
         String userdir = System.getProperty("user.dir");
         File file2 = new File(userdir +"/input/"+folder);
         if (!file.isDirectory() && !file2.isDirectory()){
@@ -52,7 +51,7 @@ public class Parser {
             }else{
                 folder = file2.getPath();
             }
-            System.out.println("Directory found, getting cloud function...");
+            System.out.println("Directory found, getting FaaS function...");
             return getCloudFunction(folder);
         }
 
@@ -63,9 +62,8 @@ public class Parser {
             List<String> files = findFiles(path, ".py");
             files.addAll(findFiles(path, ".js"));
             files.addAll(findFiles(path, ".ts"));
-            System.out.println(Arrays.toString(files.toArray()));
             if(files.size() == 1){
-                System.out.println("Cloud function found with name "+ files.get(0));
+                System.out.println("FaaS function found with name "+ files.get(0));
                 return files.get(0);
             }else if(files.size() == 0){
                 System.out.println("No function with ending .py/.js/.ts found, exiting..");

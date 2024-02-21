@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.3.0",
+    "@google-cloud/text-to-speech": "^5.0.2",
+    "@google-cloud/translate": "^8.0.3",
+    "escape-html": "^1.0.3"
+  }
+}

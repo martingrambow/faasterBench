@@ -5,12 +5,12 @@ conn = http.client.HTTPSConnection("api.github.com")
 headersList = {
  "Accept": "*/*",
  "User-Agent": "Thunder Client (https://www.thunderclient.com)",
- "Authorization": "Bearer <GH PAT HERE>" 
+ "Authorization": "Bearer <token>" 
 }
 
 payload = ""
 
-conn.request("GET", "/search/code?q=require('nodemailer');+functions-framework:js&per_page=100", payload, headersList)
+conn.request("GET", "/search/code?q=require('@google-cloud/functions-framework');+machine+learning+image+comparison+language:js&per_page=100", payload, headersList)
 response = conn.getresponse()
 result = response.read()
 repoList = []
