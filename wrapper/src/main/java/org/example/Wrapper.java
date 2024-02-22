@@ -499,8 +499,8 @@ public class Wrapper {
                     entryVariable = matcher.group(0);
                     entryVariable = entryVariable.substring(8);
                     if(split == 1 ){
-                        variablesAzure += entryVariable+" = request.query.get(\""+entryVariable+"\");\n    ";
-                        varDef += "var "+ entryVariable+";\n    ";
+                        variablesAzure += entryVariable+" = request.query.get(\""+entryVariable+"\");\n        ";
+                        varDef += "var "+ entryVariable+";\n        ";
                     }
                     variables1+=entryVariable+", ";
                     variables2+=entryVariable+", ";
@@ -538,8 +538,9 @@ public class Wrapper {
                     String replacerVariable = splitVariable+Integer.toString(split);
                     //content = content.replaceAll(splitVariable, replacerVariable);
                     //System.out.println("Replaced "+splitVariable+ " with split option "+ replacerVariable);
-                    varDef += "var "+ replacerVariable+";\n    ";
-                    variablesAzure += replacerVariable+" = request.query.get(\""+replacerVariable+"\");\n    ";
+                    varDef += "var "+ replacerVariable+";\n        ";
+                    variablesAzure += replacerVariable+" = request.query.get(\""+replacerVariable+"\");\n        ";
+                    System.out.println(variablesAzure);
                 }
             content = content.replaceFirst("//split", "//var");
         }
@@ -617,12 +618,13 @@ public class Wrapper {
         writer.append("\r\n}");
         writer.close();
         
-        //split variables within google
-        path = Paths.get("output/google/index.js");
+        //split variables within azure
+        path = Paths.get("output/azure/index.js");
         charset = StandardCharsets.UTF_8;
         content = new String(Files.readAllBytes(path), charset);
         
-        String replacerText = "var experimentID = process.env.EXPERIMENTID;";
+        String replacerText = "var experimentID = request.query";
+        System.out.println(variablesAzure);
         content = content.replaceAll(replacerText,variablesAzure+replacerText);
         
         replacerText = "//comment for split to replace";
@@ -636,6 +638,7 @@ public class Wrapper {
             content = content.replaceAll(importReplacerText, importVariables+importReplacerText);
         }
         if(varDef.length() > 0 || variables1.length() > 0 || variables2.length() > 0){
+            System.out.println("Entered");
             content = content.replaceAll("function1\\(\\);", "function1("+variables1Split+");");
             content = content.replaceAll("function2\\(\\);", "function2("+variables2Split+");");
             content = content.replaceAll("function1\\(\\)", "function1("+variables1+")");

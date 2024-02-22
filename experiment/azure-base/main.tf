@@ -50,6 +50,7 @@ resource "azurerm_storage_account" "storage_account" {
   account_replication_type = "LRS"
 }
 
+
 output "application_insights_key"{
     sensitive   = true
     value       = azurerm_application_insights.application_insights.instrumentation_key

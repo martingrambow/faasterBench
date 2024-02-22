@@ -7,17 +7,17 @@ config:
 scenarios:
   - flow:
     - get:
-        url: "/?mode=B&iterations=1"
+        url: "/?mode=B&iterations=1&experimentid={{ experimentid }}&trials1= {{ trials1 }}&trials2= {{ trials2 }}"
     - get:
-        url: "/?mode=C&iterations=1"
+        url: "/?mode=C&iterations=1&experimentid={{ experimentid }}&trials1= {{ trials1 }}&trials2= {{ trials2 }}"
     - get:
-        url: "/?mode=A&iterations=3"
+        url: "/?mode=A&iterations=3&experimentid={{ experimentid }}&trials1= {{ trials1 }}&trials2= {{ trials2 }}"
     - get:
-        url: "/?mode=B&iterations=1"
+        url: "/?mode=B&iterations=1&experimentid={{ experimentid }}&trials1= {{ trials1 }}&trials2= {{ trials2 }}"
     - get:
-        url: "/?mode=C&iterations=1"
+        url: "/?mode=C&iterations=1&experimentid={{ experimentid }}&trials1= {{ trials1 }}&trials2= {{ trials2 }}"
     - get:
-        url: "/?mode=B&iterations=1"
+        url: "/?mode=B&iterations=1&experimentid={{ experimentid }}&trials1= {{ trials1 }}&trials2= {{ trials2 }}"
     - get:
-        url: "/?mode=C&iterations=1"
+        url: "/?mode=C&iterations=1&experimentid={{ experimentid }}&trials1= {{ trials1 }}&trials2= {{ trials2 }}"
     name: 'basic calls'

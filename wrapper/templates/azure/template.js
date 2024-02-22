@@ -8,6 +8,7 @@ app.http('faasterbench', {
     methods: ['GET', 'POST'],
     authLevel: 'anonymous',
     handler: async (request, context) => {
+        var telClient = new applicationInsights.TelemetryClient();
         console.log('Event: ', request);
         var markColdStart = false;
         if(coldStart){
@@ -25,8 +26,9 @@ app.http('faasterbench', {
             iterations = parseInt(request.query.get('iterations'));
             console.log("Set iterations to "+iterations);
         }
+        //comment for split to replace
         let responseMessage = 'Ran mode ' + mode + ' according to passed variable';
-        var experimentID = process.env.EXPERIMENTID;
+        var experimentID = request.query.get('experimentid');
         let fun1 = [];
         let fun2 = [];
         var start1;
@@ -117,7 +119,11 @@ app.http('faasterbench', {
             logText += value + " ";
         });
 
-        console.log(logText);
+        telClient.trackTrace({
+            message: logText,
+            severity: applicationInsights.Contracts.SeverityLevel.Warning,
+            properties: {}
+        });
         return {
             statusCode: 200,
             headers: {
