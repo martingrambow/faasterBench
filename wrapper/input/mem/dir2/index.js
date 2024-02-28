@@ -1,4 +1,4 @@
-var trials = process.env.TRIALS1;
+//split trials
 // Create an array where each element starts as true
 const numsArr = Array.from({ length: trials + 1 }, () => true);
 

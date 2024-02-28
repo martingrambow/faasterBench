@@ -20,6 +20,12 @@ public class Wrapper {
         File inputGoogle;
         File inputAWS;
         File inputAzure = new File ("templates/azure/template.js");
+        File outputGoogle;
+        File outputAWS;
+        File outputAzure;
+        File outputGoogleFolder;
+        File outputAWSFolder;
+        File outputAzureFolder;
         if(aSyncReq){
             inputGoogle = new File("templates/google/template_async.js");
             inputAWS = new File("templates/aws/template_async.js");
@@ -27,13 +33,37 @@ public class Wrapper {
             inputGoogle = new File("templates/google/template.js");
             inputAWS = new File("templates/aws/template.js");
         }
+        if(cloudFunction1.contains("cpu")){
+            outputGoogle = new File("output/cpu/google/index.js");
+            outputAWS = new File("output/cpu/aws/index.js");
+            outputAzure = new File("output/cpu/azure/index.js");
+            outputAWSFolder = new File("output/cpu/aws");
+            outputAzureFolder = new File("output/cpu/azure");
+            outputGoogleFolder = new File("output/cpu/google");
+        }else if (cloudFunction1.contains("mem")){
+            outputGoogle = new File("output/mem/google/index.js");
+            outputAWS = new File("output/mem/aws/index.js");
+            outputAzure = new File("output/mem/azure/index.js");
+            outputAWSFolder = new File("output/mem/aws");
+            outputAzureFolder = new File("output/mem/azure");
+            outputGoogleFolder = new File("output/mem/google");
+        }
+        else if (cloudFunction1.contains("network")){
+            outputGoogle = new File("output/network/google/index.js");
+            outputAWS = new File("output/network/aws/index.js");
+            outputAzure = new File("output/network/azure/index.js");
+            outputAWSFolder = new File("output/network/aws");
+            outputAzureFolder = new File("output/network/azure");
+            outputGoogleFolder = new File("output/network/google");
+        }else{
+            outputGoogle = new File("output/io/google/index.js");
+            outputAWS = new File("output/io/aws/index.js");
+            outputAzure = new File("output/io/azure/index.js");
+            outputAWSFolder = new File("output/io/aws");
+            outputAzureFolder = new File("output/io/azure");
+            outputGoogleFolder = new File("output/io/google");
+        }
         
-        File outputGoogle = new File("output/google/index.js");
-        File outputAWS = new File("output/aws/index.js");
-        File outputAzure = new File("output/azure/index.js");
-        File outputAWSFolder = new File("output/aws");
-        File outputAzureFolder = new File("output/azure");
-        File outputGoogleFolder = new File("output/google");
         for(File file : outputGoogleFolder.listFiles()){
             if(!file.isDirectory()){
                 file.delete();
@@ -77,21 +107,21 @@ public class Wrapper {
             var cloudFunction1Azure = cloudFunction3 + "/dir1/index.js";
             var cloudFunction2Azure = cloudFunction3 + "/dir2/index.js";
 
-            addGoogleFunction(cloudFunction1Google,"function1", "js", 1, aSyncReq);
-            addGoogleFunction(cloudFunction2Google,"function2", "js",2, aSyncReq);
-            addAWSFunction(cloudFunction1AWS,"function1", "js", 1, aSyncReq);
-            addAWSFunction(cloudFunction2AWS,"function2", "js",2, aSyncReq);
-            addAzureFunction(cloudFunction1Azure,"function1", "js", 1, aSyncReq);
-            addAzureFunction(cloudFunction2Azure,"function2", "js",2, aSyncReq);
+            addGoogleFunction(cloudFunction1Google,"function1",outputGoogleFolder.toString(), "js", 1, aSyncReq);
+            addGoogleFunction(cloudFunction2Google,"function2",outputGoogleFolder.toString(), "js",2, aSyncReq);
+            addAWSFunction(cloudFunction1AWS,"function1",outputAWSFolder.toString(), "js", 1, aSyncReq);
+            addAWSFunction(cloudFunction2AWS,"function2", outputAWSFolder.toString(),"js",2, aSyncReq);
+            addAzureFunction(cloudFunction1Azure,"function1",outputAzureFolder.toString(), "js", 1, aSyncReq);
+            addAzureFunction(cloudFunction2Azure,"function2",outputAzureFolder.toString(), "js",2, aSyncReq);
             System.out.println("Finished building wrapper function");
         }else{
 
-            addGoogleFunction(cloudFunction1,"function1", "js", 1, aSyncReq);
-            addGoogleFunction(cloudFunction2,"function2", "js",2, aSyncReq);
-            addAWSFunction(cloudFunction1,"function1", "js", 1, aSyncReq);
-            addAWSFunction(cloudFunction2,"function2", "js",2, aSyncReq);
-            addAzureFunction(cloudFunction1,"function1", "js", 1, aSyncReq);
-            addAzureFunction(cloudFunction2,"function2", "js",2, aSyncReq);
+            addGoogleFunction(cloudFunction1,"function1",outputGoogleFolder.toString(), "js", 1, aSyncReq);
+            addGoogleFunction(cloudFunction2,"function2",outputGoogleFolder.toString(), "js",2, aSyncReq);
+            addAWSFunction(cloudFunction1,"function1",outputAWSFolder.toString(), "js", 1, aSyncReq);
+            addAWSFunction(cloudFunction2,"function2",outputAWSFolder.toString(), "js",2, aSyncReq);
+            addAzureFunction(cloudFunction1,"function1",outputAzureFolder.toString(), "js", 1, aSyncReq);
+            addAzureFunction(cloudFunction2,"function2",outputAzureFolder.toString(), "js",2, aSyncReq);
             System.out.println("Finished building wrapper function");
             experimentFolder = experimentFolder.substring(0,experimentFolder.lastIndexOf("/"));
         }
@@ -101,9 +131,9 @@ public class Wrapper {
             if(!file.toString().endsWith("aws") && !file.toString().endsWith("google") && !file.toString().endsWith("azure") && !file.toString().endsWith("dir1") && !file.toString().endsWith("dir2")){
                 System.out.println(file);
                 String fileName = file.toString().substring(file.toString().lastIndexOf("/"));
-                File destFile1 = new File("output/aws"+fileName);
-                File destFile2 = new File("output/google"+fileName);
-                File destFile3 = new File("output/azure"+fileName);
+                File destFile1 = new File(outputAWSFolder.toString()+fileName);
+                File destFile2 = new File(outputGoogleFolder.toString()+fileName);
+                File destFile3 = new File(outputAzureFolder+fileName);
                 FileUtils.copyFile(file,destFile1);
                 FileUtils.copyFile(file,destFile2);
                 FileUtils.copyFile(file,destFile3);
@@ -113,7 +143,7 @@ public class Wrapper {
 
     }
 
-    public boolean addGoogleFunction(String cloudFunction, String templateFunction, String lang, Integer split, Boolean aSyncReq) throws IOException {
+    public boolean addGoogleFunction(String cloudFunction, String templateFunction, String outputFolder, String lang, Integer split, Boolean aSyncReq) throws IOException {
         //externalTime
         var cloudFunction_mod = cloudFunction.substring(0,cloudFunction.length()-3) +"_mod.js";
         var cloudFunction_mod2 = cloudFunction.substring(0,cloudFunction.length()-3) +"_mod2.js";
@@ -241,7 +271,7 @@ public class Wrapper {
         fos.flush();
 
         //Google
-        File file = new File("output/google/index.js");
+        File file = new File(outputFolder+"/index.js");
         BufferedWriter writer = new BufferedWriter(new FileWriter(file, true));
         if(aSyncReq){
             writer.append("\r\nasync function "+templateFunction+"() {");
@@ -261,7 +291,7 @@ public class Wrapper {
         writer.close();
         
         //split variables within google
-        path = Paths.get("output/google/index.js");
+        path = Paths.get(outputFolder+"/index.js");
         charset = StandardCharsets.UTF_8;
         content = new String(Files.readAllBytes(path), charset);
         
@@ -292,7 +322,7 @@ public class Wrapper {
         return true;
     }
 
-    public boolean addAWSFunction(String cloudFunction, String templateFunction, String lang, Integer split, Boolean aSyncReq) throws IOException {
+    public boolean addAWSFunction(String cloudFunction, String templateFunction, String outputFolder, String lang, Integer split, Boolean aSyncReq) throws IOException {
         
         //externalTime
         var cloudFunction_mod = cloudFunction.substring(0,cloudFunction.length()-3) +"_mod.js";
@@ -423,7 +453,7 @@ public class Wrapper {
 
 
         //AWS
-        File file= new File("output/aws/index.js");
+        File file= new File(outputFolder+"/index.js");
         BufferedWriter writer = new BufferedWriter(new FileWriter(file, true));
         if(aSyncReq){
             writer.append("\r\nasync function "+templateFunction+"() {");
@@ -451,7 +481,7 @@ public class Wrapper {
             content = content.replaceAll(functionName, "function"+split.toString());
         }
         //split var in AWS
-        path = Paths.get("output/aws/index.js");
+        path = Paths.get(outputFolder+"/index.js");
         charset = StandardCharsets.UTF_8;
         content = new String(Files.readAllBytes(path), charset);
         String replacerText = "if\\(event.queryStringParameters.mode\\)";
@@ -471,7 +501,7 @@ public class Wrapper {
         return true;
     }
 
-    public boolean addAzureFunction(String cloudFunction, String templateFunction, String lang, Integer split, Boolean aSyncReq) throws IOException {
+    public boolean addAzureFunction(String cloudFunction, String templateFunction, String outputFolder, String lang, Integer split, Boolean aSyncReq) throws IOException {
         //externalTime
         var cloudFunction_mod = cloudFunction.substring(0,cloudFunction.length()-3) +"_mod.js";
         var cloudFunction_mod2 = cloudFunction.substring(0,cloudFunction.length()-3) +"_mod2.js";
@@ -598,8 +628,8 @@ public class Wrapper {
         fos.write(result.getBytes());
         fos.flush();
 
-        //Google
-        File file = new File("output/azure/index.js");
+        //Azure
+        File file = new File(outputFolder+"/index.js");
         BufferedWriter writer = new BufferedWriter(new FileWriter(file, true));
         if(aSyncReq){
             writer.append("\r\nasync function "+templateFunction+"() {");
@@ -619,7 +649,7 @@ public class Wrapper {
         writer.close();
         
         //split variables within azure
-        path = Paths.get("output/azure/index.js");
+        path = Paths.get(outputFolder+"/index.js");
         charset = StandardCharsets.UTF_8;
         content = new String(Files.readAllBytes(path), charset);
         

@@ -1,15 +1,15 @@
 export TF_VAR_WRAPPERCOUNT=10
 export wcount=10
-func init faasterbench --worker-runtime javascript --model V4
+func init faasterbenchcpu --worker-runtime javascript --model V4
 
-cp -f ../../../wrapper/output/azure/index.js faasterbench/src/functions/
-cd faasterbench
+cp -f ../../../wrapper/output/cpu/azure/index.js faasterbench/src/functions/
+cd faasterbenchcpu
 npm install @azure/functions
 npm install applicationinsights
 zip -r azure_func.zip *
 mv azure_func.zip ../
 cd ..
-rm -r faasterbench
+rm -r faasterbenchcpu
 
 terraform apply -auto-approve
 
