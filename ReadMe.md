@@ -151,7 +151,7 @@ If requiring the same package in two different versions, import one or both util
 	This will cause your dependencies to include  
 	```
 	"dependencies": {  
-		"jquery2": "npm:jquery@^2.2.4",  
+		"jquery2": "npm:jquery@^2.2.4",
 		"jquery3": "npm:jquery@^3.4.1"  
 	}  
 	(from https://stackoverflow.com/questions/26414587/how-to-install-multiple-versions-of-package-using-npm)
@@ -167,46 +167,44 @@ Once this step is complete, a utility called `package-json-merge` needs to be us
 	npm install  
 	```  
 	(from https://stackoverflow.com/questions/37734638/how-to-merge-multiple-npm-package-json-files-into-one-with-gulp)  
-	Afterwards, go to the newly created package.json files in the respective output folders and add th
-3. (b) **Exclude external calls made by your function** 
+	Afterwards, go to the newly created package.json files in the respective output folders and add them  
 
-faasterBench can exclude time spent in external function calls. To do so, please wrap every external call like so:
+3. (b) **Exclude external calls made by your function** 
 	```
 	//extstart
 	externalCallHere()
 	//extstop
 	```
-This can be done multiple times throughout the function. faasterBench provides different benchmark values, both including and excluding external calls. 
+faasterBench can exclude time spent in external function calls. To do so, please wrap every external call like above.
+This can be done multiple times throughout the function. faasterBench provides different benchmark values, both including and excluding external calls.  
+
 3. (c) **Split input variables and define entry variables**
-If you need to test functions that for example delete an object, you will likely need to split the variables in the code and pass two different parameters to the HTTP-trigger. 
-	By inserting:  
 	```
 	//split variableNameHere  
 	//split secondVariableHere  
 	...  
 	//split nthVariableHere
 	```
-it's possible to add the variables as input parameters for faasterBench, which will then respectively named. For the first function, the variable `test` would then be named `test1` and in the other function it would be called test2, along with the function gaining them as input parameters which need to be passed to the function.  
-Similarly, the entry functionality can be used to pass parameters to your functions that do not need to be split, but the function still requires them to run.  
-	By inserting:
 	```
 	//entry variableNameHere
 	//entry secondVariableHere
 	...
 	///nthVariableHere
 	```
-you can pass parameters to your functions. 
+If you need to test functions that for example delete an object, you will likely need to split the variables in the code and pass two different parameters to the HTTP-trigger. This can be done like seen above.
+it's possible to add the variables as input parameters for faasterBench, which will then respectively named. For the first function, the variable `test` would then be named `test1` and in the other function it would be called `test2`, along with the function gaining them as input parameters which need to be passed to the function.  
+Similarly, the entry functionality can be used to pass parameters to your functions that do not need to be split, but the function still requires them to run. You can see this functionality above as well.
 
 3.  (d) **Define functionName for recursive functions**
-To support recursively called functions, please define your function name by doing the following
 	```
 	//functionName functionNameHere
-	````
+	```
+To support recursively called functions, please define your function name.
 This will cause faasterBench to replace the function name appropriately and enable recursive calling of your functions
 4. **Wrap functions code** and create deployment artifact 
-```
-./wrapper.sh
-```
+	```
+	./wrapper.sh
+	```
 
 ## Run experiment
 
