@@ -169,14 +169,15 @@ Once this step is complete, a utility called `package-json-merge` needs to be us
 	(from https://stackoverflow.com/questions/37734638/how-to-merge-multiple-npm-package-json-files-into-one-with-gulp)  
 	Afterwards, go to the newly created package.json files in the respective output folders and add th
 3. (b) **Exclude external calls made by your function** 
-	faasterBench can exclude time spent in external function calls. To do so, please wrap every external call like so:
+
+faasterBench can exclude time spent in external function calls. To do so, please wrap every external call like so:
 	```
 	//extstart
 	externalCallHere()
 	//extstop
 	```
-	This can be done multiple times throughout the function. faasterBench provides different benchmark values, both including and excluding external calls. 
-2. (c) **Split input variables**
+This can be done multiple times throughout the function. faasterBench provides different benchmark values, both including and excluding external calls. 
+3. (c) **Split input variables and define entry variables**
 If you need to test functions that for example delete an object, you will likely need to split the variables in the code and pass two different parameters to the HTTP-trigger. 
 	By inserting:  
 	```
@@ -185,11 +186,27 @@ If you need to test functions that for example delete an object, you will likely
 	...  
 	//split nthVariableHere
 	```
-	it's possible to add the variables as input parameters for faasterBench, which will then respectively named. For the first function, the variable `test` would then be named `test1` and in the other function it would be called test2, along with the function gaining them as input parameters which need to be passed to the function.
-3. **Wrap functions code** and create deployment artifact 
+it's possible to add the variables as input parameters for faasterBench, which will then respectively named. For the first function, the variable `test` would then be named `test1` and in the other function it would be called test2, along with the function gaining them as input parameters which need to be passed to the function.  
+Similarly, the entry functionality can be used to pass parameters to your functions that do not need to be split, but the function still requires them to run.  
+	By inserting:
 	```
-	./wrapper.sh
+	//entry variableNameHere
+	//entry secondVariableHere
+	...
+	///nthVariableHere
 	```
+you can pass parameters to your functions. 
+
+3.  (d) **Define functionName for recursive functions**
+To support recursively called functions, please define your function name by doing the following
+	```
+	//functionName functionNameHere
+	````
+This will cause faasterBench to replace the function name appropriately and enable recursive calling of your functions
+4. **Wrap functions code** and create deployment artifact 
+```
+./wrapper.sh
+```
 
 ## Run experiment
 
