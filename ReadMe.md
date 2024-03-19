@@ -141,7 +141,7 @@ Follow the next steps to (re-) run faasterBench experiments:
 	```
 	./buildWrapper.sh	
 	```
-2. (a) **Combine packacke.json files and install different versions of the same packet* 
+3. **Combine packacke.json files and install different versions of the same packet**
 If your two functions rely on different versions or different dependencies alltogether, there are minute details to consider:  
 If requiring the same package in two different versions, import one or both utilizing an alias, shown with the example  of jquery here  
 	```
@@ -168,7 +168,7 @@ Once this step is complete, a utility called `package-json-merge` needs to be us
 	```  
 	(from https://stackoverflow.com/questions/37734638/how-to-merge-multiple-npm-package-json-files-into-one-with-gulp)  
 	Afterwards, go to the newly created package.json files in the respective output folders and add th
-2. (b) **Exclude external calls made by your function** 
+3. (b) **Exclude external calls made by your function** 
 	faasterBench can exclude time spent in external function calls. To do so, please wrap every external call like so:
 	```
 	//extstart

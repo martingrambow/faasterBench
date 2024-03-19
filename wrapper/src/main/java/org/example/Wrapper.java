@@ -17,6 +17,8 @@ public class Wrapper {
     public void buildWrapper(String cloudFunction1, String cloudFunction2, String cloudFunction3, Boolean aSyncReq) throws IOException {
         System.out.println("buildWrapper starting..");
         System.out.println("Received "+ cloudFunction1 + " and "+ cloudFunction2);
+
+        //Define input files
         File inputGoogle;
         File inputAWS;
         File inputAzure = new File ("templates/azure/template.js");
@@ -26,6 +28,8 @@ public class Wrapper {
         File outputGoogleFolder;
         File outputAWSFolder;
         File outputAzureFolder;
+
+        //if async function is needed
         if(aSyncReq){
             inputGoogle = new File("templates/google/template_async.js");
             inputAWS = new File("templates/aws/template_async.js");
@@ -33,6 +37,7 @@ public class Wrapper {
             inputGoogle = new File("templates/google/template.js");
             inputAWS = new File("templates/aws/template.js");
         }
+        //check what function type is being used
         if(cloudFunction1.contains("cpu")){
             outputGoogle = new File("output/cpu/google/index.js");
             outputAWS = new File("output/cpu/aws/index.js");
@@ -55,7 +60,8 @@ public class Wrapper {
             outputAWSFolder = new File("output/network/aws");
             outputAzureFolder = new File("output/network/azure");
             outputGoogleFolder = new File("output/network/google");
-        }else{
+        }
+        else if (cloudFunction1.contains("io")){
             outputGoogle = new File("output/io/google/index.js");
             outputAWS = new File("output/io/aws/index.js");
             outputAzure = new File("output/io/azure/index.js");
@@ -63,7 +69,16 @@ public class Wrapper {
             outputAzureFolder = new File("output/io/azure");
             outputGoogleFolder = new File("output/io/google");
         }
-        
+        else {
+            outputGoogle = new File("output/default/google/index.js");
+            outputAWS = new File("output/default/aws/index.js");
+            outputAzure = new File("output/default/azure/index.js");
+            outputAWSFolder = new File("output/default/aws");
+            outputAzureFolder = new File("output/default/azure");
+            outputGoogleFolder = new File("output/default/google");
+        }
+
+        //remove old files in output folder
         for(File file : outputGoogleFolder.listFiles()){
             if(!file.isDirectory()){
                 file.delete();
@@ -94,10 +109,14 @@ public class Wrapper {
         }catch(FileNotFoundException e){
 
         }
+
+        //copy template files to output folder to update them
         FileUtils.copyFile(inputGoogle,outputGoogle);
         FileUtils.copyFile(inputAWS,outputAWS);
         FileUtils.copyFile(inputAzure,outputAzure);
         var experimentFolder = cloudFunction1.substring(0, cloudFunction1.lastIndexOf("/"));
+
+        //if input functions differ from provider to provider
         if(cloudFunction1.endsWith("google")){
             System.out.println("Advanced configuration");
             var cloudFunction1Google = cloudFunction1 + "/dir1/index.js";
@@ -115,7 +134,7 @@ public class Wrapper {
             addAzureFunction(cloudFunction2Azure,"function2",outputAzureFolder.toString(), "js",2, aSyncReq);
             System.out.println("Finished building wrapper function");
         }else{
-
+            //if input functions are the same
             addGoogleFunction(cloudFunction1,"function1",outputGoogleFolder.toString(), "js", 1, aSyncReq);
             addGoogleFunction(cloudFunction2,"function2",outputGoogleFolder.toString(), "js",2, aSyncReq);
             addAWSFunction(cloudFunction1,"function1",outputAWSFolder.toString(), "js", 1, aSyncReq);
@@ -125,6 +144,8 @@ public class Wrapper {
             System.out.println("Finished building wrapper function");
             experimentFolder = experimentFolder.substring(0,experimentFolder.lastIndexOf("/"));
         }
+
+        //move all files from input folder to output folder
         System.out.println(experimentFolder);
         File[] fileList = new File(experimentFolder).listFiles();
         for( var file : fileList){
@@ -133,16 +154,23 @@ public class Wrapper {
                 String fileName = file.toString().substring(file.toString().lastIndexOf("/"));
                 File destFile1 = new File(outputAWSFolder.toString()+fileName);
                 File destFile2 = new File(outputGoogleFolder.toString()+fileName);
-                File destFile3 = new File(outputAzureFolder+fileName);
+                File destFile3 = new File(outputAzureFolder.toString()+fileName);
                 FileUtils.copyFile(file,destFile1);
                 FileUtils.copyFile(file,destFile2);
                 FileUtils.copyFile(file,destFile3);
+                
             }
             
         }
-
+        //Backwards compatibility
+        File destGoogle = new File("output/google");
+        File destAWS = new File("output/aws/");
+        FileUtils.copyDirectory(outputGoogleFolder, destGoogle);
+        FileUtils.copyDirectory(outputAWSFolder, destAWS);
     }
 
+
+    //Google Function
     public boolean addGoogleFunction(String cloudFunction, String templateFunction, String outputFolder, String lang, Integer split, Boolean aSyncReq) throws IOException {
         //externalTime
         var cloudFunction_mod = cloudFunction.substring(0,cloudFunction.length()-3) +"_mod.js";
@@ -181,7 +209,7 @@ public class Wrapper {
             content = content.replaceFirst("//entry", "//var");
         }
         
-        //functionName detection
+        //functionName detection (relevant for recursive functions that call themselves, otherwise the old function name would remain)
         while(content.contains("//functionName")){
             Pattern pattern = Pattern.compile("//functionName (.*)");
             Matcher matcher = pattern.matcher(content);
@@ -216,15 +244,20 @@ public class Wrapper {
                 }
             content = content.replaceFirst("//split", "//var");
         }
+
+        //check if functionality was used and trim trailing characters
         if(variables1.length() >0){
             variables1 = variables1.substring(0, variables1.length()-2);
             variables2 = variables2.substring(0, variables2.length()-2);
             variables1Split = variables1Split.substring(0, variables1Split.length()-2);
             variables2Split = variables2Split.substring(0, variables2Split.length()-2);
         }
+        //define template replacer text to insert our values
         String importVariable;
         String importVariables="";
         String importReplacerText = "const escapeHtml =";
+
+        //shift imports from function to top level
         while(content.contains("import")){
             Pattern pattern = Pattern.compile("import (.*)");
             Matcher matcher = pattern.matcher(content);
@@ -248,6 +281,7 @@ public class Wrapper {
             content = content.replaceFirst("//extstop","extStop"+Integer.toString(count)+" = Date.now();\nextTime.push(extStop"+Integer.toString(count)+" - extStart"+Integer.toString(count)+");");
             count++;
         }
+
         //content = content.replaceAll(".*return.*;(\r?\n|\r)?","return extTime;");
         Files.write(path1, content.getBytes(charset));
         File mFile = new File(path1.toString());
@@ -270,7 +304,7 @@ public class Wrapper {
         fos.write(result.getBytes());
         fos.flush();
 
-        //Google
+        //write files
         File file = new File(outputFolder+"/index.js");
         BufferedWriter writer = new BufferedWriter(new FileWriter(file, true));
         if(aSyncReq){
@@ -322,9 +356,10 @@ public class Wrapper {
         return true;
     }
 
+    //AWS function
     public boolean addAWSFunction(String cloudFunction, String templateFunction, String outputFolder, String lang, Integer split, Boolean aSyncReq) throws IOException {
-        
-        //externalTime
+        //define paths and temp function files, which are deleted at the end
+
         var cloudFunction_mod = cloudFunction.substring(0,cloudFunction.length()-3) +"_mod.js";
         var cloudFunction_mod2 = cloudFunction.substring(0,cloudFunction.length()-3) +"_mod2.js";
         Path defaultPath = Paths.get(".");
@@ -336,7 +371,7 @@ public class Wrapper {
         String content = new String(Files.readAllBytes(path), charset);
         int count = 0;
 
-        //check if splitting functionality was used
+        
         String VariablesAmazon = "";
         String varDef = "";
         String splitVariable = "";
@@ -345,6 +380,7 @@ public class Wrapper {
         String entryVariable = "";
         String functionName = "";
 
+        //check for function entry variables
         while(content.contains("//entry")){
             Pattern pattern = Pattern.compile("//entry (.*)");
             Matcher matcher = pattern.matcher(content);
@@ -362,7 +398,7 @@ public class Wrapper {
             content = content.replaceFirst("//entry", "//var");
         }
 
-        //functionName detection
+        //functionName detection (relevant for recursive functions that call themselves)
         while(content.contains("//functionName")){
             Pattern pattern = Pattern.compile("//functionName (.*)");
             Matcher matcher = pattern.matcher(content);
@@ -538,7 +574,7 @@ public class Wrapper {
             content = content.replaceFirst("//entry", "//var");
         }
         
-        //functionName detection
+        //functionName detection (relevant for recursive functions that call themselves)
         while(content.contains("//functionName")){
             Pattern pattern = Pattern.compile("//functionName (.*)");
             Matcher matcher = pattern.matcher(content);
@@ -550,10 +586,10 @@ public class Wrapper {
                 }
             content = content.replaceFirst("//functionName", "//function name ");
         }
-
+        //since split and entry variables are both added using the same variable, set split variables to entry for now
         String variables1Split = variables1;
         String variables2Split = variables2;
-
+        //check for split variable usage
         while(content.contains("//split")){
             Pattern pattern = Pattern.compile("//split (.*)");
             Matcher matcher = pattern.matcher(content);
@@ -574,6 +610,8 @@ public class Wrapper {
                 }
             content = content.replaceFirst("//split", "//var");
         }
+
+        //if split/entry var func was used
         if(variables1.length() >0){
             variables1 = variables1.substring(0, variables1.length()-2);
             variables2 = variables2.substring(0, variables2.length()-2);
@@ -583,6 +621,8 @@ public class Wrapper {
         String importVariable;
         String importVariables="";
         String importReplacerText = "const escapeHtml =";
+
+        //shift imports to top level
         while(content.contains("import")){
             Pattern pattern = Pattern.compile("import (.*)");
             Matcher matcher = pattern.matcher(content);
@@ -659,7 +699,8 @@ public class Wrapper {
         
         replacerText = "//comment for split to replace";
         content = content.replaceAll("//comment for split to replace", varDef+replacerText);
-
+        
+        //for recursive functions to be able to call themselves
         if(functionName.length() > 0){
             content = content.replaceAll(functionName, "function"+split.toString());
         }
