@@ -24,7 +24,6 @@ var connectionWeights = [
     -0.5, 0.7, 1.6, -1.3, -0.8, -0.9, 0.1, 1.1, -1.6, -1.4
   ]  
 var mutationRate = 1.0;
-var counter = 0
 var mutate = function (gene,mRate){
     if (Math.random() < mRate) {
         var mutateFactor = 1 + ((Math.random() - 0.5) * 3 + (Math.random() - 0.5));

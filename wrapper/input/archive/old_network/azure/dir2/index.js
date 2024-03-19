@@ -1,6 +1,6 @@
 
 // Imports the Google Cloud client library
-const {Translate} = require('@google-cloud/translate').v2;
+const {Translate} = require('translate');
 const fs = require('fs');
 var apiKey = fs.readFileSync("apikey.txt","utf-8");
 const translate = new Translate({

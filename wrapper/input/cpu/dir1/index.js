@@ -37,7 +37,6 @@ for(var i =0; i<trials; i++){
     neuronBias[j] = mutate(neuronBias[j], mutationRate);
     // mutate some 'weights' information of the offspring connections
 }
-counter=0;
 for(var i =0; i<trials; i++){ 
     j = i % 100;
     connectionWeights[j] = mutate(connectionWeights[j], mutationRate);

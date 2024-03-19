@@ -389,8 +389,8 @@ public class Wrapper {
                     variables1Split += splitVariable +"1, ";
                     variables2Split += splitVariable +"2, ";
                     String replacerVariable = splitVariable+Integer.toString(split);
-                    content = content.replaceAll(splitVariable, replacerVariable);
-                    System.out.println("Replaced "+splitVariable+ " with split option "+ replacerVariable);
+                    //content = content.replaceAll(splitVariable, replacerVariable);
+                    //System.out.println("Replaced "+splitVariable+ " with split option "+ replacerVariable);
                     varDef += "var "+ replacerVariable+";\n    ";
                     VariablesAmazon += replacerVariable+" = event.queryStringParameters."+replacerVariable+";\n        ";
                 }
@@ -492,8 +492,8 @@ public class Wrapper {
             content = content.replaceAll(importReplacerText, importVariables+importReplacerText);
         }
         if(varDef.length() > 0 || variables1.length() > 0 || variables2.length() > 0){
-            content = content.replaceAll("function1\\(\\);", "function1("+variables1+");");
-            content = content.replaceAll("function2\\(\\);", "function2("+variables2+");");
+            content = content.replaceAll("function1\\(\\);", "function1("+variables1Split+");");
+            content = content.replaceAll("function2\\(\\);", "function2("+variables2Split+");");
             content = content.replaceAll("function1\\(\\)", "function1("+variables1+")");
             content = content.replaceAll("function2\\(\\)", "function2("+variables2+")");
         }

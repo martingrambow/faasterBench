@@ -18,15 +18,6 @@ resource "azurerm_resource_group" "resource_group" {
   location = var.location
 }
 
-data "archive_file" "azurezip" {
-
-  type        = "zip"
-  output_path = "../${var.experiment}/azure/azure_func.zip"
-
-  source_dir = "../../wrapper/output/azure/faasterbench/"
-
-}
-
 resource "azurerm_application_insights" "application_insights" {
   name                = "${var.project}-application-insights"
   location            = var.location
