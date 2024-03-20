@@ -28,7 +28,7 @@ do
 done 
 mkdir logs
 echo "Sleep for 5 minutes, so CloudWatch accurately presents logs"
-sleep 300
+sleep 180
 
 export queryIDs="awsQueryIDs.log"
 export log=aws.log

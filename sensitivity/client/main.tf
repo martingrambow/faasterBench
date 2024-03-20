@@ -58,10 +58,6 @@ resource "google_compute_instance" "client" {
     echo "Installing AWS Command Line Interface (aws-cli)..."
     sudo apt-get install -y awscli
 
-    # Install az (Azure CLI)
-    echo "Installing Azure CLI (az)..."
-    curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
-
     # Install nvm
     curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
     export NVM_DIR="$HOME/.nvm"

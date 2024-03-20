@@ -20,7 +20,7 @@ do
     artillery run -t https://$FUNCTION_ENDPOINT/api/faasterbench --variables "$vars" basicLoad_${CALLS}_${ITERATIONS}.yml
 done
 
-gcloud logging read --project $GOOGLE_PROJECT 'resource.type="cloud_function" AND textPayload:'$EXPERIMENTID --format json > google.log
+
 mv google.log google_${REGRESSION}_${count}_${CALLS}_${ITERATIONS}.log
 
 echo "got results, will destroy setup..."
