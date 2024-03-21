@@ -43,5 +43,5 @@ variable "experiment" {
 variable "google_runtime" {
   description = "The runtime in which to run the function. Required when deploying a new function, optional when updating an existing function."
   type        = string
-  default     = "nodejs16"
+  default     = "nodejs18"
 }

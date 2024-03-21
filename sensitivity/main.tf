@@ -355,7 +355,7 @@ resource "aws_lambda_function" "net_wrapper" {
   function_name = "netlambda-wrapper${count.index}"
   role          = aws_iam_role.wrapper_role.arn
   handler       = "index.handler"
-  runtime       = "nodejs16.x"
+  runtime       = var.aws_runtime
   timeout       = 300
   memory_size   = 512
 
@@ -379,7 +379,7 @@ resource "aws_lambda_function" "mem_wrapper" {
   function_name = "memlambda-wrapper${count.index}"
   role          = aws_iam_role.wrapper_role.arn
   handler       = "index.handler"
-  runtime       = "nodejs16.x"
+  runtime       = var.aws_runtime
   timeout       = 300
   memory_size   = 512
 
