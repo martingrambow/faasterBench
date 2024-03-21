@@ -1,10 +1,9 @@
-const AWS = require('aws-sdk');
 var coldStart = true;
 function getRandomBool() {
     return Math.floor(Math.random() * 2) !== 0;
 }
 
-exports.handler = async (event) => {
+const handler = async (event) => {
     //comment for split to replace
     console.log('Event: ', event);
     var markColdStart = false;
@@ -128,3 +127,5 @@ exports.handler = async (event) => {
         }),
       }
 }
+
+export { handler };
