@@ -1,0 +1,5 @@
+java -cp geomesa-tutorials-cassandra/geomesa-tutorials-cassandra-quickstart/target/geomesa-tutorials-cassandra-quickstart-4.1.0-SNAPSHOT.jar \
+    org.geomesa.example.cassandra.CassandraQuickStart \
+    --cassandra.contact.point localhost:9042                        \
+    --cassandra.keyspace geomesa                 \
+    --cassandra.catalog geo                      

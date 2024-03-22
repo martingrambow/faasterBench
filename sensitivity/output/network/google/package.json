@@ -1,0 +1,8 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.3.0",
+    "escape-html": "^1.0.3",
+    "translate": "^2.0.2"
+  }
+}

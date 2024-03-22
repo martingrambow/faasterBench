@@ -1,0 +1,7 @@
+{
+  "type": "module",
+  "dependencies": {
+    "aws-sdk": "^2.1569.0",
+    "translate": "^2.0.2"
+  }
+}

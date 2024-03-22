@@ -100,7 +100,7 @@ locals {
 
 #function
 resource "google_cloudfunctions_function" "cpu_function" {
-    count                 = 10
+    count                 = 5
     name                  = "cpuwrapper${count.index}"
     runtime               = var.google_runtime  # of course changeable
     available_memory_mb   = 512
@@ -123,7 +123,7 @@ resource "google_cloudfunctions_function" "cpu_function" {
 }
 
 resource "google_cloudfunctions_function" "mem_function" {
-    count                 = 10
+    count                 = 5
     name                  = "memwrapper${count.index}"
     runtime               = var.google_runtime  # of course changeable
     available_memory_mb   = 512
@@ -146,7 +146,7 @@ resource "google_cloudfunctions_function" "mem_function" {
 }
 
 resource "google_cloudfunctions_function" "net_function" {
-    count                 = 10
+    count                 = 5
     name                  = "netwrapper${count.index}"
     runtime               = var.google_runtime  # of course changeable
     available_memory_mb   = 512
@@ -169,7 +169,7 @@ resource "google_cloudfunctions_function" "net_function" {
 }
 
 resource "google_cloudfunctions_function_iam_member" "cpu_invoker" {
-  count          = 10
+  count          = 5
   project        = google_cloudfunctions_function.cpu_function[0].project
   region         = google_cloudfunctions_function.cpu_function[0].region
   cloud_function = google_cloudfunctions_function.cpu_function["${count.index}"].name
@@ -179,7 +179,7 @@ resource "google_cloudfunctions_function_iam_member" "cpu_invoker" {
 }
 
 resource "google_cloudfunctions_function_iam_member" "mem_invoker" {
-  count          = 10
+  count          = 5
   project        = google_cloudfunctions_function.mem_function[0].project
   region         = google_cloudfunctions_function.mem_function[0].region
   cloud_function = google_cloudfunctions_function.mem_function["${count.index}"].name
@@ -189,7 +189,7 @@ resource "google_cloudfunctions_function_iam_member" "mem_invoker" {
 }
 
 resource "google_cloudfunctions_function_iam_member" "net_invoker" {
-  count          = 10
+  count          = 5
   project        = google_cloudfunctions_function.net_function[0].project
   region         = google_cloudfunctions_function.net_function[0].region
   cloud_function = google_cloudfunctions_function.net_function["${count.index}"].name
@@ -211,19 +211,19 @@ resource "google_storage_bucket" "input_bucket" {
 
 data "archive_file" "cpu_sourcewrapper" {
     type        = "zip"
-    source_dir  = "../wrapper/output/cpu/google/"
+    source_dir  = "output/cpu/google/"
     output_path = "./tmp/gcp_cpu_wrapper.zip"
 }
 
 data "archive_file" "mem_sourcewrapper" {
     type        = "zip"
-    source_dir  = "../wrapper/output/mem/google/"
+    source_dir  = "output/mem/google/"
     output_path = "./tmp/gcp_mem_wrapper.zip"
 }
 
 data "archive_file" "net_sourcewrapper" {
     type        = "zip"
-    source_dir  = "../wrapper/output/network/google/"
+    source_dir  = "output/network/google/"
     output_path = "./tmp/gcp_net_wrapper.zip"
 }
 
@@ -276,7 +276,7 @@ output "GCP_NET_FUNCTION_ENDPOINTS" {
 }
 
 output "WRAPPERCOUNT"{
-    value = 10
+    value = 5
 }
 output "EXPERIMENTID" {
     value = "${random_string.experiment_id.result}"
@@ -294,7 +294,7 @@ provider "aws" {
 # Archive lambda functions
 data "archive_file" "aws_cpu_main" {
   type        = "zip"
-  source_dir  = "../wrapper/output/cpu/aws"
+  source_dir  = "output/cpu/aws"
   output_path = "/tmp/aws_cpu_wrapper.zip"
 
   depends_on = [null_resource.main]
@@ -302,7 +302,7 @@ data "archive_file" "aws_cpu_main" {
 
 data "archive_file" "aws_mem_main" {
   type        = "zip"
-  source_dir  = "../wrapper/output/mem/aws"
+  source_dir  = "output/mem/aws"
   output_path = "/tmp/aws_mem_wrapper.zip"
 
   depends_on = [null_resource.main]
@@ -310,7 +310,7 @@ data "archive_file" "aws_mem_main" {
 
 data "archive_file" "aws_net_main" {
   type        = "zip"
-  source_dir  = "../wrapper/output/network/aws"
+  source_dir  = "output/network/aws"
   output_path = "/tmp/aws_net_wrapper.zip"
 
   depends_on = [null_resource.main]
@@ -326,7 +326,7 @@ resource "null_resource" "main" {
 }
 
 resource "aws_lambda_function" "cpu_wrapper" {
-  count         = 10
+  count         = 5
   filename      = "/tmp/aws_cpu_wrapper.zip"
   function_name = "cpulambda-wrapper${count.index}"
   role          = aws_iam_role.wrapper_role.arn
@@ -350,7 +350,7 @@ resource "aws_lambda_function" "cpu_wrapper" {
 }
 
 resource "aws_lambda_function" "net_wrapper" {
-  count         = 10
+  count         = 5
   filename      = "/tmp/aws_net_wrapper.zip"
   function_name = "netlambda-wrapper${count.index}"
   role          = aws_iam_role.wrapper_role.arn
@@ -374,7 +374,7 @@ resource "aws_lambda_function" "net_wrapper" {
 }
 
 resource "aws_lambda_function" "mem_wrapper" {
-  count         = 10
+  count         = 5
   filename      = "/tmp/aws_mem_wrapper.zip"
   function_name = "memlambda-wrapper${count.index}"
   role          = aws_iam_role.wrapper_role.arn
@@ -415,19 +415,19 @@ resource "aws_cloudwatch_log_group" "net_loggroup" {
 
 
 resource "aws_lambda_function_url" "cpu_function" {
-    count         = 10
+    count         = 5
     function_name      = aws_lambda_function.cpu_wrapper[count.index].function_name
     authorization_type = "NONE"
 }
 
 resource "aws_lambda_function_url" "mem_function" {
-    count         = 10
+    count         = 5
     function_name      = aws_lambda_function.mem_wrapper[count.index].function_name
     authorization_type = "NONE"
 }
 
 resource "aws_lambda_function_url" "net_function" {
-    count         = 10
+    count         = 5
     function_name      = aws_lambda_function.net_wrapper[count.index].function_name
     authorization_type = "NONE"
 }
